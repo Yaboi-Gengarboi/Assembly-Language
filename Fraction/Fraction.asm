@@ -2,13 +2,24 @@
 ; Fraction.asm
 ; Justyn Durnford
 ; Created on 2020-10-05
-; Last updated on 2020-10-06
+; Last updated on 2020-10-07
 
 section .text
 bits 64
 
 extern malloc
 extern free
+
+global make_empty_fraction
+make_empty_fraction:
+
+	mov rcx, 8*2;
+
+	sub rsp, 32+8; Realign stack to make Windows happy
+	call malloc; moves a pointer to a 16-byte array into rax
+	add rsp, 32+8;
+
+	ret;
 
 global make_fraction
 make_fraction:
@@ -32,18 +43,11 @@ make_fraction:
 
 global delete_fraction
 delete_fraction:
+
 	sub rsp, 32+8
 	
 	call free
 	
 	add rsp, 32+8
 	mov rax, 0
-	ret
-
-global test
-test:
-
-	add rcx, rdx
-	mov rax, rcx
-
 	ret
