@@ -49,5 +49,16 @@ delete_fraction:
 	call free
 	
 	add rsp, 32+8
-	mov rax, 0
+	ret
+
+global set_numer
+set_numer:
+
+	mov QWORD[rcx + 0], rdx
+	ret
+
+global set_denom
+set_denom:
+
+	mov QWORD[rcx + 4], rdx
 	ret

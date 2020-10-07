@@ -28,6 +28,26 @@ Fraction::~Fraction()
 	delete_fraction(_ptr);
 }
 
+long Fraction::numer() const
+{
+	return _ptr[0];
+}
+
+long Fraction::denom() const
+{
+	return _ptr[1];
+}
+
+void Fraction::setNumer(long numer)
+{
+	set_numer(_ptr, numer);
+}
+
+void Fraction::setDenom(long denom)
+{
+	set_denom(_ptr, denom);
+}
+
 string Fraction::toString() const
 {
 	string str = to_string(_ptr[0]) + " / " + to_string(_ptr[1]);

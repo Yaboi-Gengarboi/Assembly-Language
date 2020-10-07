@@ -19,5 +19,9 @@ int main()
 	Fraction fr(1, 2);
 	cout << fr << endl;
 
+	fr.setNumer(2);
+	fr.setDenom(3);
+	cout << fr << endl;
+
 	return 0;
 }
