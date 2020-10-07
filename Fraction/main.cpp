@@ -2,13 +2,9 @@
 // main.cpp
 // Justyn Durnford
 // Created on 2020-10-05
-// Last updated on 2020-10-05
+// Last updated on 2020-10-06
 
-// extern "C" long* make_fraction(long numerator, long denominator);
-// extern "C" int   delete_fraction(long* ptr);
-// extern "C" long* add_fraction(long* fr1, long* fr2);
-
-extern "C" int test();
+#include "Fraction.h"
 
 #include <iostream>
 using std::cout;
@@ -18,15 +14,15 @@ using std::endl;
 using std::string;
 using std::to_string;
 
-void print_fraction(long* fr)
+void print_fraction(const Fraction& fr)
 {
-	cout << to_string(fr[0]) << " / " << to_string(fr[1]);
+	cout << to_string(fr._ptr[0]) << " / " << to_string(fr._ptr[1]) << endl;
 }
 
 int main()
 {
-	// long* fr = make_fraction(1, 2);
-	// int del = delete_fraction(fr);
+	Fraction fr(1, 2);
+	print_fraction(fr);
 
-	return test();
+	return 0;
 }
