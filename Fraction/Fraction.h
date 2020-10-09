@@ -2,7 +2,8 @@
 // Fraction.h
 // Justyn Durnford
 // Created on 2020-10-05
-// Last updated on 2020-10-07
+// Last updated on 2020-10-08
+// Header file for Fraction class.
 
 #ifndef FRACTION_H_INCLUDED
 #define FRACTION_H_INCLUDED
@@ -10,33 +11,33 @@
 #include <ostream>
 #include <string>
 
-extern "C" long*  make_empty_fraction();
-extern "C" long*  make_fraction(long numer, long denom);
-extern "C" void   delete_fraction(long* ptr);
-extern "C" void   set_numer(long* ptr, long numer);
-extern "C" void   set_denom(long* ptr, long denom);
-extern "C" double evaluate_fraction(long* ptr);
-extern "C" long*  add_fraction(long* fr1, long* fr2);
+extern "C" int*   make_empty_fraction();
+extern "C" int*   make_fraction(int numer, int denom);
+extern "C" void   delete_fraction(int* ptr);
+extern "C" void   set_numer(int* ptr, int numer);
+extern "C" void   set_denom(int* ptr, int denom);
+extern "C" double evaluate_fraction(int* ptr);
+extern "C" int*   add_fraction(int* fr1, int* fr2);
 
 class Fraction
 {
-	long* _ptr = nullptr;
+	int* _ptr = nullptr;
 
 	public:
 
 	Fraction();
 
-	Fraction(long numer, long denom);
+	Fraction(int numer, int denom);
 
 	~Fraction();
 
-	long numer() const;
+	int numer() const;
 
-	long denom() const;
+	int denom() const;
 
-	void setNumer(long numer);
+	void setNumer(int numer);
 
-	void setDenom(long denom);
+	void setDenom(int denom);
 
 	double evaluate() const;
 

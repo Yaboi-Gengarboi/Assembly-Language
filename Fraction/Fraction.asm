@@ -2,7 +2,8 @@
 ; Fraction.asm
 ; Justyn Durnford
 ; Created on 2020-10-05
-; Last updated on 2020-10-07
+; Last updated on 2020-10-08
+; Assembly file for Fraction class.
 
 section .text
 bits 64
@@ -13,7 +14,7 @@ extern free
 global make_empty_fraction
 make_empty_fraction:
 
-	mov rcx, 8*2;
+	mov ecx, 8;
 
 	sub rsp, 32+8; Realign stack to make Windows happy
 	call malloc; moves a pointer to a 16-byte array into rax
@@ -27,7 +28,7 @@ make_fraction:
 	push rcx; Save rcx (1st parameter);
 	push rdx; Save rdx (2nd parameter);
 
-	mov rcx, 8*2;
+	mov ecx, 8;
 
 	sub rsp, 32+8; Realign stack to make Windows happy
 	call malloc; moves a pointer to a 16-byte array into rax
@@ -36,8 +37,8 @@ make_fraction:
 	pop rdx; Restore rdx (2nd parameter)
 	pop rcx; Restore rcx (1st parameter)
 
-	mov QWORD[rax + 0], rcx;
-	mov QWORD[rax + 4], rdx; 
+	mov DWORD[rax + 0], ecx;
+	mov DWORD[rax + 4], edx; 
 	
 	ret;
 
@@ -54,13 +55,13 @@ delete_fraction:
 global set_numer
 set_numer:
 
-	mov QWORD[rcx + 0], rdx
+	mov DWORD[rcx + 0], edx
 	ret
 
 global set_denom
 set_denom:
 
-	mov QWORD[rcx + 4], rdx
+	mov DWORD[rcx + 4], edx
 	ret
 
 global evaluate_fraction

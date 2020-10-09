@@ -2,7 +2,8 @@
 // Fraction.cpp
 // Justyn Durnford
 // Created on 2020-10-05
-// Last updated on 2020-10-07
+// Last updated on 2020-10-08
+// Source file for Fraction class.
 
 #include "Fraction.h"
 
@@ -18,7 +19,7 @@ Fraction::Fraction()
 	_ptr = make_empty_fraction();
 }
 
-Fraction::Fraction(long numer, long denominator)
+Fraction::Fraction(int numer, int denominator)
 {
 	_ptr = make_fraction(numer, denominator);
 }
@@ -28,22 +29,22 @@ Fraction::~Fraction()
 	delete_fraction(_ptr);
 }
 
-long Fraction::numer() const
+int Fraction::numer() const
 {
 	return _ptr[0];
 }
 
-long Fraction::denom() const
+int Fraction::denom() const
 {
 	return _ptr[1];
 }
 
-void Fraction::setNumer(long numer)
+void Fraction::setNumer(int numer)
 {
 	set_numer(_ptr, numer);
 }
 
-void Fraction::setDenom(long denom)
+void Fraction::setDenom(int denom)
 {
 	set_denom(_ptr, denom);
 }
