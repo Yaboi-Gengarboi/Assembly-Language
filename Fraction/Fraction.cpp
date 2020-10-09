@@ -48,6 +48,11 @@ void Fraction::setDenom(long denom)
 	set_denom(_ptr, denom);
 }
 
+double Fraction::evaluate() const
+{
+	return 0.0;
+}
+
 string Fraction::toString() const
 {
 	string str = to_string(_ptr[0]) + " / " + to_string(_ptr[1]);

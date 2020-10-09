@@ -10,12 +10,13 @@
 #include <ostream>
 #include <string>
 
-extern "C" long* make_empty_fraction();
-extern "C" long* make_fraction(long numer, long denom);
-extern "C" void  delete_fraction(long* ptr);
-extern "C" void  set_numer(long* ptr, long numer);
-extern "C" void  set_denom(long* ptr, long denom);
-extern "C" long* add_fraction(long* fr1, long* fr2);
+extern "C" long*  make_empty_fraction();
+extern "C" long*  make_fraction(long numer, long denom);
+extern "C" void   delete_fraction(long* ptr);
+extern "C" void   set_numer(long* ptr, long numer);
+extern "C" void   set_denom(long* ptr, long denom);
+extern "C" double evaluate_fraction(long* ptr);
+extern "C" long*  add_fraction(long* fr1, long* fr2);
 
 class Fraction
 {
@@ -36,6 +37,8 @@ class Fraction
 	void setNumer(long numer);
 
 	void setDenom(long denom);
+
+	double evaluate() const;
 
 	std::string toString() const;
 };

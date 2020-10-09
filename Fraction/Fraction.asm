@@ -62,3 +62,9 @@ set_denom:
 
 	mov QWORD[rcx + 4], rdx
 	ret
+
+global evaluate_fraction
+evaluate_fraction:
+
+
+	ret
