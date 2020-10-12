@@ -26,5 +26,8 @@ int main()
 	f1 += f2;
 	cout << f1 << endl;
 
+	f1 -= f2;
+	cout << f1 << endl;
+
 	return 0;
 }

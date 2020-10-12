@@ -66,6 +66,12 @@ Fraction& Fraction::operator += (const Fraction& f2)
 	return *this;
 }
 
+Fraction& Fraction::operator -= (const Fraction& f2)
+{
+	sub_fraction(_ptr, f2._ptr);
+	return *this;
+}
+
 ostream& operator << (ostream& os, const Fraction& f)
 {
 	os << f.toString();

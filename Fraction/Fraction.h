@@ -47,6 +47,12 @@ class Fraction
 	std::string toString() const;
 
 	Fraction& operator += (const Fraction& f2);
+
+	Fraction& operator -= (const Fraction& f2);
+
+	Fraction& operator *= (const Fraction& f2);
+
+	Fraction& operator /= (const Fraction& f2);
 };
 
 Fraction operator + (const Fraction& f1, const Fraction& f2);
