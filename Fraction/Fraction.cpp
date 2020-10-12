@@ -2,7 +2,7 @@
 // Fraction.cpp
 // Justyn Durnford
 // Created on 2020-10-05
-// Last updated on 2020-10-08
+// Last updated on 2020-10-12
 // Source file for Fraction class.
 
 #include "Fraction.h"
@@ -51,7 +51,7 @@ void Fraction::setDenom(int denom)
 
 double Fraction::evaluate() const
 {
-	return 0.0;
+	return evaluate_fraction(_ptr[0], _ptr[1]);
 }
 
 string Fraction::toString() const
@@ -60,8 +60,14 @@ string Fraction::toString() const
 	return str;
 }
 
-ostream& operator << (ostream& os, const Fraction& fr)
+Fraction& Fraction::operator += (const Fraction& f2)
 {
-	os << fr.toString();
+	add_fraction(_ptr, f2._ptr);
+	return *this;
+}
+
+ostream& operator << (ostream& os, const Fraction& f)
+{
+	os << f.toString();
 	return os;
 }

@@ -2,7 +2,7 @@
 // Fraction.h
 // Justyn Durnford
 // Created on 2020-10-05
-// Last updated on 2020-10-08
+// Last updated on 2020-10-12
 // Header file for Fraction class.
 
 #ifndef FRACTION_H_INCLUDED
@@ -13,11 +13,14 @@
 
 extern "C" int*   make_empty_fraction();
 extern "C" int*   make_fraction(int numer, int denom);
-extern "C" void   delete_fraction(int* ptr);
-extern "C" void   set_numer(int* ptr, int numer);
-extern "C" void   set_denom(int* ptr, int denom);
-extern "C" double evaluate_fraction(int* ptr);
-extern "C" int*   add_fraction(int* fr1, int* fr2);
+extern "C" void   delete_fraction(int* f);
+extern "C" void   set_numer(int* f, int numer);
+extern "C" void   set_denom(int* f, int denom);
+extern "C" double evaluate_fraction(int numer, int denom);
+extern "C" void   add_fraction(int* f1, int* f2);
+extern "C" void   sub_fraction(int* f1, int* f2);
+extern "C" void   mul_fraction(int* f1, int* f2);
+extern "C" void   div_fraction(int* f1, int* f2);
 
 class Fraction
 {
@@ -42,8 +45,18 @@ class Fraction
 	double evaluate() const;
 
 	std::string toString() const;
+
+	Fraction& operator += (const Fraction& f2);
 };
 
-std::ostream& operator << (std::ostream& os, const Fraction& fr);
+Fraction operator + (const Fraction& f1, const Fraction& f2);
+
+Fraction operator - (const Fraction& f1, const Fraction& f2);
+
+Fraction operator * (const Fraction& f1, const Fraction& f2);
+
+Fraction operator / (const Fraction& f1, const Fraction& f2);
+
+std::ostream& operator << (std::ostream& os, const Fraction& f);
 
 #endif // FRACTION_H_INCLUDED
