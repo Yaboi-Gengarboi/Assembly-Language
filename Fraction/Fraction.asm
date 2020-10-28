@@ -2,7 +2,7 @@
 ; Fraction.asm
 ; Justyn Durnford
 ; Created on 2020-10-05
-; Last updated on 2020-10-12
+; Last updated on 2020-10-28
 ; Assembly file for Fraction class.
 
 section .text
@@ -11,19 +11,8 @@ bits 64
 extern malloc
 extern free
 
-global make_empty_fraction
-make_empty_fraction:
-
-    mov ecx, 8;                                  exc = 8
-
-    sub rsp, 32+8;                               Allocate memory to call C function
-    call malloc;                                 Call malloc(ecx), rax = _ptr
-    add rsp, 32+8;                               Deallocate memory
-
-    ret;                                         RETURN
-
-global make_fraction
-make_fraction:
+global make_fr
+make_fr:
 
     push rcx;                                    Save rcx (1st parameter);
     push rdx;                                    Save rdx (2nd parameter);
@@ -42,8 +31,8 @@ make_fraction:
 	
     ret;                                         RETURN
 
-global delete_fraction
-delete_fraction:
+global delete_fr
+delete_fr:
 
     sub rsp, 32+8;                               Allocate memory to call C function
 	
@@ -64,8 +53,8 @@ set_denom:
     mov DWORD[rcx + 4], edx;                     _ptr[1] = edx
     ret;                                         RETURN
 
-global evaluate_fraction
-evaluate_fraction:
+global evaluate_fr
+evaluate_fr:
 
 	cvtsi2ss xmm0, rcx
     cvtsi2ss xmm1, rdx
@@ -73,8 +62,8 @@ evaluate_fraction:
 	divss xmm0, xmm1
 	ret
 
-global add_fraction
-add_fraction:
+global add_fr
+add_fr:
 
     mov r8d, DWORD[rcx + 4];                     r8d = f1._ptr[1] 
     mov r9d, DWORD[rdx + 4];                     r9d = f2._ptr[1]
@@ -107,8 +96,8 @@ add_fraction:
 
         ret;                                     RETURN
 
-global sub_fraction
-sub_fraction:
+global sub_fr
+sub_fr:
 
     mov r8d, DWORD[rcx + 4];                     r8d = f1._ptr[1] 
     mov r9d, DWORD[rdx + 4];                     r9d = f2._ptr[1]
