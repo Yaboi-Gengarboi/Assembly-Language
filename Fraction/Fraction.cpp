@@ -10,6 +10,9 @@
 #include <ostream>
 using std::ostream;
 
+#include <stdexcept>
+using std::domain_error;
+
 #include <string>
 using std::string;
 using std::to_string;
@@ -28,6 +31,11 @@ Fraction::Fraction(Fraction&& f) noexcept
 {
 	_ptr = f._ptr;
 	f._ptr = nullptr;
+}
+
+Fraction::Fraction(int numer)
+{
+	_ptr = make_fr(numer, 1);
 }
 
 Fraction::Fraction(int numer, int denominator)
@@ -77,6 +85,9 @@ void Fraction::setDenom(int denom)
 
 float Fraction::evaluate() const
 {
+	if (_ptr[1] == 0)
+		throw domain_error("Domain Error: Division by 0.");
+
 	return evaluate_fr(_ptr[0], _ptr[1]);
 }
 
@@ -113,10 +124,102 @@ Fraction& Fraction::operator += (const Fraction& f2)
 	return *this;
 }
 
+Fraction& Fraction::operator += (int i)
+{
+	add_fr(_ptr, make_fr(i * _ptr[1], _ptr[1]));
+	return *this;
+}
+
 Fraction& Fraction::operator -= (const Fraction& f2)
 {
 	sub_fr(_ptr, f2._ptr);
 	return *this;
+}
+
+Fraction& Fraction::operator -= (int i)
+{
+	sub_fr(_ptr, make_fr(i * _ptr[1], _ptr[1]));
+	return *this;
+}
+
+Fraction& Fraction::operator *= (const Fraction& f2)
+{
+	mul_fr(_ptr, f2._ptr);
+	return *this;
+}
+
+Fraction& Fraction::operator *= (int i)
+{
+	mul_fr(_ptr, make_fr(i, 1));
+	return *this;
+}
+
+Fraction& Fraction::operator /= (const Fraction& f2)
+{
+	div_fr(_ptr, f2._ptr);
+	return *this;
+}
+
+Fraction& Fraction::operator /= (int i)
+{
+	div_fr(_ptr, make_fr(i, 1));
+	return *this;
+}
+
+Fraction Fraction::operator + (const Fraction& f2)
+{
+	Fraction f1(*this);
+	add_fr(f1._ptr, f2._ptr);
+	return f1;
+}
+
+Fraction Fraction::operator + (int i)
+{
+	Fraction f1(*this);
+	add_fr(f1._ptr, make_fr(i * f1._ptr[1], f1._ptr[1]));
+	return f1;
+}
+
+Fraction Fraction::operator - (const Fraction& f2)
+{
+	Fraction f1(*this);
+	sub_fr(f1._ptr, f2._ptr);
+	return f1;
+}
+
+Fraction Fraction::operator - (int i)
+{
+	Fraction f1(*this);
+	sub_fr(f1._ptr, make_fr(i * f1._ptr[1], f1._ptr[1]));
+	return f1;
+}
+
+Fraction Fraction::operator * (const Fraction& f2)
+{
+	Fraction f1(*this);
+	mul_fr(f1._ptr, f2._ptr);
+	return f1;
+}
+
+Fraction Fraction::operator * (int i)
+{
+	Fraction f1(*this);
+	mul_fr(f1._ptr, make_fr(i, 1));
+	return f1;
+}
+
+Fraction Fraction::operator / (const Fraction& f2)
+{
+	Fraction f1(*this);
+	div_fr(f1._ptr, f2._ptr);
+	return f1;
+}
+
+Fraction Fraction::operator / (int i)
+{
+	Fraction f1(*this);
+	div_fr(f1._ptr, make_fr(i, 1));
+	return f1;
 }
 
 bool operator == (const Fraction& f1, const Fraction& f2)

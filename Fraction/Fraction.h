@@ -58,6 +58,11 @@ class Fraction
 	// Moves the passed fraction into the new fraction.
 	Fraction(Fraction&& f) noexcept;
 
+	// 1-int constructor.
+	// Sets the numerator of the fraction to numer.
+	// Sets the denominator of the fraction to 1.
+	Fraction(int numer);
+
 	// 2-int constructor.
 	// Sets the numerator of the fraction to numer.
 	// Sets the denominator of the fraction to denom.
@@ -120,20 +125,23 @@ class Fraction
 	// Division assignment operators.
 	Fraction& operator /= (const Fraction& f2);
 	Fraction& operator /= (int i);
+
+	// Addition operators.
+	Fraction operator + (const Fraction& f2);
+	Fraction operator + (int i);
+
+	// Subtraction operators.
+	Fraction operator - (const Fraction& f2);
+	Fraction operator - (int i);
+
+	// Multiplication operators.
+	Fraction operator * (const Fraction& f2);
+	Fraction operator * (int i);
+
+	// Division operators.
+	Fraction operator / (const Fraction& f2);
+	Fraction operator / (int i);
 };
-
-// Addition operators.
-Fraction operator + (const Fraction& f1, const Fraction& f2);
-Fraction operator + (const Fraction& f, int i);
-
-Fraction operator - (const Fraction& f1, const Fraction& f2);
-Fraction operator - (const Fraction& f, int i);
-
-Fraction operator * (const Fraction& f1, const Fraction& f2);
-Fraction operator * (const Fraction& f, int i);
-
-Fraction operator / (const Fraction& f1, const Fraction& f2);
-Fraction operator / (const Fraction& f, int i);
 
 // Equality comparison operators.
 bool operator == (const Fraction& f1, const Fraction& f2);

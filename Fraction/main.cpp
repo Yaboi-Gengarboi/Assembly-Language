@@ -19,16 +19,8 @@ int main()
 {
 	Fraction f1(1, 2);
 	Fraction f2(1, 4);
-
-	cout << "BEFORE SWAP: " << endl;
-	cout << f1 << endl;
-	cout << f2 << endl;
-
-	f1.swap(f2);
-
-	cout << "AFTER SWAP: " << endl;
-	cout << f1 << endl;
-	cout << f2 << endl;
+	Fraction f3 = f1 - 1;
+	cout << f3 << endl;
 
 	return 0;
 }

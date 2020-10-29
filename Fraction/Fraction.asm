@@ -129,3 +129,43 @@ sub_fr:
 		mov DWORD[rcx + 4], r10d;                f1._ptr[1] = r10d
 
         ret;                                     RETURN
+
+; PARAMETERS:
+; - rcx = int* f1._ptr
+; - rdx = int* f2._ptr
+global mul_fr
+mul_fr:
+
+    mov r8d, DWORD[rcx + 0];                     r8d = f1._ptr[0]
+    mov r9d, DWORD[rcx + 4];                     r9d = f1._ptr[1]
+
+    mov r10d, DWORD[rdx + 0];                    r10d = f2._ptr[0]
+    mov r11d, DWORD[rdx + 4];                    r11d = f2._ptr[1]
+
+    imul r8d, r10d;                              r8d *= r10d
+    imul r9d, r11d;                              r9d *= r11d
+
+    mov DWORD[rcx + 0], r8d;                     f1._ptr[0] = r8d
+    mov DWORD[rcx + 4], r9d;                     f1._ptr[1] = r9d
+
+    ret;                                         RETURN
+
+; PARAMETERS:
+; - rcx = int* f1._ptr
+; - rdx = int* f2._ptr
+global div_fr
+div_fr:
+
+    mov r8d, DWORD[rcx + 0];                     r8d = f1._ptr[0]
+    mov r9d, DWORD[rcx + 4];                     r9d = f1._ptr[1]
+
+    mov r10d, DWORD[rdx + 0];                    r10d = f2._ptr[0]
+    mov r11d, DWORD[rdx + 4];                    r11d = f2._ptr[1]
+
+    imul r8d, r11d;                              r8d *= r11d
+    imul r9d, r10d;                              r9d *= r10d
+
+    mov DWORD[rcx + 0], r8d;                     f1._ptr[0] = r8d
+    mov DWORD[rcx + 4], r9d;                     f1._ptr[1] = r9d
+
+    ret;                                         RETURN
