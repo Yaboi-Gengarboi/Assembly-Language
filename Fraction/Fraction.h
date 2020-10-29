@@ -11,34 +11,6 @@
 #include <ostream>
 #include <string>
 
-// Allocates an 8-byte array to hold 2 integers and
-// returns the pointer to it.
-extern "C" int* make_fr(int numer, int denom);
-
-// Deallocates the passed 8-byte array.
-extern "C" void delete_fr(int* f);
-
-// Sets f[0] to numer.
-extern "C" void set_numer(int* f, int numer);
-
-// Sets f[1] to denom.
-extern "C" void set_denom(int* f, int denom);
-
-// Returns the float result of numer / denom.
-extern "C" float evaluate_fr(int numer, int denom);
-
-// Adds the 2 Fractions.
-extern "C" void add_fr(int* f1, int* f2);
-
-// Subtracts the 2 Fractions.
-extern "C" void sub_fr(int* f1, int* f2);
-
-// Multiplies the 2 Fractions.
-extern "C" void mul_fr(int* f1, int* f2);
-
-// Divides the 2 Fractions.
-extern "C" void div_fr(int* f1, int* f2);
-
 class Fraction
 {
 	int* _ptr = nullptr;
@@ -90,10 +62,16 @@ class Fraction
 	// Sets the numerator of the fraction to numer.
 	void setNumer(int numer);
 
-	// Sets the denominator of the fraction to numer.
+	// Sets the denominator of the fraction to denom.
 	void setDenom(int denom);
 
+	// Sets the numerator of the fraction to numer.
+	// Sets the denominator of the fraction to denom.
+	void setFraction(int numer, int denom);
+
 	// Returns the result of the fraction as a float.
+	// This function will throw a std::domain_error if
+	// a division by 0 is attempted.
 	float evaluate() const;
 
 	// Returns true if the denominator of the fraction is

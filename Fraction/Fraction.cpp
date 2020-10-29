@@ -7,6 +7,37 @@
 
 #include "Fraction.h"
 
+// Allocates an 8-byte array to hold 2 integers and
+// returns the pointer to it.
+extern "C" int* make_fr(int numer, int denom);
+
+// Deallocates the passed 8-byte array.
+extern "C" void delete_fr(int* f);
+
+// Sets f[0] to numer.
+extern "C" void set_numer(int* f, int numer);
+
+// Sets f[1] to denom.
+extern "C" void set_denom(int* f, int denom);
+
+// Sets f[0] to numer and f[1] to denom.
+extern "C" void set_fr(int* f, int numer, int denom);
+
+// Returns the float result of numer / denom.
+extern "C" float evaluate_fr(int numer, int denom);
+
+// Adds the 2 Fractions.
+extern "C" void add_fr(int* f1, int* f2);
+
+// Subtracts the 2 Fractions.
+extern "C" void sub_fr(int* f1, int* f2);
+
+// Multiplies the 2 Fractions.
+extern "C" void mul_fr(int* f1, int* f2);
+
+// Divides the 2 Fractions.
+extern "C" void div_fr(int* f1, int* f2);
+
 #include <ostream>
 using std::ostream;
 
@@ -81,6 +112,11 @@ void Fraction::setNumer(int numer)
 void Fraction::setDenom(int denom)
 {
 	set_denom(_ptr, denom);
+}
+
+void Fraction::setFraction(int numer, int denom)
+{
+
 }
 
 float Fraction::evaluate() const
