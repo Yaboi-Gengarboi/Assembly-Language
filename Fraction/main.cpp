@@ -22,6 +22,9 @@ using std::pow;
 #include <cstddef>
 using std::size_t;
 
+#include <fstream>
+using std::ofstream;
+
 #include <iostream>
 using std::cout;
 using std::endl;
@@ -48,6 +51,8 @@ duration<float> time_elapsed_fr;
 duration<float> time_elapsed_f;
 duration<float> time_elapsed_dif;
 float time_elapsed_dif_avg = 0;
+string str;
+ofstream fout("test_results_1.txt");
 
 void write_rand_arr()
 {
@@ -70,8 +75,11 @@ void test_fraction()
 	fr /= rand_int_arr[10];
 	fr *= Fraction(rand_int_arr[11] + rand_int_arr[12], rand_int_arr[13] + rand_int_arr[14]);
 	end_time = system_clock::now();
+
 	time_elapsed_fr = end_time - start_time;
-	cout << "Fraction:   " << time_elapsed_fr.count() * 1000 << endl;
+	str = "Fraction:   " + to_string(time_elapsed_fr.count() * 1000);
+	cout << str << endl;
+	fout << str << endl;
 }
 
 void test_float()
@@ -86,14 +94,15 @@ void test_float()
 	f /= rand_float_arr[10];
 	f *= ((rand_float_arr[11] + rand_float_arr[12]) / (rand_float_arr[13] + rand_float_arr[14]));
 	end_time = system_clock::now();
+
 	time_elapsed_f = end_time - start_time;
-	cout << "Float:      " << time_elapsed_f.count() * 1000 << endl;
+	str = "Float:      " + to_string(time_elapsed_f.count() * 1000);
+	cout << str << endl;
+	fout << str << endl;
 }
 
 int main()
 {
-	cout.precision(10);
-
 	for (int i = 0; i < 500; ++i)
 	{
 		write_rand_arr();
@@ -102,10 +111,13 @@ int main()
 
 		time_elapsed_dif = time_elapsed_fr - time_elapsed_f;
 		time_elapsed_dif_avg += time_elapsed_fr.count();
-		cout << "Difference: " << time_elapsed_dif.count() * 1000.0f << endl << endl;
+		str = "Difference: " + to_string(time_elapsed_dif.count() * 1000.0f);
+		cout << str << endl << endl;
+		fout << str << endl << endl;
 	}
 
 	cout << "Average time difference: " << time_elapsed_dif_avg / 500.0f * 1000.0f << endl;
+	fout << "Average time difference: " << time_elapsed_dif_avg / 500.0f * 1000.0f << endl;
 
 	return 0;
 }
