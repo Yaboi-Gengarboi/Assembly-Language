@@ -79,6 +79,10 @@ class Fraction
 	// Sets the denominator of the fraction to denom.
 	void setFraction(int numer, int denom) noexcept;
 
+	// Sets the numerator of the fraction to arr[0].
+	// Sets the denominator of the fraction to arr[1].
+	void setFraction(const int arr[2]) noexcept;
+
 	// Raises both the numerator and denominator of the
 	// fraction to the nth power.
 	void power(unsigned int n) noexcept;
@@ -104,18 +108,22 @@ class Fraction
 
 	// Addition assignment operators.
 	Fraction& operator += (const Fraction& f2);
+	Fraction& operator += (const int arr[2]);
 	Fraction& operator += (int i);
 
 	// Subtraction assignment operators.
 	Fraction& operator -= (const Fraction& f2);
+	Fraction& operator -= (const int arr[2]);
 	Fraction& operator -= (int i);
 
 	// Multiplication assignment operators.
 	Fraction& operator *= (const Fraction& f2);
+	Fraction& operator *= (const int arr[2]);
 	Fraction& operator *= (int i);
 
 	// Division assignment operators.
 	Fraction& operator /= (const Fraction& f2);
+	Fraction& operator /= (const int arr[2]);
 	Fraction& operator /= (int i);
 
 	// Addition operators.
@@ -137,26 +145,32 @@ class Fraction
 
 // Equality comparison operators.
 bool operator == (const Fraction& f1, const Fraction& f2) noexcept;
+bool operator == (const Fraction& fr, const int arr[2]) noexcept;
 bool operator == (const Fraction& fr, float f) noexcept;
 
 // Inequality comparison operators.
 bool operator != (const Fraction& f1, const Fraction& f2) noexcept;
+bool operator != (const Fraction& fr, const int arr[2]) noexcept;
 bool operator != (const Fraction& fr, float f) noexcept;
 
 // Less-than comparison operators.
 bool operator < (const Fraction& f1, const Fraction& f2) noexcept;
+bool operator < (const Fraction& fr, const int arr[2]) noexcept;
 bool operator < (const Fraction& fr, float f) noexcept;
 
 // Less-than-or-equal comparison operators.
 bool operator <= (const Fraction& f1, const Fraction& f2) noexcept;
+bool operator <= (const Fraction& fr, const int arr[2]) noexcept;
 bool operator <= (const Fraction& fr, float f) noexcept;
 
 // Greater-than comparison operators.
 bool operator > (const Fraction& f1, const Fraction& f2) noexcept;
+bool operator > (const Fraction& fr, const int arr[2]) noexcept;
 bool operator > (const Fraction& fr, float f) noexcept;
 
 // Less-than-or-equal comparison operators.
 bool operator >= (const Fraction& f1, const Fraction& f2) noexcept;
+bool operator >= (const Fraction& fr, const int arr[2]) noexcept;
 bool operator >= (const Fraction& fr, float f) noexcept;
 
 // std::ostream insertion operator.
