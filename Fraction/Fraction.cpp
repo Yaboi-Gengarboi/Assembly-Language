@@ -2,7 +2,7 @@
 // Fraction.cpp
 // Justyn Durnford
 // Created on 2020-10-05
-// Last updated on 2020-10-28
+// Last updated on 2020-11-27
 // Source file for Fraction class.
 
 #include "Fraction.h"
@@ -22,6 +22,9 @@ extern "C" void set_denom(int* f, int denom);
 
 // Sets f[0] to numer and f[1] to denom.
 extern "C" void set_fr(int* f, int numer, int denom);
+
+// Raises both f[0] and f[1] to the nth power.
+extern "C" void pow_fr(int* f, unsigned int n);
 
 // Returns the float result of numer / denom.
 extern "C" float evaluate_fr(int numer, int denom);
@@ -74,10 +77,14 @@ Fraction::Fraction(int numer, int denominator)
 	_ptr = make_fr(numer, denominator);
 }
 
+Fraction::Fraction(const int arr[2])
+{
+	_ptr = make_fr(arr[0], arr[1]);
+}
+
 Fraction& Fraction::operator = (const Fraction& f)
 {
-	delete_fr(_ptr);
-	_ptr = make_fr(f._ptr[0], f._ptr[1]);
+	set_fr(_ptr, f._ptr[0], f._ptr[1]);
 	return *this;
 }
 
@@ -86,6 +93,12 @@ Fraction& Fraction::operator = (Fraction&& f) noexcept
 	delete_fr(_ptr);
 	_ptr = f._ptr;
 	f._ptr = nullptr;
+	return *this;
+}
+
+Fraction& Fraction::operator = (const int arr[2])
+{
+	set_fr(_ptr, arr[0], arr[1]);
 	return *this;
 }
 
@@ -104,19 +117,24 @@ int Fraction::denom() const noexcept
 	return _ptr[1];
 }
 
-void Fraction::setNumer(int numer)
+void Fraction::setNumer(int numer) noexcept
 {
 	set_numer(_ptr, numer);
 }
 
-void Fraction::setDenom(int denom)
+void Fraction::setDenom(int denom) noexcept
 {
 	set_denom(_ptr, denom);
 }
 
-void Fraction::setFraction(int numer, int denom)
+void Fraction::setFraction(int numer, int denom) noexcept
 {
+	set_fr(_ptr, numer, denom);
+}
 
+void Fraction::power(unsigned int n) noexcept
+{
+	pow_fr(_ptr, n);
 }
 
 float Fraction::evaluate() const
@@ -139,10 +157,10 @@ Fraction::operator bool() const noexcept
 
 Fraction Fraction::reciprocal() const
 {
-	return Fraction(_ptr[1], _ptr[0]);
+	return Fraction(_ptr[0], _ptr[1]);
 }
 
-void Fraction::swap(Fraction& f2) noexcept
+void Fraction::swap_with(Fraction& f2) noexcept
 {
 	int* tmp = _ptr;
 	_ptr = f2._ptr;
@@ -258,62 +276,62 @@ Fraction Fraction::operator / (int i)
 	return f1;
 }
 
-bool operator == (const Fraction& f1, const Fraction& f2)
+bool operator == (const Fraction& f1, const Fraction& f2) noexcept
 {
 	return f1.evaluate() == f2.evaluate();
 }
 
-bool operator == (const Fraction& fr, float f)
+bool operator == (const Fraction& fr, float f) noexcept
 {
 	return fr.evaluate() == f;
 }
 
-bool operator != (const Fraction& f1, const Fraction& f2)
+bool operator != (const Fraction& f1, const Fraction& f2) noexcept
 {
 	return f1.evaluate() != f2.evaluate();
 }
 
-bool operator != (const Fraction& fr, float f)
+bool operator != (const Fraction& fr, float f) noexcept
 {
 	return fr.evaluate() != f;
 }
 
-bool operator < (const Fraction& f1, const Fraction& f2)
+bool operator < (const Fraction& f1, const Fraction& f2) noexcept
 {
 	return f1.evaluate() < f2.evaluate();
 }
 
-bool operator < (const Fraction& fr, float f)
+bool operator < (const Fraction& fr, float f) noexcept
 {
 	return fr.evaluate() < f;
 }
 
-bool operator <= (const Fraction& f1, const Fraction& f2)
+bool operator <= (const Fraction& f1, const Fraction& f2) noexcept
 {
 	return f1.evaluate() <= f2.evaluate();
 }
 
-bool operator <= (const Fraction& fr, float f)
+bool operator <= (const Fraction& fr, float f) noexcept
 {
 	return fr.evaluate() <= f;
 }
 
-bool operator > (const Fraction& f1, const Fraction& f2)
+bool operator > (const Fraction& f1, const Fraction& f2) noexcept
 {
 	return f1.evaluate() > f2.evaluate();
 }
 
-bool operator > (const Fraction& fr, float f)
+bool operator > (const Fraction& fr, float f) noexcept
 {
 	return fr.evaluate() > f;
 }
 
-bool operator >= (const Fraction& f1, const Fraction& f2)
+bool operator >= (const Fraction& f1, const Fraction& f2) noexcept
 {
 	return f1.evaluate() >= f2.evaluate();
 }
 
-bool operator >= (const Fraction& fr, float f)
+bool operator >= (const Fraction& fr, float f) noexcept
 {
 	return fr.evaluate() >= f;
 }

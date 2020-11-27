@@ -2,7 +2,7 @@
 // Fraction.h
 // Justyn Durnford
 // Created on 2020-10-05
-// Last updated on 2020-10-28
+// Last updated on 2020-11-27
 // Header file for Fraction class.
 
 #ifndef FRACTION_H_INCLUDED
@@ -40,6 +40,11 @@ class Fraction
 	// Sets the denominator of the fraction to denom.
 	Fraction(int numer, int denom);
 
+	// Array constructor.
+	// Sets the numerator of the fraction to arr[0].
+	// Sets the denominator of the fraction to arr[1].
+	Fraction(const int arr[2]);
+
 	// Copy assignment operator.
 	// Copies the values from the passed fraction into the
 	// new fraction.
@@ -48,6 +53,11 @@ class Fraction
 	// Move assignment operator.
 	// Moves the passed fraction into the new fraction.
 	Fraction& operator = (Fraction&& f) noexcept;
+
+	// Array assignment operator.
+	// Sets the numerator of the fraction to arr[0].
+	// Sets the denominator of the fraction to arr[1].
+	Fraction& operator = (const int arr[2]);
 
 	// Destructor.
 	// Destroys the fraction and its data.
@@ -60,14 +70,18 @@ class Fraction
 	int denom() const noexcept;
 
 	// Sets the numerator of the fraction to numer.
-	void setNumer(int numer);
+	void setNumer(int numer) noexcept;
 
 	// Sets the denominator of the fraction to denom.
-	void setDenom(int denom);
+	void setDenom(int denom) noexcept;
 
 	// Sets the numerator of the fraction to numer.
 	// Sets the denominator of the fraction to denom.
-	void setFraction(int numer, int denom);
+	void setFraction(int numer, int denom) noexcept;
+
+	// Raises both the numerator and denominator of the
+	// fraction to the nth power.
+	void power(unsigned int n) noexcept;
 
 	// Returns the result of the fraction as a float.
 	// This function will throw a std::domain_error if
@@ -82,8 +96,8 @@ class Fraction
 	// Returns the reciprical of this fraction.
 	Fraction reciprocal() const;
 
-	// Swaps the 2 passed Fractions.
-	void swap(Fraction& f2) noexcept;
+	// Swaps this Fraction with the passed Fraction.
+	void swap_with(Fraction& f2) noexcept;
 
 	// Returns a std::string representation of the fraction.
 	std::string toString() const;
@@ -122,28 +136,28 @@ class Fraction
 };
 
 // Equality comparison operators.
-bool operator == (const Fraction& f1, const Fraction& f2);
-bool operator == (const Fraction& fr, float f);
+bool operator == (const Fraction& f1, const Fraction& f2) noexcept;
+bool operator == (const Fraction& fr, float f) noexcept;
 
 // Inequality comparison operators.
-bool operator != (const Fraction& f1, const Fraction& f2);
-bool operator != (const Fraction& fr, float f);
+bool operator != (const Fraction& f1, const Fraction& f2) noexcept;
+bool operator != (const Fraction& fr, float f) noexcept;
 
 // Less-than comparison operators.
-bool operator < (const Fraction& f1, const Fraction& f2);
-bool operator < (const Fraction& fr, float f);
+bool operator < (const Fraction& f1, const Fraction& f2) noexcept;
+bool operator < (const Fraction& fr, float f) noexcept;
 
 // Less-than-or-equal comparison operators.
-bool operator <= (const Fraction& f1, const Fraction& f2);
-bool operator <= (const Fraction& fr, float f);
+bool operator <= (const Fraction& f1, const Fraction& f2) noexcept;
+bool operator <= (const Fraction& fr, float f) noexcept;
 
 // Greater-than comparison operators.
-bool operator > (const Fraction& f1, const Fraction& f2);
-bool operator > (const Fraction& fr, float f);
+bool operator > (const Fraction& f1, const Fraction& f2) noexcept;
+bool operator > (const Fraction& fr, float f) noexcept;
 
 // Less-than-or-equal comparison operators.
-bool operator >= (const Fraction& f1, const Fraction& f2);
-bool operator >= (const Fraction& fr, float f);
+bool operator >= (const Fraction& f1, const Fraction& f2) noexcept;
+bool operator >= (const Fraction& fr, float f) noexcept;
 
 // std::ostream insertion operator.
 std::ostream& operator << (std::ostream& os, const Fraction& f);

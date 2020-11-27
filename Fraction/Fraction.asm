@@ -2,7 +2,7 @@
 ; Fraction.asm
 ; Justyn Durnford
 ; Created on 2020-10-05
-; Last updated on 2020-10-28
+; Last updated on 2020-11-23
 ; Assembly file for Fraction class.
 
 section .text
@@ -20,7 +20,7 @@ make_fr:
     push rcx;                                    Save rcx (1st parameter);
     push rdx;                                    Save rdx (2nd parameter);
 
-    mov ecx, 8;                                  exc = 8
+    mov ecx, 8;                                  ecx = 8
 
     sub rsp, 32+8;                               Allocate memory to call C function
     call malloc;                                 Call malloc(ecx), rax = int* f
@@ -76,6 +76,45 @@ set_fr:
      
     ret;                                         RETURN
 
+; PARAMETERS:
+; - rcx = int* f
+; - edx = unsigned int n
+global pow_fr
+pow_fr:
+
+    cmp edx, 0;                                  n == 0 ?
+    je N_IS_0;                                   IF TRUE, JUMP TO LINE 110
+
+    cmp edx, 1;                                  n == 1 ?
+    je END;                                      IF TRUE, JUMP TO LINE 115
+
+    mov r8d, DWORD[rcx + 0];                     r8d = f[0]
+    mov r9d, r8d;                                r9d = r8d = f[0]
+
+    mov r10d, DWORD[rcx + 4];                    r10d = f[1]
+    mov r11d, r10d;                              r11d = r10d = f[2]
+
+    LOOP:
+
+        imul r8d, r9d;                           r8d *= r9d
+        imul r10d, r11d;                         r10d *= r11d
+
+        sub edx, 1;                              --n
+        cmp edx, 1;                              n > 1 ?
+        jg LOOP;                                 IF TRUE, JUMP TO LINE 97
+
+    mov DWORD[rcx + 0], r8d;                     f[0] = r8d
+    mov DWORD[rcx + 4], r10d;                    f[1] = r10d
+    jmp END;                                     JUMP TO LINE 115
+
+    N_IS_0:
+
+        mov DWORD[rcx + 0], 1;                   f[0] = 1
+        mov DWORD[rcx + 4], 1;                   f[1] = 1
+        
+    END:
+        ret;                                     RETURN
+
 ; PARAMATERS:
 ; - rcx = numer
 ; - rdx = denom
@@ -98,7 +137,7 @@ add_fr:
     mov r9d, DWORD[rdx + 4];                     r9d = f2[1]
 
     cmp r8d, r9d;                                r8d != r9d ?
-    jne DENOM_NOT_EQUAL_01;                      IF TRUE, JUMP TO LINE 91
+    jne DENOM_NOT_EQUAL_01;                      IF TRUE, JUMP TO LINE 148
 
     mov r8d, DWORD[rcx + 0];                     r8d = f1[0]
     add r8d, DWORD[rdx + 0];                     r8d += f2[0]
@@ -135,7 +174,7 @@ sub_fr:
     mov r9d, DWORD[rdx + 4];                     r9d = f2[1]
 
     cmp r8d, r9d;                                r8d != r9d ?
-    jne DENOM_NOT_EQUAL_02;                      IF TRUE, JUMP TO LINE 125
+    jne DENOM_NOT_EQUAL_02;                      IF TRUE, JUMP TO LINE 185
 
     mov r8d, DWORD[rcx + 0];                     r8d = f1[0]
     sub r8d, DWORD[rdx + 0];                     r8d -= f2[0]
