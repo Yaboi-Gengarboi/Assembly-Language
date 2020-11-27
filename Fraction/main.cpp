@@ -58,7 +58,7 @@ duration<float> time_elapsed_f;
 duration<float> time_elapsed_dif;
 float time_elapsed_dif_avg = 0;
 string str;
-ofstream fout("test_results_2.txt");
+ofstream fout("test_results_1.txt");
 
 void write_rand_arr()
 {
@@ -69,7 +69,26 @@ void write_rand_arr()
 	}
 }
 
-void test_fraction()
+void test_fraction_normal()
+{
+	start_time = system_clock::now();
+	fr.setFraction(rand_int_arr[0], rand_int_arr[1]);
+	fr += Fraction(rand_int_arr[2], rand_int_arr[3]);
+	fr *= Fraction(rand_int_arr[4], rand_int_arr[5]);
+	fr.power(rand_int_arr[6]);
+	fr /= Fraction(rand_int_arr[7], rand_int_arr[8]);
+	fr -= rand_int_arr[9];
+	fr /= rand_int_arr[10];
+	fr *= Fraction(rand_int_arr[11] + rand_int_arr[12], rand_int_arr[13] + rand_int_arr[14]);
+	end_time = system_clock::now();
+
+	time_elapsed_fr = end_time - start_time;
+	str = "Fraction:   " + to_string(time_elapsed_fr.count() * 1000);
+	cout << str << endl;
+	fout << str << endl;
+}
+
+void test_fraction_array_assignment()
 {
 	arr1[0] = rand_int_arr[2];
 	arr1[1] = rand_int_arr[3];
@@ -127,10 +146,10 @@ void test_float()
 
 int main()
 {
-	for (int i = 0; i < 500; ++i)
+	for (int i = 0; i < 1500; ++i)
 	{
 		write_rand_arr();
-		test_fraction();
+		test_fraction_normal();
 		test_float();
 
 		time_elapsed_dif = time_elapsed_fr - time_elapsed_f;
@@ -140,8 +159,8 @@ int main()
 		fout << str << endl << endl;
 	}
 
-	cout << "Average time difference: " << time_elapsed_dif_avg / 500.0f * 1000.0f << endl;
-	fout << "Average time difference: " << time_elapsed_dif_avg / 500.0f * 1000.0f << endl;
+	cout << "Average time difference: " << time_elapsed_dif_avg / 1500.0f * 1000.0f << endl;
+	fout << "Average time difference: " << time_elapsed_dif_avg / 1500.0f * 1000.0f << endl;
 
 	return 0;
 }

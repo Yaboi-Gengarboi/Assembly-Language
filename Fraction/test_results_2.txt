@@ -1,565 +1,325 @@
-Fraction:   0.001500
-Float:      0.011100
-Difference: -0.009600
+Fraction:   0.001600
+Float:      0.010200
+Difference: -0.008600
+
+Fraction:   0.000700
+Float:      0.001000
+Difference: -0.000300
 
 Fraction:   0.000600
 Float:      0.001000
 Difference: -0.000400
 
-Fraction:   0.000500
+Fraction:   0.000700
 Float:      0.000800
-Difference: -0.000300
+Difference: -0.000100
 
-Fraction:   0.000500
+Fraction:   0.000600
 Float:      0.000800
-Difference: -0.000300
-
-Fraction:   0.000500
-Float:      0.001000
-Difference: -0.000500
+Difference: -0.000200
 
 Fraction:   0.000500
 Float:      0.000700
 Difference: -0.000200
 
 Fraction:   0.000500
-Float:      0.000600
-Difference: -0.000100
-
-Fraction:   0.000500
-Float:      0.001000
-Difference: -0.000500
-
-Fraction:   0.001500
-Float:      0.001200
-Difference: 0.000300
-
-Fraction:   0.001100
-Float:      0.001100
-Difference: 0.000000
-
-Fraction:   0.001200
-Float:      0.001400
-Difference: -0.000200
-
-Fraction:   0.001100
-Float:      0.001300
-Difference: -0.000200
-
-Fraction:   0.000800
-Float:      0.001000
+Float:      0.000700
 Difference: -0.000200
 
 Fraction:   0.000600
-Float:      0.002100
-Difference: -0.001500
-
-Fraction:   0.020200
-Float:      0.001400
-Difference: 0.018800
-
-Fraction:   0.000600
-Float:      0.001000
-Difference: -0.000400
-
-Fraction:   0.001400
-Float:      0.001500
-Difference: -0.000100
-
-Fraction:   0.001200
-Float:      0.001000
-Difference: 0.000200
-
-Fraction:   0.000600
-Float:      0.000800
-Difference: -0.000200
-
-Fraction:   0.001300
-Float:      0.001400
-Difference: -0.000100
-
-Fraction:   0.002900
-Float:      0.001200
-Difference: 0.001700
-
-Fraction:   0.000700
-Float:      0.001000
+Float:      0.000900
 Difference: -0.000300
 
-Fraction:   0.000800
-Float:      0.000800
-Difference: 0.000000
-
-Fraction:   0.000500
-Float:      0.001100
-Difference: -0.000600
+Fraction:   0.001100
+Float:      0.001400
+Difference: -0.000300
 
 Fraction:   0.000900
 Float:      0.001100
 Difference: -0.000200
-
-Fraction:   0.000600
-Float:      0.000800
-Difference: -0.000200
-
-Fraction:   0.000800
-Float:      0.001200
-Difference: -0.000400
 
 Fraction:   0.001600
-Float:      0.001100
-Difference: 0.000500
-
-Fraction:   0.000700
-Float:      0.001000
-Difference: -0.000300
-
-Fraction:   0.000700
-Float:      0.000900
-Difference: -0.000200
-
-Fraction:   0.000500
-Float:      0.000800
-Difference: -0.000300
-
-Fraction:   0.000500
-Float:      0.000900
-Difference: -0.000400
-
-Fraction:   0.000500
-Float:      0.001000
-Difference: -0.000500
-
-Fraction:   0.000700
-Float:      0.001000
-Difference: -0.000300
-
-Fraction:   0.019500
-Float:      0.014300
-Difference: 0.005200
-
-Fraction:   0.000800
-Float:      0.006400
-Difference: -0.005600
-
-Fraction:   0.000700
-Float:      0.000900
-Difference: -0.000200
-
-Fraction:   0.000500
-Float:      0.000600
-Difference: -0.000100
-
-Fraction:   0.000500
-Float:      0.000800
-Difference: -0.000300
-
-Fraction:   0.000800
-Float:      0.001000
-Difference: -0.000200
-
-Fraction:   0.000500
-Float:      0.000800
-Difference: -0.000300
-
-Fraction:   0.000500
-Float:      0.000900
-Difference: -0.000400
-
-Fraction:   0.000600
-Float:      0.000800
-Difference: -0.000200
-
-Fraction:   0.000900
-Float:      0.000900
-Difference: 0.000000
-
-Fraction:   0.000700
-Float:      0.000800
-Difference: -0.000100
-
-Fraction:   0.000600
-Float:      0.000900
-Difference: -0.000300
-
-Fraction:   0.002600
-Float:      0.001100
-Difference: 0.001500
-
-Fraction:   0.000500
-Float:      0.000800
-Difference: -0.000300
-
-Fraction:   0.001000
-Float:      0.000900
-Difference: 0.000100
-
-Fraction:   0.000900
-Float:      0.001000
-Difference: -0.000100
-
-Fraction:   0.000600
-Float:      0.000800
-Difference: -0.000200
-
-Fraction:   0.000500
-Float:      0.000900
-Difference: -0.000400
-
-Fraction:   0.000800
-Float:      0.001100
-Difference: -0.000300
-
-Fraction:   0.000800
-Float:      0.000900
-Difference: -0.000100
-
-Fraction:   0.000600
-Float:      0.017800
-Difference: -0.017200
-
-Fraction:   0.000500
-Float:      0.000800
-Difference: -0.000300
-
-Fraction:   0.000400
-Float:      0.001200
-Difference: -0.000800
-
-Fraction:   0.000700
-Float:      0.000900
-Difference: -0.000200
-
-Fraction:   0.000500
-Float:      0.000800
-Difference: -0.000300
-
-Fraction:   0.000400
-Float:      0.000900
-Difference: -0.000500
-
-Fraction:   0.000500
-Float:      0.000900
-Difference: -0.000400
-
-Fraction:   0.001000
-Float:      0.001000
-Difference: 0.000000
-
-Fraction:   0.000500
-Float:      0.000600
-Difference: -0.000100
-
-Fraction:   0.000500
-Float:      0.000700
-Difference: -0.000200
-
-Fraction:   0.000800
-Float:      0.000900
-Difference: -0.000100
-
-Fraction:   0.000500
-Float:      0.000700
-Difference: -0.000200
-
-Fraction:   0.000400
-Float:      0.001000
+Float:      0.002200
 Difference: -0.000600
-
-Fraction:   0.001700
-Float:      0.001100
-Difference: 0.000600
-
-Fraction:   0.000700
-Float:      0.000900
-Difference: -0.000200
-
-Fraction:   0.000500
-Float:      0.000900
-Difference: -0.000400
-
-Fraction:   0.000500
-Float:      0.000800
-Difference: -0.000300
-
-Fraction:   0.000800
-Float:      0.001000
-Difference: -0.000200
-
-Fraction:   0.000600
-Float:      0.000800
-Difference: -0.000200
-
-Fraction:   0.000600
-Float:      0.000800
-Difference: -0.000200
-
-Fraction:   0.000500
-Float:      0.001000
-Difference: -0.000500
-
-Fraction:   0.000700
-Float:      0.001300
-Difference: -0.000600
-
-Fraction:   0.000600
-Float:      0.000800
-Difference: -0.000200
-
-Fraction:   0.000500
-Float:      0.000700
-Difference: -0.000200
-
-Fraction:   0.001500
-Float:      0.001000
-Difference: 0.000500
-
-Fraction:   0.000700
-Float:      0.001000
-Difference: -0.000300
-
-Fraction:   0.000800
-Float:      0.001100
-Difference: -0.000300
-
-Fraction:   0.001100
-Float:      0.001500
-Difference: -0.000400
-
-Fraction:   0.000900
-Float:      0.001100
-Difference: -0.000200
-
-Fraction:   0.000500
-Float:      0.000700
-Difference: -0.000200
-
-Fraction:   0.001100
-Float:      0.001400
-Difference: -0.000300
-
-Fraction:   0.000600
-Float:      0.000700
-Difference: -0.000100
-
-Fraction:   0.000600
-Float:      0.000800
-Difference: -0.000200
-
-Fraction:   0.000500
-Float:      0.000900
-Difference: -0.000400
-
-Fraction:   0.001300
-Float:      0.001400
-Difference: -0.000100
-
-Fraction:   0.000700
-Float:      0.000800
-Difference: -0.000100
-
-Fraction:   0.000500
-Float:      0.000800
-Difference: -0.000300
-
-Fraction:   0.000800
-Float:      0.000800
-Difference: 0.000000
-
-Fraction:   0.000900
-Float:      0.001000
-Difference: -0.000100
-
-Fraction:   0.000800
-Float:      0.000900
-Difference: -0.000100
-
-Fraction:   0.000800
-Float:      0.001000
-Difference: -0.000200
-
-Fraction:   0.000500
-Float:      0.000800
-Difference: -0.000300
-
-Fraction:   0.000600
-Float:      0.000900
-Difference: -0.000300
-
-Fraction:   0.000500
-Float:      0.001100
-Difference: -0.000600
-
-Fraction:   0.000900
-Float:      0.001000
-Difference: -0.000100
-
-Fraction:   0.000800
-Float:      0.000700
-Difference: 0.000100
-
-Fraction:   0.000500
-Float:      0.000800
-Difference: -0.000300
-
-Fraction:   0.000700
-Float:      0.000900
-Difference: -0.000200
-
-Fraction:   0.000500
-Float:      0.000900
-Difference: -0.000400
-
-Fraction:   0.000500
-Float:      0.000900
-Difference: -0.000400
-
-Fraction:   0.000600
-Float:      0.000800
-Difference: -0.000200
-
-Fraction:   0.000700
-Float:      0.001000
-Difference: -0.000300
-
-Fraction:   0.000900
-Float:      0.001000
-Difference: -0.000100
-
-Fraction:   0.000600
-Float:      0.000900
-Difference: -0.000300
-
-Fraction:   0.019500
-Float:      0.001200
-Difference: 0.018300
-
-Fraction:   0.000500
-Float:      0.000800
-Difference: -0.000300
-
-Fraction:   0.000500
-Float:      0.000800
-Difference: -0.000300
-
-Fraction:   0.000500
-Float:      0.001700
-Difference: -0.001200
-
-Fraction:   0.000700
-Float:      0.001000
-Difference: -0.000300
-
-Fraction:   0.000500
-Float:      0.000700
-Difference: -0.000200
-
-Fraction:   0.000400
-Float:      0.000800
-Difference: -0.000400
 
 Fraction:   0.001200
-Float:      0.000800
-Difference: 0.000400
+Float:      0.001800
+Difference: -0.000600
 
-Fraction:   0.000700
-Float:      0.001000
-Difference: -0.000300
+Fraction:   0.001300
+Float:      0.002000
+Difference: -0.000700
 
-Fraction:   0.000600
-Float:      0.001000
-Difference: -0.000400
-
-Fraction:   0.000600
-Float:      0.001000
-Difference: -0.000400
-
-Fraction:   0.000400
-Float:      0.000600
-Difference: -0.000200
-
-Fraction:   0.000500
-Float:      0.001500
-Difference: -0.001000
+Fraction:   0.001500
+Float:      0.001300
+Difference: 0.000200
 
 Fraction:   0.000900
 Float:      0.001000
 Difference: -0.000100
 
-Fraction:   0.000600
-Float:      0.000800
-Difference: -0.000200
+Fraction:   0.001400
+Float:      0.001700
+Difference: -0.000300
 
-Fraction:   0.000400
-Float:      0.000800
-Difference: -0.000400
-
-Fraction:   0.000600
-Float:      0.000800
-Difference: -0.000200
-
-Fraction:   0.000700
-Float:      0.001600
-Difference: -0.000900
-
-Fraction:   0.000700
-Float:      0.000800
+Fraction:   0.001200
+Float:      0.001300
 Difference: -0.000100
 
-Fraction:   0.000500
-Float:      0.000600
-Difference: -0.000100
+Fraction:   0.001200
+Float:      0.001500
+Difference: -0.000300
 
-Fraction:   0.000500
+Fraction:   0.001400
+Float:      0.001900
+Difference: -0.000500
+
+Fraction:   0.001200
+Float:      0.009800
+Difference: -0.008600
+
+Fraction:   0.001600
+Float:      0.002100
+Difference: -0.000500
+
+Fraction:   0.000700
 Float:      0.000900
+Difference: -0.000200
+
+Fraction:   0.014300
+Float:      0.001100
+Difference: 0.013200
+
+Fraction:   0.000600
+Float:      0.001000
 Difference: -0.000400
 
 Fraction:   0.000900
 Float:      0.000900
 Difference: 0.000000
 
-Fraction:   0.000700
-Float:      0.000900
-Difference: -0.000200
+Fraction:   0.000600
+Float:      0.001200
+Difference: -0.000600
 
-Fraction:   0.000500
-Float:      0.000800
-Difference: -0.000300
+Fraction:   0.014100
+Float:      0.000900
+Difference: 0.013200
 
 Fraction:   0.000600
 Float:      0.001300
 Difference: -0.000700
 
-Fraction:   0.000700
+Fraction:   0.000400
+Float:      0.000700
+Difference: -0.000300
+
+Fraction:   0.000500
+Float:      0.001500
+Difference: -0.001000
+
+Fraction:   0.001100
+Float:      0.000900
+Difference: 0.000200
+
+Fraction:   0.000500
 Float:      0.001200
-Difference: -0.000500
+Difference: -0.000700
 
 Fraction:   0.000600
-Float:      0.000700
-Difference: -0.000100
+Float:      0.000800
+Difference: -0.000200
 
 Fraction:   0.000500
-Float:      0.000800
-Difference: -0.000300
+Float:      0.000900
+Difference: -0.000400
+
+Fraction:   0.000700
+Float:      0.001400
+Difference: -0.000700
 
 Fraction:   0.000800
-Float:      0.000800
+Float:      0.001200
+Difference: -0.000400
+
+Fraction:   0.000900
+Float:      0.001100
+Difference: -0.000200
+
+Fraction:   0.000900
+Float:      0.000700
+Difference: 0.000200
+
+Fraction:   0.000900
+Float:      0.000900
 Difference: 0.000000
 
-Fraction:   0.000500
+Fraction:   0.000700
+Float:      0.000900
+Difference: -0.000200
+
+Fraction:   0.000600
 Float:      0.000800
-Difference: -0.000300
+Difference: -0.000200
+
+Fraction:   0.000800
+Float:      0.001700
+Difference: -0.000900
+
+Fraction:   0.000800
+Float:      0.001000
+Difference: -0.000200
+
+Fraction:   0.000600
+Float:      0.001100
+Difference: -0.000500
+
+Fraction:   0.000900
+Float:      0.000800
+Difference: 0.000100
+
+Fraction:   0.000500
+Float:      0.000900
+Difference: -0.000400
+
+Fraction:   0.000600
+Float:      0.000800
+Difference: -0.000200
+
+Fraction:   0.001100
+Float:      0.001100
+Difference: 0.000000
+
+Fraction:   0.001100
+Float:      0.000900
+Difference: 0.000200
+
+Fraction:   0.000400
+Float:      0.000800
+Difference: -0.000400
+
+Fraction:   0.000800
+Float:      0.001200
+Difference: -0.000400
 
 Fraction:   0.000600
 Float:      0.000900
 Difference: -0.000300
 
-Fraction:   0.001200
+Fraction:   0.000600
 Float:      0.000800
-Difference: 0.000400
+Difference: -0.000200
+
+Fraction:   0.001100
+Float:      0.001200
+Difference: -0.000100
+
+Fraction:   0.000700
+Float:      0.000900
+Difference: -0.000200
+
+Fraction:   0.000600
+Float:      0.000900
+Difference: -0.000300
 
 Fraction:   0.000600
 Float:      0.000800
+Difference: -0.000200
+
+Fraction:   0.000600
+Float:      0.000800
+Difference: -0.000200
+
+Fraction:   0.001000
+Float:      0.000900
+Difference: 0.000100
+
+Fraction:   0.000600
+Float:      0.000900
+Difference: -0.000300
+
+Fraction:   0.000600
+Float:      0.000700
+Difference: -0.000100
+
+Fraction:   0.000600
+Float:      0.000900
+Difference: -0.000300
+
+Fraction:   0.000700
+Float:      0.000900
+Difference: -0.000200
+
+Fraction:   0.000500
+Float:      0.000900
+Difference: -0.000400
+
+Fraction:   0.000700
+Float:      0.000900
+Difference: -0.000200
+
+Fraction:   0.000800
+Float:      0.001100
+Difference: -0.000300
+
+Fraction:   0.000500
+Float:      0.000800
+Difference: -0.000300
+
+Fraction:   0.000700
+Float:      0.001200
+Difference: -0.000500
+
+Fraction:   0.000500
+Float:      0.000800
+Difference: -0.000300
+
+Fraction:   0.000500
+Float:      0.000800
+Difference: -0.000300
+
+Fraction:   0.000500
+Float:      0.001100
+Difference: -0.000600
+
+Fraction:   0.001100
+Float:      0.001000
+Difference: 0.000100
+
+Fraction:   0.000600
+Float:      0.000900
+Difference: -0.000300
+
+Fraction:   0.000500
+Float:      0.000900
+Difference: -0.000400
+
+Fraction:   0.000800
+Float:      0.001200
+Difference: -0.000400
+
+Fraction:   0.000700
+Float:      0.000900
+Difference: -0.000200
+
+Fraction:   0.000500
+Float:      0.000800
+Difference: -0.000300
+
+Fraction:   0.001300
+Float:      0.001100
+Difference: 0.000200
+
+Fraction:   0.000800
+Float:      0.001500
+Difference: -0.000700
+
+Fraction:   0.014000
+Float:      0.000900
+Difference: 0.013100
+
+Fraction:   0.000800
+Float:      0.001000
 Difference: -0.000200
 
 Fraction:   0.000500
@@ -567,1435 +327,5675 @@ Float:      0.000800
 Difference: -0.000300
 
 Fraction:   0.000500
-Float:      0.014100
+Float:      0.000800
+Difference: -0.000300
+
+Fraction:   0.001000
+Float:      0.001000
+Difference: 0.000000
+
+Fraction:   0.000500
+Float:      0.000800
+Difference: -0.000300
+
+Fraction:   0.000600
+Float:      0.000700
+Difference: -0.000100
+
+Fraction:   0.000600
+Float:      0.001400
+Difference: -0.000800
+
+Fraction:   0.000900
+Float:      0.000900
+Difference: 0.000000
+
+Fraction:   0.000400
+Float:      0.000800
+Difference: -0.000400
+
+Fraction:   0.000500
+Float:      0.001200
+Difference: -0.000700
+
+Fraction:   0.001000
+Float:      0.001200
+Difference: -0.000200
+
+Fraction:   0.000900
+Float:      0.014500
 Difference: -0.013600
 
-Fraction:   0.001600
-Float:      0.001200
-Difference: 0.000400
-
-Fraction:   0.001300
-Float:      0.002700
-Difference: -0.001400
-
-Fraction:   0.000800
-Float:      0.001000
-Difference: -0.000200
-
-Fraction:   0.000600
-Float:      0.001100
-Difference: -0.000500
-
 Fraction:   0.000600
 Float:      0.000700
 Difference: -0.000100
-
-Fraction:   0.000700
-Float:      0.000900
-Difference: -0.000200
-
-Fraction:   0.000700
-Float:      0.000900
-Difference: -0.000200
-
-Fraction:   0.000600
-Float:      0.000700
-Difference: -0.000100
-
-Fraction:   0.000500
-Float:      0.000800
-Difference: -0.000300
-
-Fraction:   0.000600
-Float:      0.001300
-Difference: -0.000700
-
-Fraction:   0.000900
-Float:      0.000900
-Difference: 0.000000
-
-Fraction:   0.000500
-Float:      0.000600
-Difference: -0.000100
-
-Fraction:   0.000700
-Float:      0.000800
-Difference: -0.000100
-
-Fraction:   0.000600
-Float:      0.000700
-Difference: -0.000100
-
-Fraction:   0.000500
-Float:      0.000700
-Difference: -0.000200
-
-Fraction:   0.000900
-Float:      0.001200
-Difference: -0.000300
-
-Fraction:   0.000700
-Float:      0.000900
-Difference: -0.000200
 
 Fraction:   0.000500
 Float:      0.000800
 Difference: -0.000300
 
 Fraction:   0.001100
-Float:      0.001000
-Difference: 0.000100
-
-Fraction:   0.000500
-Float:      0.000700
-Difference: -0.000200
-
-Fraction:   0.000800
-Float:      0.000900
-Difference: -0.000100
-
-Fraction:   0.000900
-Float:      0.001000
-Difference: -0.000100
-
-Fraction:   0.000600
-Float:      0.000800
-Difference: -0.000200
-
-Fraction:   0.000500
-Float:      0.000800
-Difference: -0.000300
-
-Fraction:   0.000500
-Float:      0.015000
-Difference: -0.014500
-
-Fraction:   0.000700
-Float:      0.000900
-Difference: -0.000200
-
-Fraction:   0.000400
-Float:      0.000700
-Difference: -0.000300
-
-Fraction:   0.000500
-Float:      0.000700
-Difference: -0.000200
-
-Fraction:   0.000500
-Float:      0.000800
-Difference: -0.000300
-
-Fraction:   0.001100
-Float:      0.001000
-Difference: 0.000100
-
-Fraction:   0.000500
-Float:      0.000700
-Difference: -0.000200
-
-Fraction:   0.000500
-Float:      0.000800
-Difference: -0.000300
-
-Fraction:   0.000700
-Float:      0.000700
-Difference: 0.000000
-
-Fraction:   0.000600
-Float:      0.000800
-Difference: -0.000200
-
-Fraction:   0.000700
-Float:      0.001000
-Difference: -0.000300
-
-Fraction:   0.000600
-Float:      0.001400
-Difference: -0.000800
-
-Fraction:   0.000700
-Float:      0.000800
-Difference: -0.000100
-
-Fraction:   0.000600
-Float:      0.000700
-Difference: -0.000100
-
-Fraction:   0.000600
-Float:      0.001000
-Difference: -0.000400
-
-Fraction:   0.001100
-Float:      0.000900
-Difference: 0.000200
-
-Fraction:   0.000500
-Float:      0.000700
-Difference: -0.000200
-
-Fraction:   0.000600
-Float:      0.001100
-Difference: -0.000500
-
-Fraction:   0.000600
-Float:      0.014600
-Difference: -0.014000
-
-Fraction:   0.001400
-Float:      0.001100
-Difference: 0.000300
-
-Fraction:   0.000500
-Float:      0.000800
-Difference: -0.000300
-
-Fraction:   0.000500
-Float:      0.001000
-Difference: -0.000500
-
-Fraction:   0.000700
-Float:      0.000900
-Difference: -0.000200
-
-Fraction:   0.000600
-Float:      0.001100
-Difference: -0.000500
-
-Fraction:   0.000500
-Float:      0.000800
-Difference: -0.000300
-
-Fraction:   0.000800
-Float:      0.001000
-Difference: -0.000200
-
-Fraction:   0.000500
-Float:      0.000600
-Difference: -0.000100
-
-Fraction:   0.000600
-Float:      0.001000
-Difference: -0.000400
-
-Fraction:   0.000600
-Float:      0.001000
-Difference: -0.000400
-
-Fraction:   0.000700
-Float:      0.000800
-Difference: -0.000100
-
-Fraction:   0.000600
-Float:      0.000800
-Difference: -0.000200
-
-Fraction:   0.000500
-Float:      0.000800
-Difference: -0.000300
-
-Fraction:   0.000600
-Float:      0.001000
-Difference: -0.000400
-
-Fraction:   0.000400
-Float:      0.000800
-Difference: -0.000400
-
-Fraction:   0.000400
-Float:      0.001000
-Difference: -0.000600
-
-Fraction:   0.000500
-Float:      0.000700
-Difference: -0.000200
-
-Fraction:   0.000800
-Float:      0.001100
-Difference: -0.000300
-
-Fraction:   0.000500
-Float:      0.000900
-Difference: -0.000400
-
-Fraction:   0.000700
-Float:      0.000800
-Difference: -0.000100
-
-Fraction:   0.000700
-Float:      0.001000
-Difference: -0.000300
-
-Fraction:   0.000500
-Float:      0.001000
-Difference: -0.000500
-
-Fraction:   0.000500
-Float:      0.000900
-Difference: -0.000400
-
-Fraction:   0.000700
-Float:      0.000900
-Difference: -0.000200
-
-Fraction:   0.000700
-Float:      0.000900
-Difference: -0.000200
-
-Fraction:   0.000500
-Float:      0.000900
-Difference: -0.000400
-
-Fraction:   0.000500
-Float:      0.000700
-Difference: -0.000200
-
-Fraction:   0.000500
-Float:      0.001400
-Difference: -0.000900
-
-Fraction:   0.000700
-Float:      0.000700
-Difference: 0.000000
-
-Fraction:   0.000600
-Float:      0.000800
-Difference: -0.000200
-
-Fraction:   0.000400
-Float:      0.000800
-Difference: -0.000400
-
-Fraction:   0.000600
-Float:      0.001100
-Difference: -0.000500
-
-Fraction:   0.001100
-Float:      0.001100
-Difference: 0.000000
-
-Fraction:   0.000400
-Float:      0.000800
-Difference: -0.000400
-
-Fraction:   0.000500
-Float:      0.001000
-Difference: -0.000500
-
-Fraction:   0.000700
-Float:      0.000900
-Difference: -0.000200
-
-Fraction:   0.000500
-Float:      0.000900
-Difference: -0.000400
-
-Fraction:   0.000700
-Float:      0.001500
-Difference: -0.000800
-
-Fraction:   0.000700
-Float:      0.000900
-Difference: -0.000200
-
-Fraction:   0.000500
-Float:      0.000600
-Difference: -0.000100
-
-Fraction:   0.000600
-Float:      0.000700
-Difference: -0.000100
-
-Fraction:   0.000500
-Float:      0.001500
-Difference: -0.001000
-
-Fraction:   0.000600
-Float:      0.000700
-Difference: -0.000100
-
-Fraction:   0.000500
-Float:      0.000600
-Difference: -0.000100
-
-Fraction:   0.000500
-Float:      0.000500
-Difference: 0.000000
-
-Fraction:   0.000600
-Float:      0.001000
-Difference: -0.000400
-
-Fraction:   0.000900
-Float:      0.001100
-Difference: -0.000200
-
-Fraction:   0.001500
-Float:      0.001000
-Difference: 0.000500
-
-Fraction:   0.000900
-Float:      0.002700
-Difference: -0.001800
-
-Fraction:   0.001200
-Float:      0.000900
-Difference: 0.000300
-
-Fraction:   0.001900
-Float:      0.001200
-Difference: 0.000700
-
-Fraction:   0.000800
-Float:      0.001100
-Difference: -0.000300
-
-Fraction:   0.000500
-Float:      0.000700
-Difference: -0.000200
-
-Fraction:   0.000600
-Float:      0.001100
-Difference: -0.000500
-
-Fraction:   0.000800
-Float:      0.000900
-Difference: -0.000100
-
-Fraction:   0.000400
-Float:      0.000900
-Difference: -0.000500
-
-Fraction:   0.000600
-Float:      0.000700
-Difference: -0.000100
-
-Fraction:   0.000700
-Float:      0.000900
-Difference: -0.000200
-
-Fraction:   0.001000
-Float:      0.001100
-Difference: -0.000100
-
-Fraction:   0.000500
-Float:      0.000800
-Difference: -0.000300
-
-Fraction:   0.000600
-Float:      0.000900
-Difference: -0.000300
-
-Fraction:   0.000500
-Float:      0.000900
-Difference: -0.000400
-
-Fraction:   0.000700
-Float:      0.001300
-Difference: -0.000600
-
-Fraction:   0.000500
-Float:      0.001000
-Difference: -0.000500
-
-Fraction:   0.000800
-Float:      0.000800
-Difference: 0.000000
-
-Fraction:   0.000700
-Float:      0.001000
-Difference: -0.000300
-
-Fraction:   0.000500
-Float:      0.000700
-Difference: -0.000200
-
-Fraction:   0.000500
-Float:      0.000700
-Difference: -0.000200
-
-Fraction:   0.000800
-Float:      0.001600
-Difference: -0.000800
-
-Fraction:   0.000800
-Float:      0.001000
-Difference: -0.000200
-
-Fraction:   0.000600
-Float:      0.000900
-Difference: -0.000300
-
-Fraction:   0.000400
-Float:      0.000800
-Difference: -0.000400
-
-Fraction:   0.000600
-Float:      0.001300
-Difference: -0.000700
-
-Fraction:   0.000700
-Float:      0.000900
-Difference: -0.000200
-
-Fraction:   0.000400
-Float:      0.000700
-Difference: -0.000300
-
-Fraction:   0.000400
-Float:      0.000900
-Difference: -0.000500
-
-Fraction:   0.000700
-Float:      0.001000
-Difference: -0.000300
-
-Fraction:   0.001500
-Float:      0.002200
-Difference: -0.000700
-
-Fraction:   0.001000
-Float:      0.001000
-Difference: 0.000000
-
-Fraction:   0.000900
-Float:      0.001000
-Difference: -0.000100
-
-Fraction:   0.001200
-Float:      0.001900
-Difference: -0.000700
-
-Fraction:   0.001700
-Float:      0.001700
-Difference: 0.000000
-
-Fraction:   0.001400
-Float:      0.001500
-Difference: -0.000100
-
-Fraction:   0.000700
-Float:      0.001900
-Difference: -0.001200
-
-Fraction:   0.001400
-Float:      0.001600
-Difference: -0.000200
-
-Fraction:   0.001600
-Float:      0.006300
-Difference: -0.004700
-
-Fraction:   0.001800
-Float:      0.001200
-Difference: 0.000600
-
-Fraction:   0.001400
-Float:      0.002100
-Difference: -0.000700
-
-Fraction:   0.001600
-Float:      0.001600
-Difference: 0.000000
-
-Fraction:   0.001700
-Float:      0.005500
-Difference: -0.003800
-
-Fraction:   0.002200
-Float:      0.001900
-Difference: 0.000300
-
-Fraction:   0.002400
-Float:      0.001600
-Difference: 0.000800
-
-Fraction:   0.001700
-Float:      0.001900
-Difference: -0.000200
-
-Fraction:   0.001500
-Float:      0.002900
-Difference: -0.001400
-
-Fraction:   0.001700
-Float:      0.002400
-Difference: -0.000700
-
-Fraction:   0.001300
-Float:      0.001400
-Difference: -0.000100
-
-Fraction:   0.001500
-Float:      0.001500
-Difference: 0.000000
-
-Fraction:   0.001400
-Float:      0.001600
-Difference: -0.000200
-
-Fraction:   0.001800
-Float:      0.001800
-Difference: 0.000000
-
-Fraction:   0.001100
-Float:      0.001000
-Difference: 0.000100
-
-Fraction:   0.000700
-Float:      0.000800
-Difference: -0.000100
-
-Fraction:   0.001100
-Float:      0.001300
-Difference: -0.000200
-
-Fraction:   0.001200
-Float:      0.001200
-Difference: 0.000000
-
-Fraction:   0.000800
-Float:      0.001000
-Difference: -0.000200
-
-Fraction:   0.000800
-Float:      0.001400
-Difference: -0.000600
-
-Fraction:   0.001000
-Float:      0.001000
-Difference: 0.000000
-
-Fraction:   0.000700
-Float:      0.001500
-Difference: -0.000800
-
-Fraction:   0.001700
-Float:      0.001800
-Difference: -0.000100
-
-Fraction:   0.000900
-Float:      0.001900
-Difference: -0.001000
-
-Fraction:   0.001200
-Float:      0.001000
-Difference: 0.000200
-
-Fraction:   0.000600
-Float:      0.000800
-Difference: -0.000200
-
-Fraction:   0.001400
-Float:      0.002900
-Difference: -0.001500
-
-Fraction:   0.000600
-Float:      0.001300
-Difference: -0.000700
-
-Fraction:   0.000800
-Float:      0.000800
-Difference: 0.000000
-
-Fraction:   0.000700
-Float:      0.001500
-Difference: -0.000800
-
-Fraction:   0.001500
-Float:      0.001500
-Difference: 0.000000
-
-Fraction:   0.000800
-Float:      0.001100
-Difference: -0.000300
-
-Fraction:   0.001200
-Float:      0.001200
-Difference: 0.000000
-
-Fraction:   0.001100
-Float:      0.001200
-Difference: -0.000100
-
-Fraction:   0.001000
-Float:      0.001000
-Difference: 0.000000
-
-Fraction:   0.000800
-Float:      0.000900
-Difference: -0.000100
-
-Fraction:   0.000800
-Float:      0.000800
-Difference: 0.000000
-
-Fraction:   0.000800
-Float:      0.001200
-Difference: -0.000400
-
-Fraction:   0.000700
-Float:      0.000800
-Difference: -0.000100
-
-Fraction:   0.000800
-Float:      0.000800
-Difference: 0.000000
-
-Fraction:   0.000800
-Float:      0.001100
-Difference: -0.000300
-
-Fraction:   0.000600
-Float:      0.000800
-Difference: -0.000200
-
-Fraction:   0.001100
-Float:      0.000800
-Difference: 0.000300
-
-Fraction:   0.001200
-Float:      0.001300
-Difference: -0.000100
-
-Fraction:   0.001300
-Float:      0.001000
-Difference: 0.000300
-
-Fraction:   0.000700
-Float:      0.014100
-Difference: -0.013400
-
-Fraction:   0.000800
-Float:      0.002100
-Difference: -0.001300
-
-Fraction:   0.000900
-Float:      0.000900
-Difference: 0.000000
-
-Fraction:   0.000700
-Float:      0.000900
-Difference: -0.000200
-
-Fraction:   0.001800
-Float:      0.001400
-Difference: 0.000400
-
-Fraction:   0.001500
-Float:      0.001000
-Difference: 0.000500
-
-Fraction:   0.000700
-Float:      0.000900
-Difference: -0.000200
-
-Fraction:   0.000600
-Float:      0.001200
-Difference: -0.000600
-
-Fraction:   0.001000
-Float:      0.001100
-Difference: -0.000100
-
-Fraction:   0.000600
-Float:      0.001100
-Difference: -0.000500
-
-Fraction:   0.000800
-Float:      0.003200
-Difference: -0.002400
-
-Fraction:   0.001400
-Float:      0.001300
-Difference: 0.000100
-
-Fraction:   0.001500
-Float:      0.001400
-Difference: 0.000100
-
-Fraction:   0.001000
-Float:      0.001200
-Difference: -0.000200
-
-Fraction:   0.001100
-Float:      0.001500
-Difference: -0.000400
-
-Fraction:   0.000800
-Float:      0.001300
-Difference: -0.000500
-
-Fraction:   0.001000
-Float:      0.001100
-Difference: -0.000100
-
-Fraction:   0.001600
-Float:      0.001200
-Difference: 0.000400
-
-Fraction:   0.000700
-Float:      0.001400
-Difference: -0.000700
-
-Fraction:   0.001300
-Float:      0.001300
-Difference: 0.000000
-
-Fraction:   0.001400
-Float:      0.004000
-Difference: -0.002600
-
-Fraction:   0.001400
-Float:      0.002000
-Difference: -0.000600
-
-Fraction:   0.001000
-Float:      0.001100
-Difference: -0.000100
-
-Fraction:   0.001300
-Float:      0.001900
-Difference: -0.000600
-
-Fraction:   0.001600
-Float:      0.003400
-Difference: -0.001800
-
-Fraction:   0.001000
-Float:      0.001600
-Difference: -0.000600
-
-Fraction:   0.001200
-Float:      0.001200
-Difference: 0.000000
-
-Fraction:   0.000800
-Float:      0.001400
-Difference: -0.000600
-
-Fraction:   0.001200
-Float:      0.001300
-Difference: -0.000100
-
-Fraction:   0.000800
-Float:      0.001100
-Difference: -0.000300
-
-Fraction:   0.000700
-Float:      0.000900
-Difference: -0.000200
-
-Fraction:   0.000600
-Float:      0.000900
-Difference: -0.000300
-
-Fraction:   0.001400
-Float:      0.001000
-Difference: 0.000400
-
-Fraction:   0.000700
-Float:      0.001300
-Difference: -0.000600
-
-Fraction:   0.000900
-Float:      0.001000
-Difference: -0.000100
-
-Fraction:   0.000900
-Float:      0.001400
-Difference: -0.000500
-
-Fraction:   0.001200
-Float:      0.001300
-Difference: -0.000100
-
-Fraction:   0.001100
-Float:      0.001100
-Difference: 0.000000
-
-Fraction:   0.000700
-Float:      0.000700
-Difference: 0.000000
-
-Fraction:   0.000600
-Float:      0.001000
-Difference: -0.000400
-
-Fraction:   0.000700
-Float:      0.001400
-Difference: -0.000700
-
-Fraction:   0.000800
-Float:      0.000800
-Difference: 0.000000
-
-Fraction:   0.000600
-Float:      0.000800
-Difference: -0.000200
-
-Fraction:   0.000500
-Float:      0.000700
-Difference: -0.000200
-
-Fraction:   0.000500
-Float:      0.001200
-Difference: -0.000700
-
-Fraction:   0.001000
-Float:      0.000800
-Difference: 0.000200
-
-Fraction:   0.000500
-Float:      0.000600
-Difference: -0.000100
-
-Fraction:   0.000600
-Float:      0.000800
-Difference: -0.000200
-
-Fraction:   0.000500
-Float:      0.000800
-Difference: -0.000300
-
-Fraction:   0.000900
-Float:      0.000900
-Difference: 0.000000
-
-Fraction:   0.000900
-Float:      0.001000
-Difference: -0.000100
-
-Fraction:   0.000500
-Float:      0.000700
-Difference: -0.000200
-
-Fraction:   0.000500
-Float:      0.000800
-Difference: -0.000300
-
-Fraction:   0.000800
-Float:      0.000900
-Difference: -0.000100
-
-Fraction:   0.000500
-Float:      0.000800
-Difference: -0.000300
-
-Fraction:   0.000500
-Float:      0.001500
-Difference: -0.001000
-
-Fraction:   0.001300
-Float:      0.001000
-Difference: 0.000300
-
-Fraction:   0.000600
-Float:      0.000800
-Difference: -0.000200
-
-Fraction:   0.000600
-Float:      0.000800
-Difference: -0.000200
-
-Fraction:   0.000500
-Float:      0.000800
-Difference: -0.000300
-
-Fraction:   0.000500
-Float:      0.000800
-Difference: -0.000300
-
-Fraction:   0.000500
-Float:      0.001400
-Difference: -0.000900
-
-Fraction:   0.000800
-Float:      0.000800
-Difference: 0.000000
-
-Fraction:   0.000500
-Float:      0.000800
-Difference: -0.000300
-
-Fraction:   0.000600
-Float:      0.000800
-Difference: -0.000200
-
-Fraction:   0.000500
-Float:      0.000800
-Difference: -0.000300
-
-Fraction:   0.000800
-Float:      0.001000
-Difference: -0.000200
-
-Fraction:   0.000500
-Float:      0.000900
-Difference: -0.000400
-
-Fraction:   0.000700
-Float:      0.000800
-Difference: -0.000100
-
-Fraction:   0.000400
-Float:      0.000800
-Difference: -0.000400
-
-Fraction:   0.000600
-Float:      0.000900
-Difference: -0.000300
-
-Fraction:   0.000600
-Float:      0.000700
-Difference: -0.000100
-
-Fraction:   0.000600
-Float:      0.001300
-Difference: -0.000700
-
-Fraction:   0.001300
-Float:      0.019600
-Difference: -0.018300
-
-Fraction:   0.000700
-Float:      0.000800
-Difference: -0.000100
-
-Fraction:   0.000700
-Float:      0.001100
-Difference: -0.000400
-
-Fraction:   0.000700
-Float:      0.000800
-Difference: -0.000100
-
-Fraction:   0.000900
-Float:      0.019900
-Difference: -0.019000
-
-Fraction:   0.001000
-Float:      0.001500
-Difference: -0.000500
-
-Fraction:   0.000800
-Float:      0.000900
-Difference: -0.000100
-
-Fraction:   0.000900
-Float:      0.001100
-Difference: -0.000200
-
-Fraction:   0.000800
-Float:      0.001500
-Difference: -0.000700
-
-Fraction:   0.001600
-Float:      0.001200
-Difference: 0.000400
-
-Fraction:   0.000600
-Float:      0.001000
-Difference: -0.000400
-
-Fraction:   0.000900
-Float:      0.001200
-Difference: -0.000300
-
-Fraction:   0.001100
-Float:      0.001000
-Difference: 0.000100
-
-Fraction:   0.001400
-Float:      0.001300
-Difference: 0.000100
-
-Fraction:   0.001000
-Float:      0.000800
-Difference: 0.000200
-
-Fraction:   0.001200
-Float:      0.001100
-Difference: 0.000100
-
-Fraction:   0.000600
-Float:      0.001000
-Difference: -0.000400
-
-Fraction:   0.001500
-Float:      0.002300
-Difference: -0.000800
-
-Fraction:   0.001600
-Float:      0.001400
-Difference: 0.000200
-
-Fraction:   0.001200
-Float:      0.001100
-Difference: 0.000100
-
-Fraction:   0.001100
-Float:      0.001100
-Difference: 0.000000
-
-Fraction:   0.002600
-Float:      0.001300
-Difference: 0.001300
-
-Fraction:   0.001100
-Float:      0.001900
-Difference: -0.000800
-
-Fraction:   0.001400
-Float:      0.002300
-Difference: -0.000900
-
-Fraction:   0.002300
-Float:      0.002500
-Difference: -0.000200
-
-Fraction:   0.001300
-Float:      0.002000
-Difference: -0.000700
-
-Fraction:   0.001200
-Float:      0.001400
-Difference: -0.000200
-
-Fraction:   0.001300
-Float:      0.001800
-Difference: -0.000500
-
-Fraction:   0.001300
-Float:      0.001500
-Difference: -0.000200
-
-Fraction:   0.001400
-Float:      0.001600
-Difference: -0.000200
-
-Fraction:   0.001800
-Float:      0.001300
-Difference: 0.000500
-
-Fraction:   0.001400
 Float:      0.002600
-Difference: -0.001200
-
-Fraction:   0.001600
-Float:      0.003100
 Difference: -0.001500
 
-Fraction:   0.001400
-Float:      0.002000
-Difference: -0.000600
-
-Fraction:   0.001200
-Float:      0.002200
-Difference: -0.001000
-
-Fraction:   0.001300
-Float:      0.001500
-Difference: -0.000200
-
-Fraction:   0.001200
-Float:      0.002100
-Difference: -0.000900
-
-Fraction:   0.001400
-Float:      0.002400
-Difference: -0.001000
-
-Fraction:   0.001800
-Float:      0.001900
+Fraction:   0.000800
+Float:      0.000900
 Difference: -0.000100
 
-Fraction:   0.001500
-Float:      0.002400
-Difference: -0.000900
+Fraction:   0.000600
+Float:      0.000800
+Difference: -0.000200
 
-Fraction:   0.001400
-Float:      0.003200
-Difference: -0.001800
+Fraction:   0.000500
+Float:      0.000700
+Difference: -0.000200
 
-Fraction:   0.000700
-Float:      0.001400
-Difference: -0.000700
+Fraction:   0.000500
+Float:      0.000700
+Difference: -0.000200
 
 Fraction:   0.000900
-Float:      0.000900
-Difference: 0.000000
+Float:      0.000800
+Difference: 0.000100
+
+Fraction:   0.000900
+Float:      0.001100
+Difference: -0.000200
+
+Fraction:   0.000600
+Float:      0.001300
+Difference: -0.000700
+
+Fraction:   0.000500
+Float:      0.000800
+Difference: -0.000300
+
+Fraction:   0.000600
+Float:      0.001000
+Difference: -0.000400
 
 Fraction:   0.001000
+Float:      0.000900
+Difference: 0.000100
+
+Fraction:   0.000600
+Float:      0.001000
+Difference: -0.000400
+
+Fraction:   0.001000
+Float:      0.001000
+Difference: 0.000000
+
+Fraction:   0.000600
+Float:      0.000600
+Difference: 0.000000
+
+Fraction:   0.000500
+Float:      0.000800
+Difference: -0.000300
+
+Fraction:   0.000500
+Float:      0.000800
+Difference: -0.000300
+
+Fraction:   0.000700
+Float:      0.001000
+Difference: -0.000300
+
+Fraction:   0.000500
+Float:      0.000800
+Difference: -0.000300
+
+Fraction:   0.000500
+Float:      0.000800
+Difference: -0.000300
+
+Fraction:   0.000500
+Float:      0.000800
+Difference: -0.000300
+
+Fraction:   0.001400
 Float:      0.001200
+Difference: 0.000200
+
+Fraction:   0.000800
+Float:      0.001000
 Difference: -0.000200
+
+Fraction:   0.000800
+Float:      0.001100
+Difference: -0.000300
+
+Fraction:   0.000500
+Float:      0.000600
+Difference: -0.000100
+
+Fraction:   0.000600
+Float:      0.000900
+Difference: -0.000300
+
+Fraction:   0.000800
+Float:      0.001300
+Difference: -0.000500
+
+Fraction:   0.000600
+Float:      0.000800
+Difference: -0.000200
+
+Fraction:   0.000700
+Float:      0.000900
+Difference: -0.000200
+
+Fraction:   0.000900
+Float:      0.001300
+Difference: -0.000400
+
+Fraction:   0.000500
+Float:      0.000800
+Difference: -0.000300
+
+Fraction:   0.000500
+Float:      0.000900
+Difference: -0.000400
+
+Fraction:   0.013700
+Float:      0.001200
+Difference: 0.012500
+
+Fraction:   0.000800
+Float:      0.000900
+Difference: -0.000100
+
+Fraction:   0.000500
+Float:      0.000700
+Difference: -0.000200
+
+Fraction:   0.000500
+Float:      0.000800
+Difference: -0.000300
+
+Fraction:   0.000600
+Float:      0.000800
+Difference: -0.000200
+
+Fraction:   0.000800
+Float:      0.001100
+Difference: -0.000300
+
+Fraction:   0.000700
+Float:      0.000800
+Difference: -0.000100
+
+Fraction:   0.000500
+Float:      0.000900
+Difference: -0.000400
+
+Fraction:   0.000800
+Float:      0.001000
+Difference: -0.000200
+
+Fraction:   0.000500
+Float:      0.000800
+Difference: -0.000300
+
+Fraction:   0.001000
+Float:      0.000900
+Difference: 0.000100
+
+Fraction:   0.000400
+Float:      0.000700
+Difference: -0.000300
+
+Fraction:   0.000600
+Float:      0.000600
+Difference: 0.000000
+
+Fraction:   0.000500
+Float:      0.000800
+Difference: -0.000300
+
+Fraction:   0.000500
+Float:      0.000800
+Difference: -0.000300
+
+Fraction:   0.000800
+Float:      0.001100
+Difference: -0.000300
+
+Fraction:   0.000900
+Float:      0.001000
+Difference: -0.000100
+
+Fraction:   0.000500
+Float:      0.000900
+Difference: -0.000400
+
+Fraction:   0.000500
+Float:      0.000700
+Difference: -0.000200
+
+Fraction:   0.000500
+Float:      0.000800
+Difference: -0.000300
+
+Fraction:   0.000800
+Float:      0.000900
+Difference: -0.000100
+
+Fraction:   0.000800
+Float:      0.000800
+Difference: 0.000000
+
+Fraction:   0.000600
+Float:      0.000700
+Difference: -0.000100
+
+Fraction:   0.000700
+Float:      0.001000
+Difference: -0.000300
+
+Fraction:   0.000500
+Float:      0.000800
+Difference: -0.000300
+
+Fraction:   0.000600
+Float:      0.000800
+Difference: -0.000200
+
+Fraction:   0.000600
+Float:      0.001300
+Difference: -0.000700
+
+Fraction:   0.000700
+Float:      0.000600
+Difference: 0.000100
+
+Fraction:   0.000700
+Float:      0.000900
+Difference: -0.000200
+
+Fraction:   0.000500
+Float:      0.000700
+Difference: -0.000200
+
+Fraction:   0.000600
+Float:      0.001500
+Difference: -0.000900
+
+Fraction:   0.000900
+Float:      0.000800
+Difference: 0.000100
+
+Fraction:   0.000500
+Float:      0.000700
+Difference: -0.000200
+
+Fraction:   0.000500
+Float:      0.000900
+Difference: -0.000400
+
+Fraction:   0.001000
+Float:      0.001600
+Difference: -0.000600
+
+Fraction:   0.000800
+Float:      0.000600
+Difference: 0.000200
+
+Fraction:   0.000500
+Float:      0.000800
+Difference: -0.000300
+
+Fraction:   0.000800
+Float:      0.000800
+Difference: 0.000000
+
+Fraction:   0.000600
+Float:      0.000800
+Difference: -0.000200
+
+Fraction:   0.000500
+Float:      0.001200
+Difference: -0.000700
+
+Fraction:   0.001300
+Float:      0.001000
+Difference: 0.000300
+
+Fraction:   0.000800
+Float:      0.001000
+Difference: -0.000200
+
+Fraction:   0.000600
+Float:      0.000700
+Difference: -0.000100
+
+Fraction:   0.000600
+Float:      0.001400
+Difference: -0.000800
+
+Fraction:   0.000700
+Float:      0.000900
+Difference: -0.000200
+
+Fraction:   0.000500
+Float:      0.000900
+Difference: -0.000400
+
+Fraction:   0.013900
+Float:      0.001000
+Difference: 0.012900
+
+Fraction:   0.001300
+Float:      0.001100
+Difference: 0.000200
+
+Fraction:   0.000600
+Float:      0.001200
+Difference: -0.000600
+
+Fraction:   0.000800
+Float:      0.001100
+Difference: -0.000300
+
+Fraction:   0.000800
+Float:      0.000900
+Difference: -0.000100
+
+Fraction:   0.000700
+Float:      0.000900
+Difference: -0.000200
+
+Fraction:   0.000500
+Float:      0.014200
+Difference: -0.013700
+
+Fraction:   0.001000
+Float:      0.001100
+Difference: -0.000100
+
+Fraction:   0.000700
+Float:      0.000800
+Difference: -0.000100
+
+Fraction:   0.000600
+Float:      0.001000
+Difference: -0.000400
+
+Fraction:   0.000500
+Float:      0.000900
+Difference: -0.000400
+
+Fraction:   0.000900
+Float:      0.001100
+Difference: -0.000200
+
+Fraction:   0.000500
+Float:      0.001300
+Difference: -0.000800
 
 Fraction:   0.000700
 Float:      0.001100
 Difference: -0.000400
 
-Fraction:   0.002000
-Float:      0.002100
-Difference: -0.000100
+Fraction:   0.000800
+Float:      0.000600
+Difference: 0.000200
 
-Fraction:   0.001300
-Float:      0.002200
-Difference: -0.000900
-
-Fraction:   0.001000
-Float:      0.002000
-Difference: -0.001000
-
-Fraction:   0.001000
-Float:      0.001900
-Difference: -0.000900
-
-Fraction:   0.001100
-Float:      0.003000
-Difference: -0.001900
-
-Fraction:   0.001600
-Float:      0.002300
-Difference: -0.000700
-
-Fraction:   0.001400
-Float:      0.001700
+Fraction:   0.000600
+Float:      0.000900
 Difference: -0.000300
 
-Fraction:   0.001100
-Float:      0.001800
-Difference: -0.000700
+Fraction:   0.000500
+Float:      0.000700
+Difference: -0.000200
 
-Fraction:   0.001200
+Fraction:   0.000900
 Float:      0.000900
-Difference: 0.000300
-
-Fraction:   0.001100
-Float:      0.001600
-Difference: -0.000500
-
-Fraction:   0.000900
-Float:      0.001100
-Difference: -0.000200
-
-Fraction:   0.000900
-Float:      0.001900
-Difference: -0.001000
-
-Fraction:   0.001000
-Float:      0.002100
-Difference: -0.001100
-
-Fraction:   0.001200
-Float:      0.001400
-Difference: -0.000200
-
-Fraction:   0.001300
-Float:      0.001800
-Difference: -0.000500
-
-Fraction:   0.001300
-Float:      0.001300
 Difference: 0.000000
 
-Fraction:   0.001000
-Float:      0.001200
+Fraction:   0.000600
+Float:      0.001100
+Difference: -0.000500
+
+Fraction:   0.000700
+Float:      0.001000
+Difference: -0.000300
+
+Fraction:   0.000600
+Float:      0.000800
 Difference: -0.000200
 
-Fraction:   0.001300
-Float:      0.002900
+Fraction:   0.000500
+Float:      0.000800
+Difference: -0.000300
+
+Fraction:   0.000500
+Float:      0.002100
 Difference: -0.001600
 
-Fraction:   0.001200
+Fraction:   0.000900
+Float:      0.001000
+Difference: -0.000100
+
+Fraction:   0.000900
+Float:      0.000900
+Difference: 0.000000
+
+Fraction:   0.000700
+Float:      0.000800
+Difference: -0.000100
+
+Fraction:   0.000700
+Float:      0.001300
+Difference: -0.000600
+
+Fraction:   0.000800
+Float:      0.000800
+Difference: 0.000000
+
+Fraction:   0.000600
+Float:      0.000800
+Difference: -0.000200
+
+Fraction:   0.000600
+Float:      0.000800
+Difference: -0.000200
+
+Fraction:   0.000900
+Float:      0.000900
+Difference: 0.000000
+
+Fraction:   0.000500
+Float:      0.000700
+Difference: -0.000200
+
+Fraction:   0.000700
+Float:      0.001300
+Difference: -0.000600
+
+Fraction:   0.000700
+Float:      0.000900
+Difference: -0.000200
+
+Fraction:   0.000500
+Float:      0.000800
+Difference: -0.000300
+
+Fraction:   0.000500
+Float:      0.000700
+Difference: -0.000200
+
+Fraction:   0.000500
+Float:      0.001500
+Difference: -0.001000
+
+Fraction:   0.002000
+Float:      0.001100
+Difference: 0.000900
+
+Fraction:   0.000800
+Float:      0.001000
+Difference: -0.000200
+
+Fraction:   0.000900
 Float:      0.001600
+Difference: -0.000700
+
+Fraction:   0.001100
+Float:      0.001200
+Difference: -0.000100
+
+Fraction:   0.000800
+Float:      0.001000
+Difference: -0.000200
+
+Fraction:   0.000900
+Float:      0.001300
 Difference: -0.000400
+
+Fraction:   0.001400
+Float:      0.001100
+Difference: 0.000300
+
+Fraction:   0.001100
+Float:      0.001200
+Difference: -0.000100
+
+Fraction:   0.000700
+Float:      0.000800
+Difference: -0.000100
+
+Fraction:   0.000700
+Float:      0.001600
+Difference: -0.000900
+
+Fraction:   0.001000
+Float:      0.001000
+Difference: 0.000000
+
+Fraction:   0.000600
+Float:      0.000700
+Difference: -0.000100
+
+Fraction:   0.000600
+Float:      0.000900
+Difference: -0.000300
+
+Fraction:   0.000500
+Float:      0.000900
+Difference: -0.000400
+
+Fraction:   0.001400
+Float:      0.015800
+Difference: -0.014400
+
+Fraction:   0.000700
+Float:      0.000900
+Difference: -0.000200
+
+Fraction:   0.000700
+Float:      0.001100
+Difference: -0.000400
+
+Fraction:   0.000800
+Float:      0.001100
+Difference: -0.000300
+
+Fraction:   0.000500
+Float:      0.001300
+Difference: -0.000800
+
+Fraction:   0.000700
+Float:      0.000800
+Difference: -0.000100
+
+Fraction:   0.000600
+Float:      0.000800
+Difference: -0.000200
+
+Fraction:   0.000500
+Float:      0.000800
+Difference: -0.000300
+
+Fraction:   0.000600
+Float:      0.001100
+Difference: -0.000500
+
+Fraction:   0.001100
+Float:      0.001300
+Difference: -0.000200
+
+Fraction:   0.000500
+Float:      0.000800
+Difference: -0.000300
+
+Fraction:   0.000800
+Float:      0.001200
+Difference: -0.000400
+
+Fraction:   0.013900
+Float:      0.000700
+Difference: 0.013200
+
+Fraction:   0.000500
+Float:      0.000800
+Difference: -0.000300
+
+Fraction:   0.000600
+Float:      0.001200
+Difference: -0.000600
+
+Fraction:   0.000900
+Float:      0.001300
+Difference: -0.000400
+
+Fraction:   0.000600
+Float:      0.001000
+Difference: -0.000400
+
+Fraction:   0.000500
+Float:      0.000900
+Difference: -0.000400
+
+Fraction:   0.000500
+Float:      0.001000
+Difference: -0.000500
+
+Fraction:   0.000800
+Float:      0.001000
+Difference: -0.000200
 
 Fraction:   0.001000
 Float:      0.000900
 Difference: 0.000100
 
-Fraction:   0.000800
-Float:      0.000900
-Difference: -0.000100
+Fraction:   0.000600
+Float:      0.000800
+Difference: -0.000200
 
 Fraction:   0.000800
-Float:      0.000900
-Difference: -0.000100
+Float:      0.000800
+Difference: 0.000000
 
-Fraction:   0.001400
+Fraction:   0.000600
 Float:      0.001200
-Difference: 0.000200
+Difference: -0.000600
+
+Fraction:   0.000500
+Float:      0.000800
+Difference: -0.000300
+
+Fraction:   0.000500
+Float:      0.001300
+Difference: -0.000800
 
 Fraction:   0.000800
 Float:      0.000900
 Difference: -0.000100
 
+Fraction:   0.000600
+Float:      0.000900
+Difference: -0.000300
+
+Fraction:   0.000500
+Float:      0.000800
+Difference: -0.000300
+
 Fraction:   0.000800
-Float:      0.001300
-Difference: -0.000500
-
-Fraction:   0.002400
-Float:      0.002500
-Difference: -0.000100
-
-Fraction:   0.001200
-Float:      0.001600
-Difference: -0.000400
-
-Fraction:   0.001700
-Float:      0.001800
-Difference: -0.000100
+Float:      0.001000
+Difference: -0.000200
 
 Fraction:   0.001000
-Float:      0.001600
-Difference: -0.000600
+Float:      0.001000
+Difference: 0.000000
+
+Fraction:   0.000400
+Float:      0.000700
+Difference: -0.000300
+
+Fraction:   0.000500
+Float:      0.000800
+Difference: -0.000300
+
+Fraction:   0.000800
+Float:      0.001200
+Difference: -0.000400
+
+Fraction:   0.000800
+Float:      0.001000
+Difference: -0.000200
+
+Fraction:   0.000600
+Float:      0.000900
+Difference: -0.000300
+
+Fraction:   0.000800
+Float:      0.001100
+Difference: -0.000300
+
+Fraction:   0.000800
+Float:      0.000900
+Difference: -0.000100
+
+Fraction:   0.000600
+Float:      0.000800
+Difference: -0.000200
+
+Fraction:   0.000900
+Float:      0.001100
+Difference: -0.000200
 
 Fraction:   0.000700
 Float:      0.001000
 Difference: -0.000300
 
+Fraction:   0.000500
+Float:      0.000800
+Difference: -0.000300
+
+Fraction:   0.000500
+Float:      0.000700
+Difference: -0.000200
+
+Fraction:   0.001000
+Float:      0.001000
+Difference: 0.000000
+
 Fraction:   0.000700
-Float:      0.001800
+Float:      0.000900
+Difference: -0.000200
+
+Fraction:   0.000600
+Float:      0.000900
+Difference: -0.000300
+
+Fraction:   0.001200
+Float:      0.001200
+Difference: 0.000000
+
+Fraction:   0.000600
+Float:      0.000800
+Difference: -0.000200
+
+Fraction:   0.000600
+Float:      0.000900
+Difference: -0.000300
+
+Fraction:   0.000600
+Float:      0.000900
+Difference: -0.000300
+
+Fraction:   0.000900
+Float:      0.000800
+Difference: 0.000100
+
+Fraction:   0.000700
+Float:      0.000800
+Difference: -0.000100
+
+Fraction:   0.000600
+Float:      0.001700
 Difference: -0.001100
+
+Fraction:   0.000800
+Float:      0.000900
+Difference: -0.000100
+
+Fraction:   0.000500
+Float:      0.000800
+Difference: -0.000300
+
+Fraction:   0.013800
+Float:      0.000800
+Difference: 0.013000
+
+Fraction:   0.000600
+Float:      0.000900
+Difference: -0.000300
+
+Fraction:   0.000500
+Float:      0.001200
+Difference: -0.000700
+
+Fraction:   0.001200
+Float:      0.001000
+Difference: 0.000200
+
+Fraction:   0.000800
+Float:      0.001300
+Difference: -0.000500
+
+Fraction:   0.000700
+Float:      0.000900
+Difference: -0.000200
+
+Fraction:   0.000700
+Float:      0.001000
+Difference: -0.000300
+
+Fraction:   0.000500
+Float:      0.000800
+Difference: -0.000300
+
+Fraction:   0.000800
+Float:      0.001000
+Difference: -0.000200
+
+Fraction:   0.000500
+Float:      0.000600
+Difference: -0.000100
+
+Fraction:   0.000500
+Float:      0.001100
+Difference: -0.000600
+
+Fraction:   0.000800
+Float:      0.000900
+Difference: -0.000100
+
+Fraction:   0.000500
+Float:      0.000800
+Difference: -0.000300
+
+Fraction:   0.000600
+Float:      0.000800
+Difference: -0.000200
+
+Fraction:   0.000600
+Float:      0.000800
+Difference: -0.000200
+
+Fraction:   0.000600
+Float:      0.001700
+Difference: -0.001100
+
+Fraction:   0.000800
+Float:      0.001000
+Difference: -0.000200
+
+Fraction:   0.000500
+Float:      0.000900
+Difference: -0.000400
+
+Fraction:   0.000800
+Float:      0.001200
+Difference: -0.000400
+
+Fraction:   0.000700
+Float:      0.000900
+Difference: -0.000200
+
+Fraction:   0.000700
+Float:      0.000900
+Difference: -0.000200
+
+Fraction:   0.000400
+Float:      0.000700
+Difference: -0.000300
+
+Fraction:   0.000900
+Float:      0.001100
+Difference: -0.000200
+
+Fraction:   0.000700
+Float:      0.001100
+Difference: -0.000400
+
+Fraction:   0.000600
+Float:      0.001100
+Difference: -0.000500
+
+Fraction:   0.000800
+Float:      0.000600
+Difference: 0.000200
+
+Fraction:   0.000600
+Float:      0.000900
+Difference: -0.000300
+
+Fraction:   0.000500
+Float:      0.001400
+Difference: -0.000900
+
+Fraction:   0.000800
+Float:      0.001100
+Difference: -0.000300
+
+Fraction:   0.000600
+Float:      0.000700
+Difference: -0.000100
+
+Fraction:   0.000900
+Float:      0.001000
+Difference: -0.000100
+
+Fraction:   0.000600
+Float:      0.000800
+Difference: -0.000200
+
+Fraction:   0.000500
+Float:      0.000900
+Difference: -0.000400
+
+Fraction:   0.000800
+Float:      0.000900
+Difference: -0.000100
+
+Fraction:   0.000600
+Float:      0.000800
+Difference: -0.000200
+
+Fraction:   0.000500
+Float:      0.000900
+Difference: -0.000400
+
+Fraction:   0.000600
+Float:      0.001100
+Difference: -0.000500
+
+Fraction:   0.000700
+Float:      0.001000
+Difference: -0.000300
+
+Fraction:   0.000600
+Float:      0.001300
+Difference: -0.000700
+
+Fraction:   0.000700
+Float:      0.001200
+Difference: -0.000500
+
+Fraction:   0.000700
+Float:      0.000800
+Difference: -0.000100
+
+Fraction:   0.000500
+Float:      0.000900
+Difference: -0.000400
+
+Fraction:   0.000500
+Float:      0.000800
+Difference: -0.000300
+
+Fraction:   0.001100
+Float:      0.000900
+Difference: 0.000200
+
+Fraction:   0.000500
+Float:      0.000800
+Difference: -0.000300
+
+Fraction:   0.000500
+Float:      0.002000
+Difference: -0.001500
+
+Fraction:   0.000800
+Float:      0.000800
+Difference: 0.000000
+
+Fraction:   0.000700
+Float:      0.000900
+Difference: -0.000200
+
+Fraction:   0.000600
+Float:      0.000600
+Difference: 0.000000
+
+Fraction:   0.000600
+Float:      0.001000
+Difference: -0.000400
+
+Fraction:   0.014300
+Float:      0.000900
+Difference: 0.013400
+
+Fraction:   0.000900
+Float:      0.001000
+Difference: -0.000100
+
+Fraction:   0.000600
+Float:      0.000900
+Difference: -0.000300
+
+Fraction:   0.000800
+Float:      0.000900
+Difference: -0.000100
+
+Fraction:   0.000500
+Float:      0.000800
+Difference: -0.000300
+
+Fraction:   0.000500
+Float:      0.001400
+Difference: -0.000900
+
+Fraction:   0.001300
+Float:      0.001300
+Difference: 0.000000
+
+Fraction:   0.000600
+Float:      0.000800
+Difference: -0.000200
+
+Fraction:   0.000500
+Float:      0.000900
+Difference: -0.000400
+
+Fraction:   0.000500
+Float:      0.000700
+Difference: -0.000200
+
+Fraction:   0.000500
+Float:      0.000800
+Difference: -0.000300
+
+Fraction:   0.001000
+Float:      0.000900
+Difference: 0.000100
+
+Fraction:   0.000600
+Float:      0.000700
+Difference: -0.000100
+
+Fraction:   0.000400
+Float:      0.000900
+Difference: -0.000500
+
+Fraction:   0.000700
+Float:      0.001200
+Difference: -0.000500
+
+Fraction:   0.001300
+Float:      0.001200
+Difference: 0.000100
+
+Fraction:   0.000700
+Float:      0.000700
+Difference: 0.000000
+
+Fraction:   0.000500
+Float:      0.000900
+Difference: -0.000400
+
+Fraction:   0.000700
+Float:      0.000900
+Difference: -0.000200
+
+Fraction:   0.000500
+Float:      0.000800
+Difference: -0.000300
+
+Fraction:   0.000700
+Float:      0.001300
+Difference: -0.000600
+
+Fraction:   0.000900
+Float:      0.000800
+Difference: 0.000100
+
+Fraction:   0.000700
+Float:      0.000900
+Difference: -0.000200
+
+Fraction:   0.000500
+Float:      0.000900
+Difference: -0.000400
+
+Fraction:   0.000500
+Float:      0.000900
+Difference: -0.000400
+
+Fraction:   0.000700
+Float:      0.001000
+Difference: -0.000300
+
+Fraction:   0.000600
+Float:      0.000700
+Difference: -0.000100
+
+Fraction:   0.000500
+Float:      0.000900
+Difference: -0.000400
+
+Fraction:   0.000500
+Float:      0.000800
+Difference: -0.000300
+
+Fraction:   0.000800
+Float:      0.000900
+Difference: -0.000100
+
+Fraction:   0.000800
+Float:      0.001000
+Difference: -0.000200
+
+Fraction:   0.000500
+Float:      0.000900
+Difference: -0.000400
+
+Fraction:   0.000800
+Float:      0.000900
+Difference: -0.000100
+
+Fraction:   0.000800
+Float:      0.000900
+Difference: -0.000100
+
+Fraction:   0.000500
+Float:      0.001000
+Difference: -0.000500
+
+Fraction:   0.000400
+Float:      0.000900
+Difference: -0.000500
+
+Fraction:   0.000900
+Float:      0.001000
+Difference: -0.000100
+
+Fraction:   0.000500
+Float:      0.000800
+Difference: -0.000300
+
+Fraction:   0.000600
+Float:      0.000800
+Difference: -0.000200
+
+Fraction:   0.000400
+Float:      0.001700
+Difference: -0.001300
+
+Fraction:   0.000800
+Float:      0.000800
+Difference: 0.000000
+
+Fraction:   0.000600
+Float:      0.000900
+Difference: -0.000300
+
+Fraction:   0.000900
+Float:      0.001000
+Difference: -0.000100
+
+Fraction:   0.000500
+Float:      0.001000
+Difference: -0.000500
+
+Fraction:   0.000500
+Float:      0.000800
+Difference: -0.000300
+
+Fraction:   0.000600
+Float:      0.000800
+Difference: -0.000200
+
+Fraction:   0.000900
+Float:      0.001000
+Difference: -0.000100
+
+Fraction:   0.001000
+Float:      0.000800
+Difference: 0.000200
+
+Fraction:   0.000700
+Float:      0.000900
+Difference: -0.000200
+
+Fraction:   0.000700
+Float:      0.001100
+Difference: -0.000400
+
+Fraction:   0.000900
+Float:      0.000800
+Difference: 0.000100
+
+Fraction:   0.000500
+Float:      0.000900
+Difference: -0.000400
+
+Fraction:   0.000500
+Float:      0.001700
+Difference: -0.001200
+
+Fraction:   0.000900
+Float:      0.001000
+Difference: -0.000100
+
+Fraction:   0.000700
+Float:      0.000900
+Difference: -0.000200
+
+Fraction:   0.000500
+Float:      0.000800
+Difference: -0.000300
+
+Fraction:   0.000500
+Float:      0.000700
+Difference: -0.000200
+
+Fraction:   0.000800
+Float:      0.001200
+Difference: -0.000400
+
+Fraction:   0.000700
+Float:      0.000900
+Difference: -0.000200
+
+Fraction:   0.000700
+Float:      0.000900
+Difference: -0.000200
+
+Fraction:   0.001100
+Float:      0.001000
+Difference: 0.000100
+
+Fraction:   0.000600
+Float:      0.001200
+Difference: -0.000600
+
+Fraction:   0.000900
+Float:      0.000900
+Difference: 0.000000
+
+Fraction:   0.000600
+Float:      0.001000
+Difference: -0.000400
+
+Fraction:   0.000700
+Float:      0.000700
+Difference: 0.000000
+
+Fraction:   0.000500
+Float:      0.000900
+Difference: -0.000400
+
+Fraction:   0.000700
+Float:      0.001400
+Difference: -0.000700
+
+Fraction:   0.001000
+Float:      0.001000
+Difference: 0.000000
+
+Fraction:   0.000500
+Float:      0.000800
+Difference: -0.000300
+
+Fraction:   0.000500
+Float:      0.000700
+Difference: -0.000200
+
+Fraction:   0.000700
+Float:      0.000800
+Difference: -0.000100
+
+Fraction:   0.000600
+Float:      0.000700
+Difference: -0.000100
+
+Fraction:   0.000500
+Float:      0.000900
+Difference: -0.000400
+
+Fraction:   0.000800
+Float:      0.001800
+Difference: -0.001000
+
+Fraction:   0.000900
+Float:      0.001100
+Difference: -0.000200
+
+Fraction:   0.000800
+Float:      0.001100
+Difference: -0.000300
+
+Fraction:   0.000500
+Float:      0.000900
+Difference: -0.000400
+
+Fraction:   0.000700
+Float:      0.000900
+Difference: -0.000200
+
+Fraction:   0.000600
+Float:      0.000800
+Difference: -0.000200
+
+Fraction:   0.000700
+Float:      0.000800
+Difference: -0.000100
+
+Fraction:   0.000500
+Float:      0.000900
+Difference: -0.000400
+
+Fraction:   0.001100
+Float:      0.001300
+Difference: -0.000200
+
+Fraction:   0.000600
+Float:      0.001100
+Difference: -0.000500
+
+Fraction:   0.001100
+Float:      0.000900
+Difference: 0.000200
+
+Fraction:   0.000500
+Float:      0.000700
+Difference: -0.000200
+
+Fraction:   0.000500
+Float:      0.000800
+Difference: -0.000300
+
+Fraction:   0.001000
+Float:      0.000900
+Difference: 0.000100
+
+Fraction:   0.000900
+Float:      0.001500
+Difference: -0.000600
+
+Fraction:   0.001200
+Float:      0.001800
+Difference: -0.000600
+
+Fraction:   0.001300
+Float:      0.001300
+Difference: 0.000000
+
+Fraction:   0.201700
+Float:      0.001000
+Difference: 0.200700
+
+Fraction:   0.001300
+Float:      0.001400
+Difference: -0.000100
+
+Fraction:   0.000800
+Float:      0.001200
+Difference: -0.000400
+
+Fraction:   0.000900
+Float:      0.001200
+Difference: -0.000300
+
+Fraction:   0.000800
+Float:      0.014300
+Difference: -0.013500
+
+Fraction:   0.001000
+Float:      0.001300
+Difference: -0.000300
+
+Fraction:   0.000800
+Float:      0.000800
+Difference: 0.000000
+
+Fraction:   0.001000
+Float:      0.001100
+Difference: -0.000100
+
+Fraction:   0.000900
+Float:      0.001600
+Difference: -0.000700
+
+Fraction:   0.000600
+Float:      0.000700
+Difference: -0.000100
+
+Fraction:   0.001000
+Float:      0.001500
+Difference: -0.000500
+
+Fraction:   0.001100
+Float:      0.001100
+Difference: 0.000000
+
+Fraction:   0.001300
+Float:      0.001400
+Difference: -0.000100
+
+Fraction:   0.002100
+Float:      0.001900
+Difference: 0.000200
+
+Fraction:   0.001300
+Float:      0.001200
+Difference: 0.000100
+
+Fraction:   0.000700
+Float:      0.001100
+Difference: -0.000400
+
+Fraction:   0.000600
+Float:      0.000900
+Difference: -0.000300
+
+Fraction:   0.001100
+Float:      0.001800
+Difference: -0.000700
+
+Fraction:   0.000900
+Float:      0.000900
+Difference: 0.000000
+
+Fraction:   0.000600
+Float:      0.000800
+Difference: -0.000200
+
+Fraction:   0.001000
+Float:      0.001500
+Difference: -0.000500
+
+Fraction:   0.000600
+Float:      0.001100
+Difference: -0.000500
+
+Fraction:   0.001300
+Float:      0.001000
+Difference: 0.000300
+
+Fraction:   0.000700
+Float:      0.001200
+Difference: -0.000500
+
+Fraction:   0.000800
+Float:      0.001000
+Difference: -0.000200
+
+Fraction:   0.000500
+Float:      0.000800
+Difference: -0.000300
+
+Fraction:   0.000900
+Float:      0.000900
+Difference: 0.000000
+
+Fraction:   0.001500
+Float:      0.001300
+Difference: 0.000200
+
+Fraction:   0.000700
+Float:      0.001400
+Difference: -0.000700
+
+Fraction:   0.001400
+Float:      0.001100
+Difference: 0.000300
+
+Fraction:   0.000500
+Float:      0.000900
+Difference: -0.000400
+
+Fraction:   0.014200
+Float:      0.001000
+Difference: 0.013200
+
+Fraction:   0.000600
+Float:      0.001000
+Difference: -0.000400
+
+Fraction:   0.000500
+Float:      0.000700
+Difference: -0.000200
+
+Fraction:   0.000700
+Float:      0.000900
+Difference: -0.000200
+
+Fraction:   0.000600
+Float:      0.000900
+Difference: -0.000300
+
+Fraction:   0.000900
+Float:      0.001100
+Difference: -0.000200
+
+Fraction:   0.001000
+Float:      0.001000
+Difference: 0.000000
+
+Fraction:   0.000700
+Float:      0.000800
+Difference: -0.000100
+
+Fraction:   0.000600
+Float:      0.000700
+Difference: -0.000100
+
+Fraction:   0.000700
+Float:      0.001200
+Difference: -0.000500
+
+Fraction:   0.001200
+Float:      0.000800
+Difference: 0.000400
+
+Fraction:   0.000600
+Float:      0.000700
+Difference: -0.000100
+
+Fraction:   0.000500
+Float:      0.000600
+Difference: -0.000100
+
+Fraction:   0.000500
+Float:      0.001600
+Difference: -0.001100
+
+Fraction:   0.001400
+Float:      0.002000
+Difference: -0.000600
+
+Fraction:   0.001400
+Float:      0.001400
+Difference: 0.000000
+
+Fraction:   0.001200
+Float:      0.001100
+Difference: 0.000100
+
+Fraction:   0.001300
+Float:      0.000800
+Difference: 0.000500
+
+Fraction:   0.001600
+Float:      0.001300
+Difference: 0.000300
+
+Fraction:   0.001500
+Float:      0.002500
+Difference: -0.001000
+
+Fraction:   0.001300
+Float:      0.001500
+Difference: -0.000200
+
+Fraction:   0.001200
+Float:      0.002200
+Difference: -0.001000
+
+Fraction:   0.001700
+Float:      0.001900
+Difference: -0.000200
+
+Fraction:   0.002200
+Float:      0.001600
+Difference: 0.000600
+
+Fraction:   0.001300
+Float:      0.001600
+Difference: -0.000300
+
+Fraction:   0.001200
+Float:      0.001900
+Difference: -0.000700
+
+Fraction:   0.001400
+Float:      0.001500
+Difference: -0.000100
+
+Fraction:   0.002400
+Float:      0.001900
+Difference: 0.000500
+
+Fraction:   0.001400
+Float:      0.002800
+Difference: -0.001400
+
+Fraction:   0.001300
+Float:      0.001500
+Difference: -0.000200
+
+Fraction:   0.002200
+Float:      0.001700
+Difference: 0.000500
+
+Fraction:   0.001800
+Float:      0.001600
+Difference: 0.000200
+
+Fraction:   0.001400
+Float:      0.002700
+Difference: -0.001300
+
+Fraction:   0.001500
+Float:      0.002500
+Difference: -0.001000
+
+Fraction:   0.001200
+Float:      0.001500
+Difference: -0.000300
+
+Fraction:   0.001600
+Float:      0.001300
+Difference: 0.000300
+
+Fraction:   0.001200
+Float:      0.001200
+Difference: 0.000000
+
+Fraction:   0.000900
+Float:      0.001100
+Difference: -0.000200
+
+Fraction:   0.000600
+Float:      0.000900
+Difference: -0.000300
+
+Fraction:   0.001200
+Float:      0.000800
+Difference: 0.000400
+
+Fraction:   0.001000
+Float:      0.001200
+Difference: -0.000200
+
+Fraction:   0.000600
+Float:      0.001100
+Difference: -0.000500
+
+Fraction:   0.000600
+Float:      0.001000
+Difference: -0.000400
+
+Fraction:   0.001400
+Float:      0.001200
+Difference: 0.000200
+
+Fraction:   0.000900
+Float:      0.001100
+Difference: -0.000200
+
+Fraction:   0.000500
+Float:      0.000900
+Difference: -0.000400
+
+Fraction:   0.000800
+Float:      0.000900
+Difference: -0.000100
+
+Fraction:   0.000500
+Float:      0.000600
+Difference: -0.000100
+
+Fraction:   0.000500
+Float:      0.001100
+Difference: -0.000600
+
+Fraction:   0.000800
+Float:      0.001200
+Difference: -0.000400
+
+Fraction:   0.000800
+Float:      0.001400
+Difference: -0.000600
+
+Fraction:   0.000600
+Float:      0.000900
+Difference: -0.000300
+
+Fraction:   0.001000
+Float:      0.001200
+Difference: -0.000200
+
+Fraction:   0.001200
+Float:      0.001700
+Difference: -0.000500
+
+Fraction:   0.000900
+Float:      0.001100
+Difference: -0.000200
+
+Fraction:   0.000800
+Float:      0.001100
+Difference: -0.000300
+
+Fraction:   0.000800
+Float:      0.001500
+Difference: -0.000700
+
+Fraction:   0.001000
+Float:      0.001200
+Difference: -0.000200
+
+Fraction:   0.001300
+Float:      0.001200
+Difference: 0.000100
+
+Fraction:   0.000800
+Float:      0.001000
+Difference: -0.000200
+
+Fraction:   0.000700
+Float:      0.001000
+Difference: -0.000300
+
+Fraction:   0.000500
+Float:      0.002900
+Difference: -0.002400
+
+Fraction:   0.001100
+Float:      0.001400
+Difference: -0.000300
+
+Fraction:   0.001000
+Float:      0.001900
+Difference: -0.000900
+
+Fraction:   0.001000
+Float:      0.001800
+Difference: -0.000800
+
+Fraction:   0.001300
+Float:      0.001400
+Difference: -0.000100
+
+Fraction:   0.001400
+Float:      0.001400
+Difference: 0.000000
+
+Fraction:   0.000800
+Float:      0.001400
+Difference: -0.000600
+
+Fraction:   0.001100
+Float:      0.001600
+Difference: -0.000500
+
+Fraction:   0.000800
+Float:      0.001200
+Difference: -0.000400
+
+Fraction:   0.001000
+Float:      0.001800
+Difference: -0.000800
+
+Fraction:   0.001300
+Float:      0.001200
+Difference: 0.000100
+
+Fraction:   0.001000
+Float:      0.001200
+Difference: -0.000200
+
+Fraction:   0.001900
+Float:      0.004100
+Difference: -0.002200
+
+Fraction:   0.001800
+Float:      0.001100
+Difference: 0.000700
+
+Fraction:   0.001300
+Float:      0.001300
+Difference: 0.000000
+
+Fraction:   0.001300
+Float:      0.001200
+Difference: 0.000100
+
+Fraction:   0.001600
+Float:      0.015600
+Difference: -0.014000
+
+Fraction:   0.001500
+Float:      0.001400
+Difference: 0.000100
+
+Fraction:   0.001000
+Float:      0.001600
+Difference: -0.000600
+
+Fraction:   0.001000
+Float:      0.001900
+Difference: -0.000900
+
+Fraction:   0.051300
+Float:      0.002800
+Difference: 0.048500
+
+Fraction:   0.002100
+Float:      0.001700
+Difference: 0.000400
+
+Fraction:   0.001000
+Float:      0.001300
+Difference: -0.000300
+
+Fraction:   0.001000
+Float:      0.001400
+Difference: -0.000400
+
+Fraction:   0.000800
+Float:      0.001100
+Difference: -0.000300
+
+Fraction:   0.001100
+Float:      0.001600
+Difference: -0.000500
+
+Fraction:   0.000800
+Float:      0.001500
+Difference: -0.000700
+
+Fraction:   0.000800
+Float:      0.001200
+Difference: -0.000400
+
+Fraction:   0.000800
+Float:      0.000900
+Difference: -0.000100
+
+Fraction:   0.000900
+Float:      0.001500
+Difference: -0.000600
+
+Fraction:   0.000900
+Float:      0.000900
+Difference: 0.000000
+
+Fraction:   0.001100
+Float:      0.001000
+Difference: 0.000100
+
+Fraction:   0.000900
+Float:      0.001300
+Difference: -0.000400
+
+Fraction:   0.000700
+Float:      0.001300
+Difference: -0.000600
+
+Fraction:   0.000600
+Float:      0.001300
+Difference: -0.000700
+
+Fraction:   0.001200
+Float:      0.001600
+Difference: -0.000400
+
+Fraction:   0.000900
+Float:      0.002200
+Difference: -0.001300
+
+Fraction:   0.000700
+Float:      0.001200
+Difference: -0.000500
+
+Fraction:   0.000900
+Float:      0.001200
+Difference: -0.000300
+
+Fraction:   0.000800
+Float:      0.001200
+Difference: -0.000400
+
+Fraction:   0.000700
+Float:      0.001400
+Difference: -0.000700
+
+Fraction:   0.001200
+Float:      0.001100
+Difference: 0.000100
+
+Fraction:   0.000800
+Float:      0.001000
+Difference: -0.000200
+
+Fraction:   0.000900
+Float:      0.001300
+Difference: -0.000400
+
+Fraction:   0.000800
+Float:      0.001000
+Difference: -0.000200
+
+Fraction:   0.000800
+Float:      0.001100
+Difference: -0.000300
 
 Fraction:   0.000900
 Float:      0.002900
 Difference: -0.002000
 
+Fraction:   0.000800
+Float:      0.001300
+Difference: -0.000500
+
+Fraction:   0.000900
+Float:      0.001300
+Difference: -0.000400
+
 Fraction:   0.001100
-Float:      0.000800
+Float:      0.000900
+Difference: 0.000200
+
+Fraction:   0.001000
+Float:      0.001400
+Difference: -0.000400
+
+Fraction:   0.001200
+Float:      0.001100
+Difference: 0.000100
+
+Fraction:   0.001400
+Float:      0.001600
+Difference: -0.000200
+
+Fraction:   0.000900
+Float:      0.000900
+Difference: 0.000000
+
+Fraction:   0.000900
+Float:      0.001200
+Difference: -0.000300
+
+Fraction:   0.001100
+Float:      0.001700
+Difference: -0.000600
+
+Fraction:   0.001500
+Float:      0.001500
+Difference: 0.000000
+
+Fraction:   0.001700
+Float:      0.002300
+Difference: -0.000600
+
+Fraction:   0.001100
+Float:      0.001600
+Difference: -0.000500
+
+Fraction:   0.001300
+Float:      0.001700
+Difference: -0.000400
+
+Fraction:   0.001200
+Float:      0.002000
+Difference: -0.000800
+
+Fraction:   0.001000
+Float:      0.001100
+Difference: -0.000100
+
+Fraction:   0.000900
+Float:      0.001600
+Difference: -0.000700
+
+Fraction:   0.001700
+Float:      0.001000
+Difference: 0.000700
+
+Fraction:   0.001100
+Float:      0.001100
+Difference: 0.000000
+
+Fraction:   0.001600
+Float:      0.001400
+Difference: 0.000200
+
+Fraction:   0.001000
+Float:      0.001200
+Difference: -0.000200
+
+Fraction:   0.001100
+Float:      0.001300
+Difference: -0.000200
+
+Fraction:   0.000700
+Float:      0.001800
+Difference: -0.001100
+
+Fraction:   0.001200
+Float:      0.001600
+Difference: -0.000400
+
+Fraction:   0.001700
+Float:      0.001400
 Difference: 0.000300
+
+Fraction:   0.001700
+Float:      0.001200
+Difference: 0.000500
+
+Fraction:   0.001200
+Float:      0.003100
+Difference: -0.001900
+
+Fraction:   0.001200
+Float:      0.002100
+Difference: -0.000900
+
+Fraction:   0.001300
+Float:      0.001200
+Difference: 0.000100
+
+Fraction:   0.001100
+Float:      0.001000
+Difference: 0.000100
+
+Fraction:   0.000900
+Float:      0.002300
+Difference: -0.001400
 
 Fraction:   0.001200
 Float:      0.001200
 Difference: 0.000000
 
-Fraction:   0.000600
-Float:      0.001700
+Fraction:   0.001000
+Float:      0.001000
+Difference: 0.000000
+
+Fraction:   0.000900
+Float:      0.001200
+Difference: -0.000300
+
+Fraction:   0.000800
+Float:      0.000900
+Difference: -0.000100
+
+Fraction:   0.000900
+Float:      0.001600
+Difference: -0.000700
+
+Fraction:   0.001500
+Float:      0.001300
+Difference: 0.000200
+
+Fraction:   0.001000
+Float:      0.001800
+Difference: -0.000800
+
+Fraction:   0.001100
+Float:      0.001400
+Difference: -0.000300
+
+Fraction:   0.001200
+Float:      0.001900
+Difference: -0.000700
+
+Fraction:   0.000700
+Float:      0.001000
+Difference: -0.000300
+
+Fraction:   0.000700
+Float:      0.001000
+Difference: -0.000300
+
+Fraction:   0.001100
+Float:      0.001300
+Difference: -0.000200
+
+Fraction:   0.003500
+Float:      0.002400
+Difference: 0.001100
+
+Fraction:   0.001000
+Float:      0.002100
 Difference: -0.001100
 
-Fraction:   0.001700
-Float:      0.001500
+Fraction:   0.000700
+Float:      0.001200
+Difference: -0.000500
+
+Fraction:   0.002400
+Float:      0.001800
+Difference: 0.000600
+
+Fraction:   0.001200
+Float:      0.001300
+Difference: -0.000100
+
+Fraction:   0.001000
+Float:      0.002100
+Difference: -0.001100
+
+Fraction:   0.002100
+Float:      0.002100
+Difference: 0.000000
+
+Fraction:   0.001600
+Float:      0.001700
+Difference: -0.000100
+
+Fraction:   0.002000
+Float:      0.002200
+Difference: -0.000200
+
+Fraction:   0.001000
+Float:      0.001200
+Difference: -0.000200
+
+Fraction:   0.000700
+Float:      0.001200
+Difference: -0.000500
+
+Fraction:   0.001500
+Float:      0.001900
+Difference: -0.000400
+
+Fraction:   0.001100
+Float:      0.001900
+Difference: -0.000800
+
+Fraction:   0.001200
+Float:      0.001400
+Difference: -0.000200
+
+Fraction:   0.001400
+Float:      0.002300
+Difference: -0.000900
+
+Fraction:   0.001000
+Float:      0.001700
+Difference: -0.000700
+
+Fraction:   0.000900
+Float:      0.001800
+Difference: -0.000900
+
+Fraction:   0.001100
+Float:      0.001800
+Difference: -0.000700
+
+Fraction:   0.001300
+Float:      0.001700
+Difference: -0.000400
+
+Fraction:   0.001200
+Float:      0.001600
+Difference: -0.000400
+
+Fraction:   0.001100
+Float:      0.001100
+Difference: 0.000000
+
+Fraction:   0.001100
+Float:      0.001400
+Difference: -0.000300
+
+Fraction:   0.001000
+Float:      0.001300
+Difference: -0.000300
+
+Fraction:   0.001500
+Float:      0.001300
 Difference: 0.000200
+
+Fraction:   0.000700
+Float:      0.001100
+Difference: -0.000400
+
+Fraction:   0.000900
+Float:      0.001200
+Difference: -0.000300
+
+Fraction:   0.001300
+Float:      0.002200
+Difference: -0.000900
+
+Fraction:   0.001200
+Float:      0.001500
+Difference: -0.000300
+
+Fraction:   0.001200
+Float:      0.001200
+Difference: 0.000000
+
+Fraction:   0.001600
+Float:      0.001800
+Difference: -0.000200
+
+Fraction:   0.001600
+Float:      0.001700
+Difference: -0.000100
+
+Fraction:   0.000900
+Float:      0.001100
+Difference: -0.000200
+
+Fraction:   0.002200
+Float:      0.002100
+Difference: 0.000100
+
+Fraction:   0.001400
+Float:      0.002300
+Difference: -0.000900
+
+Fraction:   0.001300
+Float:      0.001600
+Difference: -0.000300
+
+Fraction:   0.001100
+Float:      0.001400
+Difference: -0.000300
+
+Fraction:   0.001300
+Float:      0.001800
+Difference: -0.000500
+
+Fraction:   0.001400
+Float:      0.001700
+Difference: -0.000300
+
+Fraction:   0.001300
+Float:      0.001500
+Difference: -0.000200
+
+Fraction:   0.002200
+Float:      0.001500
+Difference: 0.000700
+
+Fraction:   0.001800
+Float:      0.001800
+Difference: 0.000000
+
+Fraction:   0.000800
+Float:      0.001900
+Difference: -0.001100
+
+Fraction:   0.001300
+Float:      0.001800
+Difference: -0.000500
+
+Fraction:   0.001300
+Float:      0.001500
+Difference: -0.000200
+
+Fraction:   0.001500
+Float:      0.001400
+Difference: 0.000100
+
+Fraction:   0.001600
+Float:      0.001800
+Difference: -0.000200
+
+Fraction:   0.001200
+Float:      0.001200
+Difference: 0.000000
+
+Fraction:   0.000900
+Float:      0.001200
+Difference: -0.000300
+
+Fraction:   0.001100
+Float:      0.003000
+Difference: -0.001900
+
+Fraction:   0.001200
+Float:      0.001700
+Difference: -0.000500
+
+Fraction:   0.001400
+Float:      0.003000
+Difference: -0.001600
+
+Fraction:   0.001000
+Float:      0.001200
+Difference: -0.000200
+
+Fraction:   0.000900
+Float:      0.001100
+Difference: -0.000200
+
+Fraction:   0.001100
+Float:      0.001100
+Difference: 0.000000
+
+Fraction:   0.001700
+Float:      0.001800
+Difference: -0.000100
+
+Fraction:   0.001300
+Float:      0.001100
+Difference: 0.000200
+
+Fraction:   0.000700
+Float:      0.000900
+Difference: -0.000200
+
+Fraction:   0.000900
+Float:      0.000900
+Difference: 0.000000
+
+Fraction:   0.000800
+Float:      0.001600
+Difference: -0.000800
+
+Fraction:   0.001000
+Float:      0.002200
+Difference: -0.001200
+
+Fraction:   0.001100
+Float:      0.001300
+Difference: -0.000200
+
+Fraction:   0.000600
+Float:      0.002100
+Difference: -0.001500
+
+Fraction:   0.001000
+Float:      0.001200
+Difference: -0.000200
+
+Fraction:   0.001200
+Float:      0.001300
+Difference: -0.000100
+
+Fraction:   0.000900
+Float:      0.000900
+Difference: 0.000000
+
+Fraction:   0.001100
+Float:      0.001000
+Difference: 0.000100
+
+Fraction:   0.000800
+Float:      0.001000
+Difference: -0.000200
+
+Fraction:   0.000800
+Float:      0.000800
+Difference: 0.000000
 
 Fraction:   0.000800
 Float:      0.001100
 Difference: -0.000300
 
-Fraction:   0.001600
-Float:      0.001500
-Difference: 0.000100
-
-Fraction:   0.002700
-Float:      0.001900
-Difference: 0.000800
-
-Fraction:   0.004500
-Float:      0.001400
-Difference: 0.003100
-
-Fraction:   0.001500
-Float:      0.001600
-Difference: -0.000100
-
 Fraction:   0.001700
 Float:      0.001300
+Difference: 0.000400
+
+Fraction:   0.001000
+Float:      0.001600
+Difference: -0.000600
+
+Fraction:   0.000800
+Float:      0.001400
+Difference: -0.000600
+
+Fraction:   0.001000
+Float:      0.001300
+Difference: -0.000300
+
+Fraction:   0.001000
+Float:      0.001200
+Difference: -0.000200
+
+Fraction:   0.001000
+Float:      0.002000
+Difference: -0.001000
+
+Fraction:   0.000900
+Float:      0.001100
+Difference: -0.000200
+
+Fraction:   0.000700
+Float:      0.000900
+Difference: -0.000200
+
+Fraction:   0.001100
+Float:      0.001800
+Difference: -0.000700
+
+Fraction:   0.000800
+Float:      0.001200
+Difference: -0.000400
+
+Fraction:   0.000800
+Float:      0.001200
+Difference: -0.000400
+
+Fraction:   0.001200
+Float:      0.001800
+Difference: -0.000600
+
+Fraction:   0.000900
+Float:      0.001000
+Difference: -0.000100
+
+Fraction:   0.000900
+Float:      0.001400
+Difference: -0.000500
+
+Fraction:   0.001000
+Float:      0.003100
+Difference: -0.002100
+
+Fraction:   0.000800
+Float:      0.001800
+Difference: -0.001000
+
+Fraction:   0.000900
+Float:      0.000800
+Difference: 0.000100
+
+Fraction:   0.001500
+Float:      0.001200
+Difference: 0.000300
+
+Fraction:   0.001100
+Float:      0.001300
+Difference: -0.000200
+
+Fraction:   0.001400
+Float:      0.002100
+Difference: -0.000700
+
+Fraction:   0.001400
+Float:      0.002500
+Difference: -0.001100
+
+Fraction:   0.001300
+Float:      0.001900
+Difference: -0.000600
+
+Fraction:   0.001200
+Float:      0.001900
+Difference: -0.000700
+
+Fraction:   0.001800
+Float:      0.001900
+Difference: -0.000100
+
+Fraction:   0.001500
+Float:      0.001700
+Difference: -0.000200
+
+Fraction:   0.001700
+Float:      0.001600
+Difference: 0.000100
+
+Fraction:   0.001800
+Float:      0.001800
+Difference: 0.000000
+
+Fraction:   0.001600
+Float:      0.136800
+Difference: -0.135200
+
+Fraction:   0.001600
+Float:      0.001400
+Difference: 0.000200
+
+Fraction:   0.001200
+Float:      0.001500
+Difference: -0.000300
+
+Fraction:   0.001800
+Float:      0.002000
+Difference: -0.000200
+
+Fraction:   0.001400
+Float:      0.001700
+Difference: -0.000300
+
+Fraction:   0.001200
+Float:      0.002000
+Difference: -0.000800
+
+Fraction:   0.001500
+Float:      0.001800
+Difference: -0.000300
+
+Fraction:   0.002300
+Float:      0.001700
+Difference: 0.000600
+
+Fraction:   0.001500
+Float:      0.001700
+Difference: -0.000200
+
+Fraction:   0.001000
+Float:      0.001100
+Difference: -0.000100
+
+Fraction:   0.001400
+Float:      0.001300
+Difference: 0.000100
+
+Fraction:   0.001100
+Float:      0.001500
+Difference: -0.000400
+
+Fraction:   0.001500
+Float:      0.001500
+Difference: 0.000000
+
+Fraction:   0.001000
+Float:      0.001100
+Difference: -0.000100
+
+Fraction:   0.000600
+Float:      0.001200
+Difference: -0.000600
+
+Fraction:   0.001400
+Float:      0.001500
+Difference: -0.000100
+
+Fraction:   0.001000
+Float:      0.001700
+Difference: -0.000700
+
+Fraction:   0.001100
+Float:      0.001100
+Difference: 0.000000
+
+Fraction:   0.000900
+Float:      0.001000
+Difference: -0.000100
+
+Fraction:   0.001000
+Float:      0.001100
+Difference: -0.000100
+
+Fraction:   0.001200
+Float:      0.001400
+Difference: -0.000200
+
+Fraction:   0.001000
+Float:      0.001700
+Difference: -0.000700
+
+Fraction:   0.001000
+Float:      0.001000
+Difference: 0.000000
+
+Fraction:   0.001000
+Float:      0.001300
+Difference: -0.000300
+
+Fraction:   0.000800
+Float:      0.001100
+Difference: -0.000300
+
+Fraction:   0.001200
+Float:      0.001100
+Difference: 0.000100
+
+Fraction:   0.000900
+Float:      0.001700
+Difference: -0.000800
+
+Fraction:   0.001300
+Float:      0.001600
+Difference: -0.000300
+
+Fraction:   0.002900
+Float:      0.002100
+Difference: 0.000800
+
+Fraction:   0.001300
+Float:      0.003300
+Difference: -0.002000
+
+Fraction:   0.001300
+Float:      0.001200
+Difference: 0.000100
+
+Fraction:   0.001200
+Float:      0.001500
+Difference: -0.000300
+
+Fraction:   0.001600
+Float:      0.002200
+Difference: -0.000600
+
+Fraction:   0.001100
+Float:      0.001300
+Difference: -0.000200
+
+Fraction:   0.001100
+Float:      0.001200
+Difference: -0.000100
+
+Fraction:   0.001400
+Float:      0.001800
+Difference: -0.000400
+
+Fraction:   0.001400
+Float:      0.001300
+Difference: 0.000100
+
+Fraction:   0.001600
+Float:      0.001200
+Difference: 0.000400
+
+Fraction:   0.000900
+Float:      0.001400
+Difference: -0.000500
+
+Fraction:   0.001300
+Float:      0.001600
+Difference: -0.000300
+
+Fraction:   0.000900
+Float:      0.001200
+Difference: -0.000300
+
+Fraction:   0.001100
+Float:      0.001100
+Difference: 0.000000
+
+Fraction:   0.001300
+Float:      0.001800
+Difference: -0.000500
+
+Fraction:   0.001100
+Float:      0.001300
+Difference: -0.000200
+
+Fraction:   0.000900
+Float:      0.001100
+Difference: -0.000200
+
+Fraction:   0.000900
+Float:      0.001000
+Difference: -0.000100
+
+Fraction:   0.001100
+Float:      0.000900
+Difference: 0.000200
+
+Fraction:   0.000600
+Float:      0.000800
+Difference: -0.000200
+
+Fraction:   0.000700
+Float:      0.000800
+Difference: -0.000100
+
+Fraction:   0.001000
+Float:      0.001100
+Difference: -0.000100
+
+Fraction:   0.000700
+Float:      0.001200
+Difference: -0.000500
+
+Fraction:   0.000700
+Float:      0.001100
+Difference: -0.000400
+
+Fraction:   0.000900
+Float:      0.000800
+Difference: 0.000100
+
+Fraction:   0.000500
+Float:      0.000800
+Difference: -0.000300
+
+Fraction:   0.000600
+Float:      0.000800
+Difference: -0.000200
+
+Fraction:   0.000500
+Float:      0.000800
+Difference: -0.000300
+
+Fraction:   0.001000
+Float:      0.001500
+Difference: -0.000500
+
+Fraction:   0.001700
+Float:      0.001400
+Difference: 0.000300
+
+Fraction:   0.000900
+Float:      0.001700
+Difference: -0.000800
+
+Fraction:   0.000900
+Float:      0.001700
+Difference: -0.000800
+
+Fraction:   0.000800
+Float:      0.000900
+Difference: -0.000100
+
+Fraction:   0.000800
+Float:      0.001400
+Difference: -0.000600
+
+Fraction:   0.001200
+Float:      0.001200
+Difference: 0.000000
+
+Fraction:   0.001400
+Float:      0.003100
+Difference: -0.001700
+
+Fraction:   0.001700
+Float:      0.001200
+Difference: 0.000500
+
+Fraction:   0.000600
+Float:      0.000900
+Difference: -0.000300
+
+Fraction:   0.001000
+Float:      0.001400
+Difference: -0.000400
+
+Fraction:   0.001100
+Float:      0.001300
+Difference: -0.000200
+
+Fraction:   0.000900
+Float:      0.001200
+Difference: -0.000300
+
+Fraction:   0.000800
+Float:      0.001700
+Difference: -0.000900
+
+Fraction:   0.001100
+Float:      0.001000
+Difference: 0.000100
+
+Fraction:   0.001400
+Float:      0.001000
 Difference: 0.000400
 
 Fraction:   0.000800
 Float:      0.001400
 Difference: -0.000600
 
-Fraction:   0.001000
-Float:      0.001200
+Fraction:   0.000700
+Float:      0.000900
 Difference: -0.000200
 
-Fraction:   0.001300
-Float:      0.001800
-Difference: -0.000500
-
-Fraction:   0.001000
-Float:      0.001100
-Difference: -0.000100
-
-Fraction:   0.000900
-Float:      0.001400
-Difference: -0.000500
-
-Fraction:   0.000900
-Float:      0.001400
-Difference: -0.000500
-
-Fraction:   0.002300
+Fraction:   0.146000
 Float:      0.002000
-Difference: 0.000300
+Difference: 0.144000
 
-Fraction:   0.002000
-Float:      0.001500
-Difference: 0.000500
-
-Fraction:   0.000900
-Float:      0.000900
+Fraction:   0.001200
+Float:      0.001200
 Difference: 0.000000
 
-Fraction:   0.001600
-Float:      0.001700
-Difference: -0.000100
-
 Fraction:   0.001100
-Float:      0.001500
+Float:      0.001600
+Difference: -0.000500
+
+Fraction:   0.000900
+Float:      0.001300
 Difference: -0.000400
 
 Fraction:   0.001000
-Float:      0.002000
-Difference: -0.001000
-
-Fraction:   0.002200
-Float:      0.002400
-Difference: -0.000200
-
-Fraction:   0.001500
-Float:      0.001700
+Float:      0.001200
 Difference: -0.000200
 
 Fraction:   0.000900
-Float:      0.001100
-Difference: -0.000200
+Float:      0.001600
+Difference: -0.000700
 
-Fraction:   0.002400
-Float:      0.003400
-Difference: -0.001000
+Fraction:   0.000900
+Float:      0.001500
+Difference: -0.000600
+
+Fraction:   0.001600
+Float:      0.002700
+Difference: -0.001100
+
+Fraction:   0.000900
+Float:      0.001500
+Difference: -0.000600
+
+Fraction:   0.001200
+Float:      0.002500
+Difference: -0.001300
 
 Fraction:   0.001000
 Float:      0.001200
 Difference: -0.000200
 
-Fraction:   0.001000
-Float:      0.000700
-Difference: 0.000300
+Fraction:   0.001100
+Float:      0.001400
+Difference: -0.000300
 
-Fraction:   0.000900
-Float:      0.001900
-Difference: -0.001000
+Fraction:   0.001600
+Float:      0.002700
+Difference: -0.001100
+
+Fraction:   0.001200
+Float:      0.001200
+Difference: 0.000000
+
+Fraction:   0.001400
+Float:      0.001400
+Difference: 0.000000
+
+Fraction:   0.001300
+Float:      0.001500
+Difference: -0.000200
+
+Fraction:   0.001100
+Float:      0.001600
+Difference: -0.000500
 
 Fraction:   0.000700
-Float:      0.001000
+Float:      0.001300
+Difference: -0.000600
+
+Fraction:   0.001300
+Float:      0.001400
+Difference: -0.000100
+
+Fraction:   0.001200
+Float:      0.001700
+Difference: -0.000500
+
+Fraction:   0.001300
+Float:      0.001600
 Difference: -0.000300
 
 Fraction:   0.000700
 Float:      0.001100
 Difference: -0.000400
 
-Fraction:   0.000800
-Float:      0.001400
+Fraction:   0.001000
+Float:      0.001600
 Difference: -0.000600
+
+Fraction:   0.001000
+Float:      0.001900
+Difference: -0.000900
+
+Fraction:   0.001600
+Float:      0.001400
+Difference: 0.000200
+
+Fraction:   0.001700
+Float:      0.001800
+Difference: -0.000100
+
+Fraction:   0.000900
+Float:      0.001500
+Difference: -0.000600
+
+Fraction:   0.002400
+Float:      0.001500
+Difference: 0.000900
+
+Fraction:   0.001100
+Float:      0.001400
+Difference: -0.000300
+
+Fraction:   0.000900
+Float:      0.002000
+Difference: -0.001100
+
+Fraction:   0.000900
+Float:      0.001800
+Difference: -0.000900
+
+Fraction:   0.002200
+Float:      0.001300
+Difference: 0.000900
+
+Fraction:   0.001200
+Float:      0.001900
+Difference: -0.000700
+
+Fraction:   0.001600
+Float:      0.001800
+Difference: -0.000200
+
+Fraction:   0.000800
+Float:      0.002900
+Difference: -0.002100
+
+Fraction:   0.001400
+Float:      0.002700
+Difference: -0.001300
+
+Fraction:   0.001300
+Float:      0.001600
+Difference: -0.000300
+
+Fraction:   0.001700
+Float:      0.002200
+Difference: -0.000500
+
+Fraction:   0.001400
+Float:      0.001500
+Difference: -0.000100
+
+Fraction:   0.001400
+Float:      0.001500
+Difference: -0.000100
+
+Fraction:   0.001300
+Float:      0.002200
+Difference: -0.000900
+
+Fraction:   0.001400
+Float:      0.005800
+Difference: -0.004400
+
+Fraction:   0.001300
+Float:      0.001800
+Difference: -0.000500
+
+Fraction:   0.001000
+Float:      0.001200
+Difference: -0.000200
+
+Fraction:   0.001000
+Float:      0.011100
+Difference: -0.010100
+
+Fraction:   0.001100
+Float:      0.002100
+Difference: -0.001000
+
+Fraction:   0.000900
+Float:      0.002000
+Difference: -0.001100
+
+Fraction:   0.001000
+Float:      0.001900
+Difference: -0.000900
+
+Fraction:   0.001600
+Float:      0.002000
+Difference: -0.000400
+
+Fraction:   0.001200
+Float:      0.001800
+Difference: -0.000600
+
+Fraction:   0.001400
+Float:      0.002400
+Difference: -0.001000
+
+Fraction:   0.001500
+Float:      0.001800
+Difference: -0.000300
+
+Fraction:   0.001900
+Float:      0.001700
+Difference: 0.000200
+
+Fraction:   0.001100
+Float:      0.001200
+Difference: -0.000100
+
+Fraction:   0.000800
+Float:      0.001800
+Difference: -0.001000
+
+Fraction:   0.001200
+Float:      0.001700
+Difference: -0.000500
+
+Fraction:   0.001300
+Float:      0.001800
+Difference: -0.000500
+
+Fraction:   0.001000
+Float:      0.001200
+Difference: -0.000200
+
+Fraction:   0.001000
+Float:      0.001200
+Difference: -0.000200
+
+Fraction:   0.000900
+Float:      0.000800
+Difference: 0.000100
+
+Fraction:   0.001100
+Float:      0.001200
+Difference: -0.000100
+
+Fraction:   0.000700
+Float:      0.001200
+Difference: -0.000500
+
+Fraction:   0.001000
+Float:      0.002900
+Difference: -0.001900
+
+Fraction:   0.000900
+Float:      0.001200
+Difference: -0.000300
+
+Fraction:   0.000900
+Float:      0.001400
+Difference: -0.000500
+
+Fraction:   0.000800
+Float:      0.001600
+Difference: -0.000800
+
+Fraction:   0.002000
+Float:      0.002200
+Difference: -0.000200
+
+Fraction:   0.001000
+Float:      0.001300
+Difference: -0.000300
+
+Fraction:   0.001000
+Float:      0.001200
+Difference: -0.000200
+
+Fraction:   0.001100
+Float:      0.001100
+Difference: 0.000000
+
+Fraction:   0.000900
+Float:      0.001400
+Difference: -0.000500
+
+Fraction:   0.001400
+Float:      0.001700
+Difference: -0.000300
+
+Fraction:   0.001200
+Float:      0.001800
+Difference: -0.000600
+
+Fraction:   0.001100
+Float:      0.001500
+Difference: -0.000400
+
+Fraction:   0.001100
+Float:      0.001200
+Difference: -0.000100
+
+Fraction:   0.000900
+Float:      0.001700
+Difference: -0.000800
+
+Fraction:   0.000800
+Float:      0.001700
+Difference: -0.000900
+
+Fraction:   0.001100
+Float:      0.002500
+Difference: -0.001400
+
+Fraction:   0.000900
+Float:      0.001100
+Difference: -0.000200
+
+Fraction:   0.001200
+Float:      0.001300
+Difference: -0.000100
+
+Fraction:   0.001000
+Float:      0.001600
+Difference: -0.000600
+
+Fraction:   0.001000
+Float:      0.001300
+Difference: -0.000300
+
+Fraction:   0.000900
+Float:      0.001300
+Difference: -0.000400
+
+Fraction:   0.001400
+Float:      0.001300
+Difference: 0.000100
+
+Fraction:   0.000600
+Float:      0.001100
+Difference: -0.000500
+
+Fraction:   0.000700
+Float:      0.000900
+Difference: -0.000200
+
+Fraction:   0.000900
+Float:      0.001600
+Difference: -0.000700
+
+Fraction:   0.001000
+Float:      0.001200
+Difference: -0.000200
+
+Fraction:   0.001200
+Float:      0.002000
+Difference: -0.000800
+
+Fraction:   0.001100
+Float:      0.001400
+Difference: -0.000300
+
+Fraction:   0.001300
+Float:      0.001400
+Difference: -0.000100
+
+Fraction:   0.001800
+Float:      0.001500
+Difference: 0.000300
+
+Fraction:   0.001000
+Float:      0.001100
+Difference: -0.000100
+
+Fraction:   0.001300
+Float:      0.003000
+Difference: -0.001700
+
+Fraction:   0.001300
+Float:      0.001400
+Difference: -0.000100
+
+Fraction:   0.001200
+Float:      0.002200
+Difference: -0.001000
+
+Fraction:   0.001200
+Float:      0.001700
+Difference: -0.000500
+
+Fraction:   0.001200
+Float:      0.001500
+Difference: -0.000300
+
+Fraction:   0.001300
+Float:      0.001500
+Difference: -0.000200
+
+Fraction:   0.001100
+Float:      0.001300
+Difference: -0.000200
+
+Fraction:   0.000900
+Float:      0.001500
+Difference: -0.000600
+
+Fraction:   0.001400
+Float:      0.002600
+Difference: -0.001200
+
+Fraction:   0.002000
+Float:      0.001900
+Difference: 0.000100
+
+Fraction:   0.001100
+Float:      0.001100
+Difference: 0.000000
+
+Fraction:   0.002300
+Float:      0.001500
+Difference: 0.000800
+
+Fraction:   0.001300
+Float:      0.002400
+Difference: -0.001100
+
+Fraction:   0.001200
+Float:      0.002600
+Difference: -0.001400
+
+Fraction:   0.001400
+Float:      0.001500
+Difference: -0.000100
+
+Fraction:   0.001200
+Float:      0.001200
+Difference: 0.000000
+
+Fraction:   0.001400
+Float:      0.001500
+Difference: -0.000100
+
+Fraction:   0.001300
+Float:      0.001800
+Difference: -0.000500
+
+Fraction:   0.001300
+Float:      0.001600
+Difference: -0.000300
+
+Fraction:   0.002200
+Float:      0.002200
+Difference: 0.000000
+
+Fraction:   0.002100
+Float:      0.001600
+Difference: 0.000500
+
+Fraction:   0.001200
+Float:      0.003100
+Difference: -0.001900
+
+Fraction:   0.001800
+Float:      0.002000
+Difference: -0.000200
+
+Fraction:   0.001200
+Float:      0.002300
+Difference: -0.001100
+
+Fraction:   0.001800
+Float:      0.001900
+Difference: -0.000100
+
+Fraction:   0.001600
+Float:      0.001900
+Difference: -0.000300
+
+Fraction:   0.003000
+Float:      0.002300
+Difference: 0.000700
+
+Fraction:   0.001400
+Float:      0.001700
+Difference: -0.000300
+
+Fraction:   0.000800
+Float:      0.001100
+Difference: -0.000300
+
+Fraction:   0.000800
+Float:      0.000900
+Difference: -0.000100
+
+Fraction:   0.000600
+Float:      0.001000
+Difference: -0.000400
+
+Fraction:   0.000900
+Float:      0.001200
+Difference: -0.000300
+
+Fraction:   0.001600
+Float:      0.002000
+Difference: -0.000400
+
+Fraction:   0.002200
+Float:      0.002600
+Difference: -0.000400
+
+Fraction:   0.001500
+Float:      0.002100
+Difference: -0.000600
+
+Fraction:   0.001500
+Float:      0.001200
+Difference: 0.000300
+
+Fraction:   0.001100
+Float:      0.001500
+Difference: -0.000400
+
+Fraction:   0.001400
+Float:      0.001000
+Difference: 0.000400
+
+Fraction:   0.000700
+Float:      0.002100
+Difference: -0.001400
+
+Fraction:   0.000700
+Float:      0.001000
+Difference: -0.000300
+
+Fraction:   0.000700
+Float:      0.002100
+Difference: -0.001400
+
+Fraction:   0.001200
+Float:      0.002500
+Difference: -0.001300
+
+Fraction:   0.002200
+Float:      0.002000
+Difference: 0.000200
+
+Fraction:   0.001400
+Float:      0.002000
+Difference: -0.000600
+
+Fraction:   0.001400
+Float:      0.001900
+Difference: -0.000500
+
+Fraction:   0.001000
+Float:      0.002100
+Difference: -0.001100
+
+Fraction:   0.001500
+Float:      0.001800
+Difference: -0.000300
+
+Fraction:   0.000900
+Float:      0.001600
+Difference: -0.000700
+
+Fraction:   0.001800
+Float:      0.002000
+Difference: -0.000200
+
+Fraction:   0.001000
+Float:      0.003500
+Difference: -0.002500
+
+Fraction:   0.001300
+Float:      0.002100
+Difference: -0.000800
+
+Fraction:   0.002200
+Float:      0.001300
+Difference: 0.000900
+
+Fraction:   0.001100
+Float:      0.002300
+Difference: -0.001200
+
+Fraction:   0.001000
+Float:      0.001900
+Difference: -0.000900
+
+Fraction:   0.001300
+Float:      0.002600
+Difference: -0.001300
+
+Fraction:   0.001100
+Float:      0.001400
+Difference: -0.000300
+
+Fraction:   0.001400
+Float:      0.002100
+Difference: -0.000700
+
+Fraction:   0.001300
+Float:      0.002700
+Difference: -0.001400
+
+Fraction:   0.001600
+Float:      0.001600
+Difference: 0.000000
+
+Fraction:   0.001000
+Float:      0.001100
+Difference: -0.000100
+
+Fraction:   0.001000
+Float:      0.001500
+Difference: -0.000500
+
+Fraction:   0.000900
+Float:      0.002100
+Difference: -0.001200
+
+Fraction:   0.001300
+Float:      0.001400
+Difference: -0.000100
+
+Fraction:   0.001800
+Float:      0.001000
+Difference: 0.000800
+
+Fraction:   0.000700
+Float:      0.001000
+Difference: -0.000300
+
+Fraction:   0.000800
+Float:      0.001100
+Difference: -0.000300
+
+Fraction:   0.001000
+Float:      0.002200
+Difference: -0.001200
+
+Fraction:   0.001000
+Float:      0.001500
+Difference: -0.000500
+
+Fraction:   0.001200
+Float:      0.001500
+Difference: -0.000300
+
+Fraction:   0.001700
+Float:      0.001300
+Difference: 0.000400
+
+Fraction:   0.000800
+Float:      0.001100
+Difference: -0.000300
+
+Fraction:   0.000500
+Float:      0.001000
+Difference: -0.000500
+
+Fraction:   0.001200
+Float:      0.001800
+Difference: -0.000600
+
+Fraction:   0.001100
+Float:      0.001400
+Difference: -0.000300
+
+Fraction:   0.001300
+Float:      0.001700
+Difference: -0.000400
+
+Fraction:   0.001200
+Float:      0.001800
+Difference: -0.000600
+
+Fraction:   0.001400
+Float:      0.001300
+Difference: 0.000100
+
+Fraction:   0.001400
+Float:      0.002000
+Difference: -0.000600
+
+Fraction:   0.001700
+Float:      0.001300
+Difference: 0.000400
+
+Fraction:   0.001500
+Float:      0.001300
+Difference: 0.000200
+
+Fraction:   0.001300
+Float:      0.002300
+Difference: -0.001000
+
+Fraction:   0.001300
+Float:      0.002300
+Difference: -0.001000
+
+Fraction:   0.001100
+Float:      0.003100
+Difference: -0.002000
+
+Fraction:   0.001500
+Float:      0.002300
+Difference: -0.000800
+
+Fraction:   0.001800
+Float:      0.001800
+Difference: 0.000000
+
+Fraction:   0.001800
+Float:      0.002100
+Difference: -0.000300
+
+Fraction:   0.001200
+Float:      0.003100
+Difference: -0.001900
+
+Fraction:   0.001300
+Float:      0.001500
+Difference: -0.000200
+
+Fraction:   0.001000
+Float:      0.001300
+Difference: -0.000300
+
+Fraction:   0.001200
+Float:      0.001000
+Difference: 0.000200
+
+Fraction:   0.000800
+Float:      0.001600
+Difference: -0.000800
+
+Fraction:   0.000900
+Float:      0.001200
+Difference: -0.000300
+
+Fraction:   0.001200
+Float:      0.001400
+Difference: -0.000200
+
+Fraction:   0.000700
+Float:      0.001100
+Difference: -0.000400
+
+Fraction:   0.001100
+Float:      0.001500
+Difference: -0.000400
+
+Fraction:   0.001400
+Float:      0.001500
+Difference: -0.000100
+
+Fraction:   0.000700
+Float:      0.001100
+Difference: -0.000400
+
+Fraction:   0.001200
+Float:      0.001800
+Difference: -0.000600
+
+Fraction:   0.001000
+Float:      0.002300
+Difference: -0.001300
+
+Fraction:   0.001900
+Float:      0.001700
+Difference: 0.000200
+
+Fraction:   0.000800
+Float:      0.001100
+Difference: -0.000300
+
+Fraction:   0.000900
+Float:      0.001100
+Difference: -0.000200
+
+Fraction:   0.000900
+Float:      0.001000
+Difference: -0.000100
+
+Fraction:   0.000800
+Float:      0.000700
+Difference: 0.000100
+
+Fraction:   0.000900
+Float:      0.002200
+Difference: -0.001300
+
+Fraction:   0.001100
+Float:      0.001800
+Difference: -0.000700
+
+Fraction:   0.000600
+Float:      0.001200
+Difference: -0.000600
+
+Fraction:   0.000900
+Float:      0.001100
+Difference: -0.000200
+
+Fraction:   0.000500
+Float:      0.000800
+Difference: -0.000300
+
+Fraction:   0.000700
+Float:      0.001400
+Difference: -0.000700
+
+Fraction:   0.001700
+Float:      0.001800
+Difference: -0.000100
+
+Fraction:   0.001000
+Float:      0.001800
+Difference: -0.000800
+
+Fraction:   0.000800
+Float:      0.001000
+Difference: -0.000200
+
+Fraction:   0.000700
+Float:      0.000800
+Difference: -0.000100
+
+Fraction:   0.000700
+Float:      0.000800
+Difference: -0.000100
+
+Fraction:   0.000500
+Float:      0.001000
+Difference: -0.000500
+
+Fraction:   0.001000
+Float:      0.001900
+Difference: -0.000900
+
+Fraction:   0.000900
+Float:      0.001300
+Difference: -0.000400
+
+Fraction:   0.000900
+Float:      0.001200
+Difference: -0.000300
+
+Fraction:   0.000800
+Float:      0.001000
+Difference: -0.000200
+
+Fraction:   0.000800
+Float:      0.000900
+Difference: -0.000100
+
+Fraction:   0.000800
+Float:      0.000900
+Difference: -0.000100
+
+Fraction:   0.001000
+Float:      0.001000
+Difference: 0.000000
+
+Fraction:   0.000500
+Float:      0.000700
+Difference: -0.000200
+
+Fraction:   0.000600
+Float:      0.000700
+Difference: -0.000100
+
+Fraction:   0.000800
+Float:      0.001800
+Difference: -0.001000
+
+Fraction:   0.000900
+Float:      0.001100
+Difference: -0.000200
+
+Fraction:   0.000900
+Float:      0.001200
+Difference: -0.000300
+
+Fraction:   0.000700
+Float:      0.001200
+Difference: -0.000500
+
+Fraction:   0.000500
+Float:      0.001000
+Difference: -0.000500
+
+Fraction:   0.000700
+Float:      0.000800
+Difference: -0.000100
+
+Fraction:   0.000600
+Float:      0.000800
+Difference: -0.000200
+
+Fraction:   0.000600
+Float:      0.000900
+Difference: -0.000300
+
+Fraction:   0.000700
+Float:      0.001700
+Difference: -0.001000
+
+Fraction:   0.000800
+Float:      0.001100
+Difference: -0.000300
+
+Fraction:   0.000500
+Float:      0.000800
+Difference: -0.000300
+
+Fraction:   0.000500
+Float:      0.000700
+Difference: -0.000200
+
+Fraction:   0.000500
+Float:      0.001100
+Difference: -0.000600
+
+Fraction:   0.001000
+Float:      0.001500
+Difference: -0.000500
+
+Fraction:   0.002500
+Float:      0.001600
+Difference: 0.000900
+
+Fraction:   0.000800
+Float:      0.001000
+Difference: -0.000200
+
+Fraction:   0.000600
+Float:      0.001100
+Difference: -0.000500
+
+Fraction:   0.000600
+Float:      0.000800
+Difference: -0.000200
+
+Fraction:   0.001000
+Float:      0.001000
+Difference: 0.000000
+
+Fraction:   0.000800
+Float:      0.000900
+Difference: -0.000100
+
+Fraction:   0.000700
+Float:      0.000900
+Difference: -0.000200
+
+Fraction:   0.000500
+Float:      0.001700
+Difference: -0.001200
+
+Fraction:   0.001100
+Float:      0.001600
+Difference: -0.000500
+
+Fraction:   0.000800
+Float:      0.000900
+Difference: -0.000100
+
+Fraction:   0.001100
+Float:      0.001500
+Difference: -0.000400
+
+Fraction:   0.000800
+Float:      0.000900
+Difference: -0.000100
+
+Fraction:   0.000700
+Float:      0.001200
+Difference: -0.000500
+
+Fraction:   0.001100
+Float:      0.001400
+Difference: -0.000300
+
+Fraction:   0.001100
+Float:      0.001000
+Difference: 0.000100
 
 Fraction:   0.000800
 Float:      0.001200
+Difference: -0.000400
+
+Fraction:   0.001200
+Float:      0.001800
+Difference: -0.000600
+
+Fraction:   0.000800
+Float:      0.000800
+Difference: 0.000000
+
+Fraction:   0.000600
+Float:      0.000800
+Difference: -0.000200
+
+Fraction:   0.000600
+Float:      0.001400
+Difference: -0.000800
+
+Fraction:   0.001000
+Float:      0.001200
+Difference: -0.000200
+
+Fraction:   0.000700
+Float:      0.001100
+Difference: -0.000400
+
+Fraction:   0.001200
+Float:      0.001200
+Difference: 0.000000
+
+Fraction:   0.000700
+Float:      0.000800
+Difference: -0.000100
+
+Fraction:   0.000600
+Float:      0.000800
+Difference: -0.000200
+
+Fraction:   0.000600
+Float:      0.000800
+Difference: -0.000200
+
+Fraction:   0.001200
+Float:      0.001200
+Difference: 0.000000
+
+Fraction:   0.001000
+Float:      0.000900
+Difference: 0.000100
+
+Fraction:   0.000700
+Float:      0.000900
+Difference: -0.000200
+
+Fraction:   0.000600
+Float:      0.001100
+Difference: -0.000500
+
+Fraction:   0.000700
+Float:      0.001200
+Difference: -0.000500
+
+Fraction:   0.000500
+Float:      0.000800
+Difference: -0.000300
+
+Fraction:   0.000500
+Float:      0.000800
+Difference: -0.000300
+
+Fraction:   0.001200
+Float:      0.001100
+Difference: 0.000100
+
+Fraction:   0.001000
+Float:      0.001200
+Difference: -0.000200
+
+Fraction:   0.000700
+Float:      0.000900
+Difference: -0.000200
+
+Fraction:   0.000800
+Float:      0.001000
+Difference: -0.000200
+
+Fraction:   0.000600
+Float:      0.000800
+Difference: -0.000200
+
+Fraction:   0.000500
+Float:      0.000700
+Difference: -0.000200
+
+Fraction:   0.000600
+Float:      0.000900
+Difference: -0.000300
+
+Fraction:   0.001700
+Float:      0.002100
+Difference: -0.000400
+
+Fraction:   0.000800
+Float:      0.001200
+Difference: -0.000400
+
+Fraction:   0.000700
+Float:      0.000900
+Difference: -0.000200
+
+Fraction:   0.000600
+Float:      0.000700
+Difference: -0.000100
+
+Fraction:   0.000500
+Float:      0.001000
+Difference: -0.000500
+
+Fraction:   0.000900
+Float:      0.001700
+Difference: -0.000800
+
+Fraction:   0.001000
+Float:      0.002000
+Difference: -0.001000
+
+Fraction:   0.000700
+Float:      0.001100
+Difference: -0.000400
+
+Fraction:   0.000600
+Float:      0.000900
+Difference: -0.000300
+
+Fraction:   0.000500
+Float:      0.000700
+Difference: -0.000200
+
+Fraction:   0.001100
+Float:      0.001700
+Difference: -0.000600
+
+Fraction:   0.001100
+Float:      0.001000
+Difference: 0.000100
+
+Fraction:   0.000800
+Float:      0.000900
+Difference: -0.000100
+
+Fraction:   0.000500
+Float:      0.000700
+Difference: -0.000200
+
+Fraction:   0.001000
+Float:      0.001000
+Difference: 0.000000
+
+Fraction:   0.000500
+Float:      0.000800
+Difference: -0.000300
+
+Fraction:   0.000500
+Float:      0.000800
+Difference: -0.000300
+
+Fraction:   0.001600
+Float:      0.001100
+Difference: 0.000500
+
+Fraction:   0.000600
+Float:      0.000800
+Difference: -0.000200
+
+Fraction:   0.000600
+Float:      0.000800
+Difference: -0.000200
+
+Fraction:   0.000500
+Float:      0.001000
+Difference: -0.000500
+
+Fraction:   0.000700
+Float:      0.000900
+Difference: -0.000200
+
+Fraction:   0.000600
+Float:      0.001100
+Difference: -0.000500
+
+Fraction:   0.001000
+Float:      0.000800
+Difference: 0.000200
+
+Fraction:   0.019600
+Float:      0.001100
+Difference: 0.018500
+
+Fraction:   0.000700
+Float:      0.000900
+Difference: -0.000200
+
+Fraction:   0.000600
+Float:      0.000800
+Difference: -0.000200
+
+Fraction:   0.000500
+Float:      0.000800
+Difference: -0.000300
+
+Fraction:   0.000600
+Float:      0.000800
+Difference: -0.000200
+
+Fraction:   0.000900
+Float:      0.001200
+Difference: -0.000300
+
+Fraction:   0.000500
+Float:      0.000600
+Difference: -0.000100
+
+Fraction:   0.000400
+Float:      0.014400
+Difference: -0.014000
+
+Fraction:   0.000900
+Float:      0.001300
+Difference: -0.000400
+
+Fraction:   0.000800
+Float:      0.001000
+Difference: -0.000200
+
+Fraction:   0.000400
+Float:      0.019900
+Difference: -0.019500
+
+Fraction:   0.000800
+Float:      0.001000
+Difference: -0.000200
+
+Fraction:   0.000500
+Float:      0.000900
+Difference: -0.000400
+
+Fraction:   0.000600
+Float:      0.000800
+Difference: -0.000200
+
+Fraction:   0.000900
+Float:      0.001300
+Difference: -0.000400
+
+Fraction:   0.000800
+Float:      0.001000
+Difference: -0.000200
+
+Fraction:   0.000600
+Float:      0.000800
+Difference: -0.000200
+
+Fraction:   0.000500
+Float:      0.000800
+Difference: -0.000300
+
+Fraction:   0.001000
+Float:      0.001000
+Difference: 0.000000
+
+Fraction:   0.000600
+Float:      0.000800
+Difference: -0.000200
+
+Fraction:   0.000600
+Float:      0.000800
+Difference: -0.000200
+
+Fraction:   0.000500
+Float:      0.000700
+Difference: -0.000200
+
+Fraction:   0.001000
+Float:      0.000900
+Difference: 0.000100
+
+Fraction:   0.000700
+Float:      0.001000
+Difference: -0.000300
+
+Fraction:   0.000500
+Float:      0.000900
+Difference: -0.000400
+
+Fraction:   0.000800
+Float:      0.000800
+Difference: 0.000000
+
+Fraction:   0.000800
+Float:      0.000800
+Difference: 0.000000
+
+Fraction:   0.000700
+Float:      0.001100
+Difference: -0.000400
+
+Fraction:   0.000700
+Float:      0.000900
+Difference: -0.000200
+
+Fraction:   0.000900
+Float:      0.001100
+Difference: -0.000200
+
+Fraction:   0.000600
+Float:      0.000900
+Difference: -0.000300
+
+Fraction:   0.000600
+Float:      0.000700
+Difference: -0.000100
+
+Fraction:   0.000500
+Float:      0.000800
+Difference: -0.000300
+
+Fraction:   0.000900
+Float:      0.001100
+Difference: -0.000200
+
+Fraction:   0.000900
+Float:      0.000800
+Difference: 0.000100
+
+Fraction:   0.000500
+Float:      0.000800
+Difference: -0.000300
+
+Fraction:   0.000500
+Float:      0.001000
+Difference: -0.000500
+
+Fraction:   0.000800
+Float:      0.001500
+Difference: -0.000700
+
+Fraction:   0.000600
+Float:      0.000800
+Difference: -0.000200
+
+Fraction:   0.000600
+Float:      0.000800
+Difference: -0.000200
+
+Fraction:   0.001200
+Float:      0.000900
+Difference: 0.000300
+
+Fraction:   0.000600
+Float:      0.000800
+Difference: -0.000200
+
+Fraction:   0.000800
+Float:      0.000900
+Difference: -0.000100
+
+Fraction:   0.000600
+Float:      0.001200
+Difference: -0.000600
+
+Fraction:   0.000700
+Float:      0.001000
+Difference: -0.000300
+
+Fraction:   0.000500
+Float:      0.000800
+Difference: -0.000300
+
+Fraction:   0.000500
+Float:      0.000800
+Difference: -0.000300
+
+Fraction:   0.000500
+Float:      0.001300
+Difference: -0.000800
+
+Fraction:   0.000800
+Float:      0.001000
+Difference: -0.000200
+
+Fraction:   0.001200
+Float:      0.001500
+Difference: -0.000300
+
+Fraction:   0.001100
+Float:      0.000700
+Difference: 0.000400
+
+Fraction:   0.000500
+Float:      0.000900
+Difference: -0.000400
+
+Fraction:   0.000800
+Float:      0.001100
+Difference: -0.000300
+
+Fraction:   0.000700
+Float:      0.000900
+Difference: -0.000200
+
+Fraction:   0.000800
+Float:      0.000900
+Difference: -0.000100
+
+Fraction:   0.000500
+Float:      0.000800
+Difference: -0.000300
+
+Fraction:   0.000800
+Float:      0.000800
+Difference: 0.000000
+
+Fraction:   0.000400
+Float:      0.000700
+Difference: -0.000300
+
+Fraction:   0.000500
+Float:      0.000800
+Difference: -0.000300
+
+Fraction:   0.001700
+Float:      0.001300
+Difference: 0.000400
+
+Fraction:   0.000700
+Float:      0.000900
+Difference: -0.000200
+
+Fraction:   0.000500
+Float:      0.000900
+Difference: -0.000400
+
+Fraction:   0.000400
+Float:      0.000800
+Difference: -0.000400
+
+Fraction:   0.001500
+Float:      0.001200
+Difference: 0.000300
+
+Fraction:   0.001600
+Float:      0.001500
+Difference: 0.000100
+
+Fraction:   0.001500
+Float:      0.001200
+Difference: 0.000300
+
+Fraction:   0.000800
+Float:      0.001200
+Difference: -0.000400
+
+Fraction:   0.000500
+Float:      0.000800
+Difference: -0.000300
+
+Fraction:   0.000800
+Float:      0.001200
+Difference: -0.000400
+
+Fraction:   0.000600
+Float:      0.000700
+Difference: -0.000100
+
+Fraction:   0.000500
+Float:      0.000800
+Difference: -0.000300
+
+Fraction:   0.000500
+Float:      0.002200
+Difference: -0.001700
+
+Fraction:   0.001000
+Float:      0.001200
+Difference: -0.000200
+
+Fraction:   0.000600
+Float:      0.001000
 Difference: -0.000400
 
 Fraction:   0.000900
 Float:      0.001000
 Difference: -0.000100
 
-Average time difference: 0.0010088
+Fraction:   0.001000
+Float:      0.001000
+Difference: 0.000000
+
+Fraction:   0.000900
+Float:      0.001000
+Difference: -0.000100
+
+Fraction:   0.000500
+Float:      0.000800
+Difference: -0.000300
+
+Fraction:   0.000700
+Float:      0.000800
+Difference: -0.000100
+
+Fraction:   0.000500
+Float:      0.000700
+Difference: -0.000200
+
+Fraction:   0.000800
+Float:      0.000800
+Difference: 0.000000
+
+Fraction:   0.000700
+Float:      0.000800
+Difference: -0.000100
+
+Fraction:   0.000500
+Float:      0.014400
+Difference: -0.013900
+
+Fraction:   0.000700
+Float:      0.000900
+Difference: -0.000200
+
+Fraction:   0.000800
+Float:      0.001300
+Difference: -0.000500
+
+Fraction:   0.000700
+Float:      0.000800
+Difference: -0.000100
+
+Fraction:   0.000600
+Float:      0.000800
+Difference: -0.000200
+
+Fraction:   0.000600
+Float:      0.000800
+Difference: -0.000200
+
+Fraction:   0.000500
+Float:      0.000900
+Difference: -0.000400
+
+Fraction:   0.000900
+Float:      0.001000
+Difference: -0.000100
+
+Fraction:   0.000500
+Float:      0.000800
+Difference: -0.000300
+
+Fraction:   0.000600
+Float:      0.000800
+Difference: -0.000200
+
+Fraction:   0.000600
+Float:      0.001000
+Difference: -0.000400
+
+Fraction:   0.000800
+Float:      0.000900
+Difference: -0.000100
+
+Fraction:   0.000600
+Float:      0.000900
+Difference: -0.000300
+
+Fraction:   0.000400
+Float:      0.001200
+Difference: -0.000800
+
+Fraction:   0.000800
+Float:      0.000600
+Difference: 0.000200
+
+Fraction:   0.000600
+Float:      0.001000
+Difference: -0.000400
+
+Fraction:   0.000600
+Float:      0.000900
+Difference: -0.000300
+
+Fraction:   0.000700
+Float:      0.001300
+Difference: -0.000600
+
+Fraction:   0.000700
+Float:      0.000900
+Difference: -0.000200
+
+Fraction:   0.000500
+Float:      0.000800
+Difference: -0.000300
+
+Fraction:   0.000600
+Float:      0.000800
+Difference: -0.000200
+
+Fraction:   0.000600
+Float:      0.000600
+Difference: 0.000000
+
+Fraction:   0.000800
+Float:      0.001100
+Difference: -0.000300
+
+Fraction:   0.000500
+Float:      0.000800
+Difference: -0.000300
+
+Fraction:   0.000600
+Float:      0.000800
+Difference: -0.000200
+
+Fraction:   0.000800
+Float:      0.001000
+Difference: -0.000200
+
+Fraction:   0.000500
+Float:      0.001000
+Difference: -0.000500
+
+Fraction:   0.000700
+Float:      0.000800
+Difference: -0.000100
+
+Fraction:   0.000600
+Float:      0.001700
+Difference: -0.001100
+
+Fraction:   0.001100
+Float:      0.001000
+Difference: 0.000100
+
+Fraction:   0.000500
+Float:      0.000800
+Difference: -0.000300
+
+Fraction:   0.000600
+Float:      0.000800
+Difference: -0.000200
+
+Fraction:   0.000800
+Float:      0.001000
+Difference: -0.000200
+
+Fraction:   0.000600
+Float:      0.001100
+Difference: -0.000500
+
+Fraction:   0.000600
+Float:      0.000800
+Difference: -0.000200
+
+Fraction:   0.000500
+Float:      0.000900
+Difference: -0.000400
+
+Fraction:   0.001100
+Float:      0.001000
+Difference: 0.000100
+
+Fraction:   0.000600
+Float:      0.000900
+Difference: -0.000300
+
+Fraction:   0.000500
+Float:      0.000800
+Difference: -0.000300
+
+Fraction:   0.000600
+Float:      0.000800
+Difference: -0.000200
+
+Fraction:   0.000700
+Float:      0.001200
+Difference: -0.000500
+
+Fraction:   0.001000
+Float:      0.001000
+Difference: 0.000000
+
+Fraction:   0.000500
+Float:      0.000900
+Difference: -0.000400
+
+Fraction:   0.000700
+Float:      0.001000
+Difference: -0.000300
+
+Fraction:   0.000500
+Float:      0.000800
+Difference: -0.000300
+
+Fraction:   0.000600
+Float:      0.001200
+Difference: -0.000600
+
+Fraction:   0.001000
+Float:      0.001000
+Difference: 0.000000
+
+Fraction:   0.000700
+Float:      0.000800
+Difference: -0.000100
+
+Fraction:   0.000600
+Float:      0.001000
+Difference: -0.000400
+
+Fraction:   0.000700
+Float:      0.000800
+Difference: -0.000100
+
+Fraction:   0.000900
+Float:      0.001200
+Difference: -0.000300
+
+Fraction:   0.000500
+Float:      0.000900
+Difference: -0.000400
+
+Fraction:   0.000500
+Float:      0.001300
+Difference: -0.000800
+
+Fraction:   0.000600
+Float:      0.000900
+Difference: -0.000300
+
+Fraction:   0.000500
+Float:      0.000800
+Difference: -0.000300
+
+Fraction:   0.000700
+Float:      0.001100
+Difference: -0.000400
+
+Fraction:   0.000500
+Float:      0.000800
+Difference: -0.000300
+
+Fraction:   0.000900
+Float:      0.000700
+Difference: 0.000200
+
+Fraction:   0.000700
+Float:      0.000800
+Difference: -0.000100
+
+Fraction:   0.000500
+Float:      0.001100
+Difference: -0.000600
+
+Fraction:   0.000600
+Float:      0.000800
+Difference: -0.000200
+
+Fraction:   0.001900
+Float:      0.002200
+Difference: -0.000300
+
+Fraction:   0.000800
+Float:      0.001300
+Difference: -0.000500
+
+Fraction:   0.000600
+Float:      0.001100
+Difference: -0.000500
+
+Fraction:   0.000600
+Float:      0.001300
+Difference: -0.000700
+
+Fraction:   0.000800
+Float:      0.000900
+Difference: -0.000100
+
+Fraction:   0.000500
+Float:      0.000700
+Difference: -0.000200
+
+Fraction:   0.000500
+Float:      0.000800
+Difference: -0.000300
+
+Fraction:   0.001200
+Float:      0.001600
+Difference: -0.000400
+
+Fraction:   0.001200
+Float:      0.001100
+Difference: 0.000100
+
+Fraction:   0.002100
+Float:      0.002700
+Difference: -0.000600
+
+Fraction:   0.000700
+Float:      0.000900
+Difference: -0.000200
+
+Fraction:   0.000800
+Float:      0.000900
+Difference: -0.000100
+
+Fraction:   0.001000
+Float:      0.001400
+Difference: -0.000400
+
+Fraction:   0.000800
+Float:      0.000900
+Difference: -0.000100
+
+Fraction:   0.000500
+Float:      0.001600
+Difference: -0.001100
+
+Fraction:   0.000800
+Float:      0.000900
+Difference: -0.000100
+
+Fraction:   0.000600
+Float:      0.000700
+Difference: -0.000100
+
+Fraction:   0.000600
+Float:      0.000600
+Difference: 0.000000
+
+Fraction:   0.000500
+Float:      0.000900
+Difference: -0.000400
+
+Fraction:   0.000700
+Float:      0.001100
+Difference: -0.000400
+
+Fraction:   0.000500
+Float:      0.000800
+Difference: -0.000300
+
+Fraction:   0.000500
+Float:      0.000800
+Difference: -0.000300
+
+Fraction:   0.000700
+Float:      0.000700
+Difference: 0.000000
+
+Fraction:   0.000500
+Float:      0.000900
+Difference: -0.000400
+
+Fraction:   0.000600
+Float:      0.001000
+Difference: -0.000400
+
+Fraction:   0.001000
+Float:      0.001100
+Difference: -0.000100
+
+Fraction:   0.000600
+Float:      0.000900
+Difference: -0.000300
+
+Fraction:   0.000500
+Float:      0.000900
+Difference: -0.000400
+
+Fraction:   0.001000
+Float:      0.001500
+Difference: -0.000500
+
+Fraction:   0.000700
+Float:      0.001000
+Difference: -0.000300
+
+Fraction:   0.000500
+Float:      0.000700
+Difference: -0.000200
+
+Fraction:   0.000500
+Float:      0.000700
+Difference: -0.000200
+
+Fraction:   0.000700
+Float:      0.001000
+Difference: -0.000300
+
+Fraction:   0.000700
+Float:      0.001000
+Difference: -0.000300
+
+Fraction:   0.000600
+Float:      0.000800
+Difference: -0.000200
+
+Fraction:   0.000500
+Float:      0.000700
+Difference: -0.000200
+
+Fraction:   0.000800
+Float:      0.001000
+Difference: -0.000200
+
+Fraction:   0.000500
+Float:      0.000700
+Difference: -0.000200
+
+Fraction:   0.001000
+Float:      0.001100
+Difference: -0.000100
+
+Fraction:   0.000700
+Float:      0.000900
+Difference: -0.000200
+
+Fraction:   0.000500
+Float:      0.000800
+Difference: -0.000300
+
+Fraction:   0.000500
+Float:      0.000700
+Difference: -0.000200
+
+Fraction:   0.000800
+Float:      0.001200
+Difference: -0.000400
+
+Fraction:   0.001000
+Float:      0.000900
+Difference: 0.000100
+
+Fraction:   0.000800
+Float:      0.000700
+Difference: 0.000100
+
+Fraction:   0.000500
+Float:      0.000600
+Difference: -0.000100
+
+Fraction:   0.000600
+Float:      0.001600
+Difference: -0.001000
+
+Fraction:   0.001200
+Float:      0.000900
+Difference: 0.000300
+
+Fraction:   0.000500
+Float:      0.001100
+Difference: -0.000600
+
+Fraction:   0.000600
+Float:      0.001000
+Difference: -0.000400
+
+Fraction:   0.001300
+Float:      0.001000
+Difference: 0.000300
+
+Fraction:   0.000600
+Float:      0.000900
+Difference: -0.000300
+
+Fraction:   0.000500
+Float:      0.000800
+Difference: -0.000300
+
+Fraction:   0.000700
+Float:      0.000900
+Difference: -0.000200
+
+Fraction:   0.000600
+Float:      0.000900
+Difference: -0.000300
+
+Fraction:   0.000500
+Float:      0.000800
+Difference: -0.000300
+
+Fraction:   0.001100
+Float:      0.001700
+Difference: -0.000600
+
+Fraction:   0.000900
+Float:      0.001100
+Difference: -0.000200
+
+Fraction:   0.000500
+Float:      0.000900
+Difference: -0.000400
+
+Fraction:   0.000500
+Float:      0.000600
+Difference: -0.000100
+
+Fraction:   0.000600
+Float:      0.000900
+Difference: -0.000300
+
+Fraction:   0.000600
+Float:      0.001000
+Difference: -0.000400
+
+Fraction:   0.000800
+Float:      0.000900
+Difference: -0.000100
+
+Fraction:   0.000600
+Float:      0.000900
+Difference: -0.000300
+
+Fraction:   0.000500
+Float:      0.000900
+Difference: -0.000400
+
+Fraction:   0.000700
+Float:      0.000600
+Difference: 0.000100
+
+Fraction:   0.000700
+Float:      0.001100
+Difference: -0.000400
+
+Fraction:   0.000700
+Float:      0.000900
+Difference: -0.000200
+
+Fraction:   0.000800
+Float:      0.000900
+Difference: -0.000100
+
+Fraction:   0.000500
+Float:      0.000700
+Difference: -0.000200
+
+Fraction:   0.000500
+Float:      0.000700
+Difference: -0.000200
+
+Fraction:   0.000500
+Float:      0.001900
+Difference: -0.001400
+
+Fraction:   0.000800
+Float:      0.001000
+Difference: -0.000200
+
+Fraction:   0.000500
+Float:      0.000800
+Difference: -0.000300
+
+Fraction:   0.000500
+Float:      0.000900
+Difference: -0.000400
+
+Fraction:   0.000500
+Float:      0.001600
+Difference: -0.001100
+
+Fraction:   0.001000
+Float:      0.001000
+Difference: 0.000000
+
+Fraction:   0.014000
+Float:      0.000800
+Difference: 0.013200
+
+Fraction:   0.000500
+Float:      0.000800
+Difference: -0.000300
+
+Fraction:   0.000900
+Float:      0.000800
+Difference: 0.000100
+
+Fraction:   0.000700
+Float:      0.001500
+Difference: -0.000800
+
+Fraction:   0.000700
+Float:      0.000900
+Difference: -0.000200
+
+Fraction:   0.000500
+Float:      0.001100
+Difference: -0.000600
+
+Fraction:   0.000700
+Float:      0.000800
+Difference: -0.000100
+
+Fraction:   0.000600
+Float:      0.001100
+Difference: -0.000500
+
+Fraction:   0.000900
+Float:      0.002700
+Difference: -0.001800
+
+Fraction:   0.000800
+Float:      0.000900
+Difference: -0.000100
+
+Fraction:   0.000500
+Float:      0.001600
+Difference: -0.001100
+
+Fraction:   0.001100
+Float:      0.001800
+Difference: -0.000700
+
+Fraction:   0.000900
+Float:      0.001300
+Difference: -0.000400
+
+Fraction:   0.001500
+Float:      0.001700
+Difference: -0.000200
+
+Fraction:   0.001000
+Float:      0.001300
+Difference: -0.000300
+
+Fraction:   0.000500
+Float:      0.000700
+Difference: -0.000200
+
+Fraction:   0.000800
+Float:      0.001400
+Difference: -0.000600
+
+Fraction:   0.000600
+Float:      0.000600
+Difference: 0.000000
+
+Fraction:   0.000700
+Float:      0.000900
+Difference: -0.000200
+
+Fraction:   0.000800
+Float:      0.001000
+Difference: -0.000200
+
+Fraction:   0.000700
+Float:      0.000800
+Difference: -0.000100
+
+Fraction:   0.000800
+Float:      0.000800
+Difference: 0.000000
+
+Fraction:   0.000500
+Float:      0.001000
+Difference: -0.000500
+
+Fraction:   0.000700
+Float:      0.001000
+Difference: -0.000300
+
+Fraction:   0.000600
+Float:      0.000800
+Difference: -0.000200
+
+Fraction:   0.000400
+Float:      0.001200
+Difference: -0.000800
+
+Fraction:   0.000700
+Float:      0.001000
+Difference: -0.000300
+
+Fraction:   0.000400
+Float:      0.001000
+Difference: -0.000600
+
+Fraction:   0.000500
+Float:      0.000900
+Difference: -0.000400
+
+Fraction:   0.001200
+Float:      0.003200
+Difference: -0.002000
+
+Fraction:   0.000500
+Float:      0.000800
+Difference: -0.000300
+
+Fraction:   0.000700
+Float:      0.000800
+Difference: -0.000100
+
+Fraction:   0.000600
+Float:      0.001100
+Difference: -0.000500
+
+Fraction:   0.000900
+Float:      0.001100
+Difference: -0.000200
+
+Fraction:   0.000900
+Float:      0.000800
+Difference: 0.000100
+
+Fraction:   0.000800
+Float:      0.001100
+Difference: -0.000300
+
+Fraction:   0.000800
+Float:      0.000700
+Difference: 0.000100
+
+Fraction:   0.000700
+Float:      0.001000
+Difference: -0.000300
+
+Fraction:   0.000500
+Float:      0.000800
+Difference: -0.000300
+
+Fraction:   0.000900
+Float:      0.000900
+Difference: 0.000000
+
+Fraction:   0.000500
+Float:      0.000700
+Difference: -0.000200
+
+Fraction:   0.000700
+Float:      0.000800
+Difference: -0.000100
+
+Fraction:   0.001300
+Float:      0.001000
+Difference: 0.000300
+
+Fraction:   0.000500
+Float:      0.000800
+Difference: -0.000300
+
+Fraction:   0.000600
+Float:      0.000900
+Difference: -0.000300
+
+Fraction:   0.000400
+Float:      0.001000
+Difference: -0.000600
+
+Fraction:   0.000800
+Float:      0.000900
+Difference: -0.000100
+
+Fraction:   0.000500
+Float:      0.001000
+Difference: -0.000500
+
+Fraction:   0.000800
+Float:      0.001000
+Difference: -0.000200
+
+Fraction:   0.000700
+Float:      0.000800
+Difference: -0.000100
+
+Fraction:   0.000500
+Float:      0.000800
+Difference: -0.000300
+
+Fraction:   0.000500
+Float:      0.000700
+Difference: -0.000200
+
+Fraction:   0.000500
+Float:      0.000600
+Difference: -0.000100
+
+Fraction:   0.000900
+Float:      0.001100
+Difference: -0.000200
+
+Fraction:   0.000500
+Float:      0.001000
+Difference: -0.000500
+
+Fraction:   0.000700
+Float:      0.001000
+Difference: -0.000300
+
+Fraction:   0.000500
+Float:      0.001100
+Difference: -0.000600
+
+Fraction:   0.001100
+Float:      0.001200
+Difference: -0.000100
+
+Fraction:   0.000700
+Float:      0.000800
+Difference: -0.000100
+
+Fraction:   0.000500
+Float:      0.000800
+Difference: -0.000300
+
+Fraction:   0.000800
+Float:      0.001000
+Difference: -0.000200
+
+Fraction:   0.000600
+Float:      0.001000
+Difference: -0.000400
+
+Fraction:   0.000800
+Float:      0.001000
+Difference: -0.000200
+
+Fraction:   0.000700
+Float:      0.001300
+Difference: -0.000600
+
+Fraction:   0.000700
+Float:      0.000800
+Difference: -0.000100
+
+Fraction:   0.000500
+Float:      0.000800
+Difference: -0.000300
+
+Fraction:   0.000500
+Float:      0.000800
+Difference: -0.000300
+
+Fraction:   0.000800
+Float:      0.001000
+Difference: -0.000200
+
+Fraction:   0.000600
+Float:      0.000900
+Difference: -0.000300
+
+Fraction:   0.001000
+Float:      0.000800
+Difference: 0.000200
+
+Fraction:   0.000600
+Float:      0.000900
+Difference: -0.000300
+
+Fraction:   0.000500
+Float:      0.000800
+Difference: -0.000300
+
+Fraction:   0.000500
+Float:      0.000800
+Difference: -0.000300
+
+Fraction:   0.000900
+Float:      0.001000
+Difference: -0.000100
+
+Fraction:   0.001000
+Float:      0.001100
+Difference: -0.000100
+
+Fraction:   0.000500
+Float:      0.000900
+Difference: -0.000400
+
+Fraction:   0.000700
+Float:      0.000900
+Difference: -0.000200
+
+Fraction:   0.000500
+Float:      0.000600
+Difference: -0.000100
+
+Fraction:   0.000500
+Float:      0.000700
+Difference: -0.000200
+
+Fraction:   0.000800
+Float:      0.001100
+Difference: -0.000300
+
+Fraction:   0.000700
+Float:      0.000900
+Difference: -0.000200
+
+Fraction:   0.001200
+Float:      0.001100
+Difference: 0.000100
+
+Fraction:   0.000800
+Float:      0.001000
+Difference: -0.000200
+
+Fraction:   0.001100
+Float:      0.001000
+Difference: 0.000100
+
+Fraction:   0.000500
+Float:      0.000900
+Difference: -0.000400
+
+Fraction:   0.000500
+Float:      0.000900
+Difference: -0.000400
+
+Fraction:   0.000400
+Float:      0.000700
+Difference: -0.000300
+
+Fraction:   0.000900
+Float:      0.002200
+Difference: -0.001300
+
+Fraction:   0.000700
+Float:      0.001000
+Difference: -0.000300
+
+Fraction:   0.001200
+Float:      0.001300
+Difference: -0.000100
+
+Fraction:   0.000900
+Float:      0.000900
+Difference: 0.000000
+
+Fraction:   0.001100
+Float:      0.000900
+Difference: 0.000200
+
+Fraction:   0.002000
+Float:      0.002400
+Difference: -0.000400
+
+Fraction:   0.001300
+Float:      0.003100
+Difference: -0.001800
+
+Fraction:   0.001100
+Float:      0.001500
+Difference: -0.000400
+
+Fraction:   0.001600
+Float:      0.001700
+Difference: -0.000100
+
+Fraction:   0.000800
+Float:      0.001200
+Difference: -0.000400
+
+Fraction:   0.002300
+Float:      0.001100
+Difference: 0.001200
+
+Fraction:   0.001400
+Float:      0.001200
+Difference: 0.000200
+
+Fraction:   0.001000
+Float:      0.001200
+Difference: -0.000200
+
+Fraction:   0.000700
+Float:      0.000800
+Difference: -0.000100
+
+Fraction:   0.000700
+Float:      0.001100
+Difference: -0.000400
+
+Fraction:   0.000700
+Float:      0.001400
+Difference: -0.000700
+
+Fraction:   0.000800
+Float:      0.001400
+Difference: -0.000600
+
+Fraction:   0.000900
+Float:      0.000900
+Difference: 0.000000
+
+Fraction:   0.000500
+Float:      0.000800
+Difference: -0.000300
+
+Fraction:   0.000600
+Float:      0.000800
+Difference: -0.000200
+
+Fraction:   0.000600
+Float:      0.000800
+Difference: -0.000200
+
+Fraction:   0.001000
+Float:      0.000900
+Difference: 0.000100
+
+Fraction:   0.000800
+Float:      0.000900
+Difference: -0.000100
+
+Fraction:   0.000500
+Float:      0.000800
+Difference: -0.000300
+
+Fraction:   0.000500
+Float:      0.001100
+Difference: -0.000600
+
+Fraction:   0.000800
+Float:      0.001000
+Difference: -0.000200
+
+Fraction:   0.000700
+Float:      0.000900
+Difference: -0.000200
+
+Fraction:   0.000600
+Float:      0.001000
+Difference: -0.000400
+
+Fraction:   0.000600
+Float:      0.001200
+Difference: -0.000600
+
+Fraction:   0.001100
+Float:      0.001100
+Difference: 0.000000
+
+Fraction:   0.000600
+Float:      0.000900
+Difference: -0.000300
+
+Fraction:   0.000700
+Float:      0.001000
+Difference: -0.000300
+
+Fraction:   0.000800
+Float:      0.001800
+Difference: -0.001000
+
+Fraction:   0.000600
+Float:      0.000800
+Difference: -0.000200
+
+Fraction:   0.000600
+Float:      0.000800
+Difference: -0.000200
+
+Fraction:   0.000600
+Float:      0.000800
+Difference: -0.000200
+
+Fraction:   0.000800
+Float:      0.000900
+Difference: -0.000100
+
+Fraction:   0.000500
+Float:      0.000600
+Difference: -0.000100
+
+Fraction:   0.000600
+Float:      0.000700
+Difference: -0.000100
+
+Fraction:   0.000500
+Float:      0.001100
+Difference: -0.000600
+
+Fraction:   0.000600
+Float:      0.001200
+Difference: -0.000600
+
+Fraction:   0.000700
+Float:      0.001000
+Difference: -0.000300
+
+Fraction:   0.000500
+Float:      0.000800
+Difference: -0.000300
+
+Fraction:   0.000800
+Float:      0.001000
+Difference: -0.000200
+
+Fraction:   0.000500
+Float:      0.000800
+Difference: -0.000300
+
+Fraction:   0.000500
+Float:      0.000900
+Difference: -0.000400
+
+Fraction:   0.000600
+Float:      0.001200
+Difference: -0.000600
+
+Fraction:   0.000800
+Float:      0.001000
+Difference: -0.000200
+
+Fraction:   0.000500
+Float:      0.000800
+Difference: -0.000300
+
+Fraction:   0.000500
+Float:      0.000700
+Difference: -0.000200
+
+Fraction:   0.000500
+Float:      0.000700
+Difference: -0.000200
+
+Fraction:   0.001000
+Float:      0.001300
+Difference: -0.000300
+
+Fraction:   0.000600
+Float:      0.000900
+Difference: -0.000300
+
+Fraction:   0.000600
+Float:      0.000800
+Difference: -0.000200
+
+Fraction:   0.000700
+Float:      0.001000
+Difference: -0.000300
+
+Fraction:   0.001300
+Float:      0.001000
+Difference: 0.000300
+
+Fraction:   0.000600
+Float:      0.001200
+Difference: -0.000600
+
+Fraction:   0.000600
+Float:      0.000900
+Difference: -0.000300
+
+Fraction:   0.001000
+Float:      0.000900
+Difference: 0.000100
+
+Fraction:   0.000500
+Float:      0.001100
+Difference: -0.000600
+
+Fraction:   0.001000
+Float:      0.001100
+Difference: -0.000100
+
+Fraction:   0.001400
+Float:      0.001700
+Difference: -0.000300
+
+Fraction:   0.001200
+Float:      0.002300
+Difference: -0.001100
+
+Fraction:   0.000900
+Float:      0.001200
+Difference: -0.000300
+
+Fraction:   0.000800
+Float:      0.000900
+Difference: -0.000100
+
+Fraction:   0.000900
+Float:      0.001500
+Difference: -0.000600
+
+Fraction:   0.000900
+Float:      0.001300
+Difference: -0.000400
+
+Fraction:   0.001300
+Float:      0.001600
+Difference: -0.000300
+
+Fraction:   0.001400
+Float:      0.001400
+Difference: 0.000000
+
+Fraction:   0.000800
+Float:      0.020500
+Difference: -0.019700
+
+Fraction:   0.001300
+Float:      0.001300
+Difference: 0.000000
+
+Fraction:   0.000600
+Float:      0.000900
+Difference: -0.000300
+
+Fraction:   0.001100
+Float:      0.001000
+Difference: 0.000100
+
+Fraction:   0.001100
+Float:      0.001200
+Difference: -0.000100
+
+Fraction:   0.000800
+Float:      0.001100
+Difference: -0.000300
+
+Fraction:   0.000800
+Float:      0.001100
+Difference: -0.000300
+
+Fraction:   0.000600
+Float:      0.014300
+Difference: -0.013700
+
+Fraction:   0.001200
+Float:      0.001100
+Difference: 0.000100
+
+Fraction:   0.000600
+Float:      0.014200
+Difference: -0.013600
+
+Fraction:   0.000700
+Float:      0.000800
+Difference: -0.000100
+
+Fraction:   0.000800
+Float:      0.001000
+Difference: -0.000200
+
+Fraction:   0.000500
+Float:      0.001100
+Difference: -0.000600
+
+Fraction:   0.000600
+Float:      0.000900
+Difference: -0.000300
+
+Fraction:   0.001000
+Float:      0.001000
+Difference: 0.000000
+
+Fraction:   0.001200
+Float:      0.001600
+Difference: -0.000400
+
+Fraction:   0.001500
+Float:      0.002300
+Difference: -0.000800
+
+Fraction:   0.001100
+Float:      0.001300
+Difference: -0.000200
+
+Fraction:   0.001200
+Float:      0.001200
+Difference: 0.000000
+
+Fraction:   0.002500
+Float:      0.001200
+Difference: 0.001300
+
+Fraction:   0.001500
+Float:      0.001500
+Difference: 0.000000
+
+Fraction:   0.001300
+Float:      0.001600
+Difference: -0.000300
+
+Fraction:   0.001600
+Float:      0.001800
+Difference: -0.000200
+
+Fraction:   0.001100
+Float:      0.001100
+Difference: 0.000000
+
+Fraction:   0.001400
+Float:      0.001100
+Difference: 0.000300
+
+Fraction:   0.000800
+Float:      0.000900
+Difference: -0.000100
+
+Fraction:   0.000600
+Float:      0.001400
+Difference: -0.000800
+
+Fraction:   0.000800
+Float:      0.000900
+Difference: -0.000100
+
+Fraction:   0.000600
+Float:      0.000900
+Difference: -0.000300
+
+Fraction:   0.000600
+Float:      0.000800
+Difference: -0.000200
+
+Fraction:   0.001200
+Float:      0.000800
+Difference: 0.000400
+
+Fraction:   0.001000
+Float:      0.001400
+Difference: -0.000400
+
+Fraction:   0.000500
+Float:      0.000700
+Difference: -0.000200
+
+Fraction:   0.000500
+Float:      0.000700
+Difference: -0.000200
+
+Fraction:   0.000800
+Float:      0.001000
+Difference: -0.000200
+
+Fraction:   0.000600
+Float:      0.000600
+Difference: 0.000000
+
+Fraction:   0.000600
+Float:      0.000900
+Difference: -0.000300
+
+Fraction:   0.000700
+Float:      0.001000
+Difference: -0.000300
+
+Fraction:   0.000500
+Float:      0.000700
+Difference: -0.000200
+
+Fraction:   0.000700
+Float:      0.000900
+Difference: -0.000200
+
+Fraction:   0.000500
+Float:      0.001400
+Difference: -0.000900
+
+Fraction:   0.000800
+Float:      0.001200
+Difference: -0.000400
+
+Fraction:   0.000500
+Float:      0.001300
+Difference: -0.000800
+
+Fraction:   0.001100
+Float:      0.001000
+Difference: 0.000100
+
+Fraction:   0.000600
+Float:      0.000900
+Difference: -0.000300
+
+Fraction:   0.000500
+Float:      0.000700
+Difference: -0.000200
+
+Fraction:   0.013700
+Float:      0.000700
+Difference: 0.013000
+
+Fraction:   0.000700
+Float:      0.000900
+Difference: -0.000200
+
+Fraction:   0.000500
+Float:      0.001300
+Difference: -0.000800
+
+Fraction:   0.000700
+Float:      0.000700
+Difference: 0.000000
+
+Fraction:   0.000800
+Float:      0.001200
+Difference: -0.000400
+
+Fraction:   0.000500
+Float:      0.000800
+Difference: -0.000300
+
+Fraction:   0.000600
+Float:      0.000800
+Difference: -0.000200
+
+Fraction:   0.001600
+Float:      0.001500
+Difference: 0.000100
+
+Fraction:   0.000900
+Float:      0.000900
+Difference: 0.000000
+
+Fraction:   0.000500
+Float:      0.000900
+Difference: -0.000400
+
+Fraction:   0.000700
+Float:      0.001100
+Difference: -0.000400
+
+Fraction:   0.000600
+Float:      0.001000
+Difference: -0.000400
+
+Fraction:   0.000500
+Float:      0.001000
+Difference: -0.000500
+
+Fraction:   0.000600
+Float:      0.000900
+Difference: -0.000300
+
+Average time difference: 0.00126461
