@@ -77,7 +77,7 @@ Fraction::Fraction(int numer, int denominator)
 	_ptr = make_fr(numer, denominator);
 }
 
-Fraction::Fraction(const int arr[2])
+Fraction::Fraction(int arr[2])
 {
 	_ptr = make_fr(arr[0], arr[1]);
 }
@@ -96,7 +96,7 @@ Fraction& Fraction::operator = (Fraction&& f) noexcept
 	return *this;
 }
 
-Fraction& Fraction::operator = (const int arr[2])
+Fraction& Fraction::operator = (int arr[2])
 {
 	set_fr(_ptr, arr[0], arr[1]);
 	return *this;
@@ -130,6 +130,11 @@ void Fraction::setDenom(int denom) noexcept
 void Fraction::setFraction(int numer, int denom) noexcept
 {
 	set_fr(_ptr, numer, denom);
+}
+
+void Fraction::setFraction(int arr[2]) noexcept
+{
+	set_fr(_ptr, arr[0], arr[1]);
 }
 
 void Fraction::power(unsigned int n) noexcept
@@ -178,6 +183,12 @@ Fraction& Fraction::operator += (const Fraction& f2)
 	return *this;
 }
 
+Fraction& Fraction::operator += (int arr[2])
+{
+	add_fr(_ptr, arr);
+	return *this;
+}
+
 Fraction& Fraction::operator += (int i)
 {
 	add_fr(_ptr, make_fr(i * _ptr[1], _ptr[1]));
@@ -187,6 +198,12 @@ Fraction& Fraction::operator += (int i)
 Fraction& Fraction::operator -= (const Fraction& f2)
 {
 	sub_fr(_ptr, f2._ptr);
+	return *this;
+}
+
+Fraction& Fraction::operator -= (int arr[2])
+{
+	sub_fr(_ptr, arr);
 	return *this;
 }
 
@@ -202,6 +219,12 @@ Fraction& Fraction::operator *= (const Fraction& f2)
 	return *this;
 }
 
+Fraction& Fraction::operator *= (int arr[2])
+{
+	mul_fr(_ptr, arr);
+	return *this;
+}
+
 Fraction& Fraction::operator *= (int i)
 {
 	mul_fr(_ptr, make_fr(i, 1));
@@ -211,6 +234,12 @@ Fraction& Fraction::operator *= (int i)
 Fraction& Fraction::operator /= (const Fraction& f2)
 {
 	div_fr(_ptr, f2._ptr);
+	return *this;
+}
+
+Fraction& Fraction::operator /= (int arr[2])
+{
+	div_fr(_ptr, arr);
 	return *this;
 }
 
@@ -281,6 +310,11 @@ bool operator == (const Fraction& f1, const Fraction& f2) noexcept
 	return f1.evaluate() == f2.evaluate();
 }
 
+bool operator == (const Fraction& fr, int arr[2]) noexcept
+{
+	return fr.evaluate() == ((1.0f * arr[0]) / (1.0f * arr[1]));
+}
+
 bool operator == (const Fraction& fr, float f) noexcept
 {
 	return fr.evaluate() == f;
@@ -289,6 +323,11 @@ bool operator == (const Fraction& fr, float f) noexcept
 bool operator != (const Fraction& f1, const Fraction& f2) noexcept
 {
 	return f1.evaluate() != f2.evaluate();
+}
+
+bool operator != (const Fraction& fr, int arr[2]) noexcept
+{
+	return fr.evaluate() != ((1.0f * arr[0]) / (1.0f * arr[1]));
 }
 
 bool operator != (const Fraction& fr, float f) noexcept
@@ -301,6 +340,11 @@ bool operator < (const Fraction& f1, const Fraction& f2) noexcept
 	return f1.evaluate() < f2.evaluate();
 }
 
+bool operator < (const Fraction& fr, int arr[2]) noexcept
+{
+	return fr.evaluate() < ((1.0f * arr[0]) / (1.0f * arr[1]));
+}
+
 bool operator < (const Fraction& fr, float f) noexcept
 {
 	return fr.evaluate() < f;
@@ -309,6 +353,11 @@ bool operator < (const Fraction& fr, float f) noexcept
 bool operator <= (const Fraction& f1, const Fraction& f2) noexcept
 {
 	return f1.evaluate() <= f2.evaluate();
+}
+
+bool operator <= (const Fraction& fr, int arr[2]) noexcept
+{
+	return fr.evaluate() <= ((1.0f * arr[0]) / (1.0f * arr[1]));
 }
 
 bool operator <= (const Fraction& fr, float f) noexcept
@@ -321,6 +370,11 @@ bool operator > (const Fraction& f1, const Fraction& f2) noexcept
 	return f1.evaluate() > f2.evaluate();
 }
 
+bool operator > (const Fraction& fr, int arr[2]) noexcept
+{
+	return fr.evaluate() > ((1.0f * arr[0]) / (1.0f * arr[1]));
+}
+
 bool operator > (const Fraction& fr, float f) noexcept
 {
 	return fr.evaluate() > f;
@@ -329,6 +383,11 @@ bool operator > (const Fraction& fr, float f) noexcept
 bool operator >= (const Fraction& f1, const Fraction& f2) noexcept
 {
 	return f1.evaluate() >= f2.evaluate();
+}
+
+bool operator >= (const Fraction& fr, int arr[2]) noexcept
+{
+	return fr.evaluate() >= ((1.0f * arr[0]) / (1.0f * arr[1]));
 }
 
 bool operator >= (const Fraction& fr, float f) noexcept
