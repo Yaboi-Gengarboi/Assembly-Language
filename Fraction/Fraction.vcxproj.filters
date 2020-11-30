@@ -5,9 +5,9 @@
     <ClCompile Include="Fraction.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="Fraction.asm" />
+    <ClInclude Include="Fraction.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Fraction.h" />
+    <CustomBuild Include="Fraction.asm" />
   </ItemGroup>
 </Project>

@@ -14,16 +14,16 @@ extern "C" int* make_fr(int numer, int denom);
 // Deallocates the passed 8-byte array.
 extern "C" void delete_fr(int* fr);
 
-// Sets f[0] to numer.
+// Sets fr[0] to numer.
 extern "C" void set_numer(int* fr, int numer);
 
-// Sets f[1] to denom.
+// Sets fr[1] to denom.
 extern "C" void set_denom(int* fr, int denom);
 
-// Sets f[0] to numer and f[1] to denom.
+// Sets fr[0] to numer and fr[1] to denom.
 extern "C" void set_fr(int* fr, int numer, int denom);
 
-// Raises both f[0] and f[1] to the nth power.
+// Raises both fr[0] and fr[1] to the nth power.
 extern "C" void pow_fr(int* fr, unsigned int n);
 
 // Returns the float result of numer / denom.
