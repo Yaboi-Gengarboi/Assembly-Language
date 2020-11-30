@@ -2,7 +2,7 @@
 // Fraction.h
 // Justyn Durnford
 // Created on 2020-10-05
-// Last updated on 2020-11-29
+// Last updated on 2020-11-30
 // Header file for Fraction class.
 
 #ifndef FRACTION_H_INCLUDED
@@ -74,6 +74,10 @@ class Fraction
 
 	// Sets the denominator of the fraction to denom.
 	void setDenom(int denom) noexcept;
+
+	// Sets the numerator of the fraction to numer.
+	// Sets the denominator of the fraction to 1.
+	void setFraction(int numer) noexcept;
 
 	// Sets the numerator of the fraction to numer.
 	// Sets the denominator of the fraction to denom.

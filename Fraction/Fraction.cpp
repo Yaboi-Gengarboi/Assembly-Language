@@ -2,7 +2,7 @@
 // Fraction.cpp
 // Justyn Durnford
 // Created on 2020-10-05
-// Last updated on 2020-11-29
+// Last updated on 2020-11-30
 // Source file for Fraction class.
 
 #include "Fraction.h"
@@ -125,6 +125,11 @@ void Fraction::setNumer(int numer) noexcept
 void Fraction::setDenom(int denom) noexcept
 {
 	set_denom(_ptr, denom);
+}
+
+void Fraction::setFraction(int numer) noexcept
+{
+	set_fr(_ptr, numer, 1);
 }
 
 void Fraction::setFraction(int numer, int denom) noexcept
