@@ -2,7 +2,7 @@
 // Fraction.h
 // Justyn Durnford
 // Created on 2020-10-05
-// Last updated on 2020-11-27
+// Last updated on 2020-11-29
 // Header file for Fraction class.
 
 #ifndef FRACTION_H_INCLUDED
@@ -24,11 +24,11 @@ class Fraction
 	// Copy constructor.
 	// Copies the values from the passed fraction into the
 	// new fraction.
-	Fraction(const Fraction& f);
+	Fraction(const Fraction& fr);
 
 	// Move constructor.
 	// Moves the passed fraction into the new fraction.
-	Fraction(Fraction&& f) noexcept;
+	Fraction(Fraction&& fr) noexcept;
 
 	// 1-int constructor.
 	// Sets the numerator of the fraction to numer.
@@ -48,11 +48,11 @@ class Fraction
 	// Copy assignment operator.
 	// Copies the values from the passed fraction into the
 	// new fraction.
-	Fraction& operator = (const Fraction& f);
+	Fraction& operator = (const Fraction& fr);
 
 	// Move assignment operator.
 	// Moves the passed fraction into the new fraction.
-	Fraction& operator = (Fraction&& f) noexcept;
+	Fraction& operator = (Fraction&& fr) noexcept;
 
 	// Array assignment operator.
 	// Sets the numerator of the fraction to arr[0].
@@ -143,37 +143,62 @@ class Fraction
 	Fraction operator / (int i);
 };
 
-// Equality comparison operators.
-bool operator == (const Fraction& f1, const Fraction& f2) noexcept;
-bool operator == (const Fraction& fr, int arr[2]) noexcept;
-bool operator == (const Fraction& fr, float f) noexcept;
+// Returns true if f1.evaluate() == f2.evaluate().
+bool operator == (const Fraction& f1, const Fraction& f2);
 
-// Inequality comparison operators.
-bool operator != (const Fraction& f1, const Fraction& f2) noexcept;
-bool operator != (const Fraction& fr, int arr[2]) noexcept;
-bool operator != (const Fraction& fr, float f) noexcept;
+// Returns true if fr.evaluate() == arr[0] / arr[1].
+bool operator == (const Fraction& fr, int arr[2]);
 
-// Less-than comparison operators.
-bool operator < (const Fraction& f1, const Fraction& f2) noexcept;
-bool operator < (const Fraction& fr, int arr[2]) noexcept;
-bool operator < (const Fraction& fr, float f) noexcept;
+// Returns true if fr.evaluate() == f.
+bool operator == (const Fraction& fr, float f);
 
-// Less-than-or-equal comparison operators.
-bool operator <= (const Fraction& f1, const Fraction& f2) noexcept;
-bool operator <= (const Fraction& fr, int arr[2]) noexcept;
-bool operator <= (const Fraction& fr, float f) noexcept;
+// Returns true if f1.evaluate() != f2.evaluate().
+bool operator != (const Fraction& f1, const Fraction& f2);
 
-// Greater-than comparison operators.
-bool operator > (const Fraction& f1, const Fraction& f2) noexcept;
-bool operator > (const Fraction& fr, int arr[2]) noexcept;
-bool operator > (const Fraction& fr, float f) noexcept;
+// Returns true if fr.evaluate() != arr[0] / arr[1].
+bool operator != (const Fraction& fr, int arr[2]);
 
-// Less-than-or-equal comparison operators.
-bool operator >= (const Fraction& f1, const Fraction& f2) noexcept;
-bool operator >= (const Fraction& fr, int arr[2]) noexcept;
-bool operator >= (const Fraction& fr, float f) noexcept;
+// Returns true if fr.evaluate() != f.
+bool operator != (const Fraction& fr, float f);
+
+// Returns true if f1.evaluate() < f2.evaluate().
+bool operator < (const Fraction& f1, const Fraction& f2);
+
+// Returns true if fr.evaluate() < arr[0] / arr[1].
+bool operator < (const Fraction& fr, int arr[2]);
+
+// Returns true if fr.evaluate() < f.
+bool operator < (const Fraction& fr, float f);
+
+// Returns true if f1.evaluate() <= f2.evaluate().
+bool operator <= (const Fraction& f1, const Fraction& f2);
+
+// Returns true if fr.evaluate() <= arr[0] / arr[1].
+bool operator <= (const Fraction& fr, int arr[2]);
+
+// Returns true if fr.evaluate() <= f.
+bool operator <= (const Fraction& fr, float f);
+
+// Returns true if f1.evaluate() > f2.evaluate().
+bool operator > (const Fraction& f1, const Fraction& f2);
+
+// Returns true if fr.evaluate() > arr[0] / arr[1].
+bool operator > (const Fraction& fr, int arr[2]);
+
+// Returns true if fr.evaluate() > f.
+bool operator > (const Fraction& fr, float f);
+
+// Returns true if f1.evaluate() >= f2.evaluate().
+bool operator >= (const Fraction& f1, const Fraction& f2);
+
+// Returns true if fr.evaluate() >= arr[0] / arr[1].
+bool operator >= (const Fraction& fr, int arr[2]);
+
+// Returns true if fr.evaluate() >= f.
+bool operator >= (const Fraction& fr, float f);
 
 // std::ostream insertion operator.
-std::ostream& operator << (std::ostream& os, const Fraction& f);
+// Prints fr.toString() to the passed std::ostream.
+std::ostream& operator << (std::ostream& os, const Fraction& fr);
 
 #endif // FRACTION_H_INCLUDED

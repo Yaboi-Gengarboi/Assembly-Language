@@ -2,7 +2,7 @@
 // Fraction.cpp
 // Justyn Durnford
 // Created on 2020-10-05
-// Last updated on 2020-11-27
+// Last updated on 2020-11-29
 // Source file for Fraction class.
 
 #include "Fraction.h"
@@ -12,19 +12,19 @@
 extern "C" int* make_fr(int numer, int denom);
 
 // Deallocates the passed 8-byte array.
-extern "C" void delete_fr(int* f);
+extern "C" void delete_fr(int* fr);
 
 // Sets f[0] to numer.
-extern "C" void set_numer(int* f, int numer);
+extern "C" void set_numer(int* fr, int numer);
 
 // Sets f[1] to denom.
-extern "C" void set_denom(int* f, int denom);
+extern "C" void set_denom(int* fr, int denom);
 
 // Sets f[0] to numer and f[1] to denom.
-extern "C" void set_fr(int* f, int numer, int denom);
+extern "C" void set_fr(int* fr, int numer, int denom);
 
 // Raises both f[0] and f[1] to the nth power.
-extern "C" void pow_fr(int* f, unsigned int n);
+extern "C" void pow_fr(int* fr, unsigned int n);
 
 // Returns the float result of numer / denom.
 extern "C" float evaluate_fr(int numer, int denom);
@@ -56,15 +56,15 @@ Fraction::Fraction()
 	_ptr = make_fr(0, 0);
 }
 
-Fraction::Fraction(const Fraction& f)
+Fraction::Fraction(const Fraction& fr)
 {
-	_ptr = make_fr(f._ptr[0], f._ptr[1]);
+	_ptr = make_fr(fr._ptr[0], fr._ptr[1]);
 }
 
-Fraction::Fraction(Fraction&& f) noexcept
+Fraction::Fraction(Fraction&& fr) noexcept
 {
-	_ptr = f._ptr;
-	f._ptr = nullptr;
+	_ptr = fr._ptr;
+	fr._ptr = nullptr;
 }
 
 Fraction::Fraction(int numer)
@@ -82,17 +82,17 @@ Fraction::Fraction(int arr[2])
 	_ptr = make_fr(arr[0], arr[1]);
 }
 
-Fraction& Fraction::operator = (const Fraction& f)
+Fraction& Fraction::operator = (const Fraction& fr)
 {
-	set_fr(_ptr, f._ptr[0], f._ptr[1]);
+	set_fr(_ptr, fr._ptr[0], fr._ptr[1]);
 	return *this;
 }
 
-Fraction& Fraction::operator = (Fraction&& f) noexcept
+Fraction& Fraction::operator = (Fraction&& fr) noexcept
 {
 	delete_fr(_ptr);
-	_ptr = f._ptr;
-	f._ptr = nullptr;
+	_ptr = fr._ptr;
+	fr._ptr = nullptr;
 	return *this;
 }
 
@@ -305,92 +305,110 @@ Fraction Fraction::operator / (int i)
 	return f1;
 }
 
-bool operator == (const Fraction& f1, const Fraction& f2) noexcept
+bool operator == (const Fraction& f1, const Fraction& f2)
 {
 	return f1.evaluate() == f2.evaluate();
 }
 
-bool operator == (const Fraction& fr, int arr[2]) noexcept
+bool operator == (const Fraction& fr, int arr[2])
 {
+	if (arr[1] == 0)
+		throw domain_error("Domain Error: Division by 0.");
+
 	return fr.evaluate() == ((1.0f * arr[0]) / (1.0f * arr[1]));
 }
 
-bool operator == (const Fraction& fr, float f) noexcept
+bool operator == (const Fraction& fr, float f)
 {
 	return fr.evaluate() == f;
 }
 
-bool operator != (const Fraction& f1, const Fraction& f2) noexcept
+bool operator != (const Fraction& f1, const Fraction& f2)
 {
 	return f1.evaluate() != f2.evaluate();
 }
 
-bool operator != (const Fraction& fr, int arr[2]) noexcept
+bool operator != (const Fraction& fr, int arr[2])
 {
+	if (arr[1] == 0)
+		throw domain_error("Domain Error: Division by 0.");
+
 	return fr.evaluate() != ((1.0f * arr[0]) / (1.0f * arr[1]));
 }
 
-bool operator != (const Fraction& fr, float f) noexcept
+bool operator != (const Fraction& fr, float f)
 {
 	return fr.evaluate() != f;
 }
 
-bool operator < (const Fraction& f1, const Fraction& f2) noexcept
+bool operator < (const Fraction& f1, const Fraction& f2)
 {
 	return f1.evaluate() < f2.evaluate();
 }
 
-bool operator < (const Fraction& fr, int arr[2]) noexcept
+bool operator < (const Fraction& fr, int arr[2])
 {
+	if (arr[1] == 0)
+		throw domain_error("Domain Error: Division by 0.");
+
 	return fr.evaluate() < ((1.0f * arr[0]) / (1.0f * arr[1]));
 }
 
-bool operator < (const Fraction& fr, float f) noexcept
+bool operator < (const Fraction& fr, float f)
 {
 	return fr.evaluate() < f;
 }
 
-bool operator <= (const Fraction& f1, const Fraction& f2) noexcept
+bool operator <= (const Fraction& f1, const Fraction& f2)
 {
 	return f1.evaluate() <= f2.evaluate();
 }
 
-bool operator <= (const Fraction& fr, int arr[2]) noexcept
+bool operator <= (const Fraction& fr, int arr[2])
 {
+	if (arr[1] == 0)
+		throw domain_error("Domain Error: Division by 0.");
+
 	return fr.evaluate() <= ((1.0f * arr[0]) / (1.0f * arr[1]));
 }
 
-bool operator <= (const Fraction& fr, float f) noexcept
+bool operator <= (const Fraction& fr, float f)
 {
 	return fr.evaluate() <= f;
 }
 
-bool operator > (const Fraction& f1, const Fraction& f2) noexcept
+bool operator > (const Fraction& f1, const Fraction& f2)
 {
 	return f1.evaluate() > f2.evaluate();
 }
 
-bool operator > (const Fraction& fr, int arr[2]) noexcept
+bool operator > (const Fraction& fr, int arr[2])
 {
+	if (arr[1] == 0)
+		throw domain_error("Domain Error: Division by 0.");
+
 	return fr.evaluate() > ((1.0f * arr[0]) / (1.0f * arr[1]));
 }
 
-bool operator > (const Fraction& fr, float f) noexcept
+bool operator > (const Fraction& fr, float f)
 {
 	return fr.evaluate() > f;
 }
 
-bool operator >= (const Fraction& f1, const Fraction& f2) noexcept
+bool operator >= (const Fraction& f1, const Fraction& f2)
 {
 	return f1.evaluate() >= f2.evaluate();
 }
 
-bool operator >= (const Fraction& fr, int arr[2]) noexcept
+bool operator >= (const Fraction& fr, int arr[2])
 {
+	if (arr[1] == 0)
+		throw domain_error("Domain Error: Division by 0.");
+
 	return fr.evaluate() >= ((1.0f * arr[0]) / (1.0f * arr[1]));
 }
 
-bool operator >= (const Fraction& fr, float f) noexcept
+bool operator >= (const Fraction& fr, float f)
 {
 	return fr.evaluate() >= f;
 }
