@@ -29,17 +29,21 @@ extern "C" void pow_fr(int* fr, unsigned int n);
 // Returns the float result of numer / denom.
 extern "C" float evaluate_fr(int numer, int denom);
 
-// Adds the 2 Fractions.
-extern "C" void add_fr(int* f1, int* f2);
+// Adds numer onto fr[0].
+// Adds denom onto fr[1].
+extern "C" void add_fr(int* fr, int numer, int denom);
 
-// Subtracts the 2 Fractions.
-extern "C" void sub_fr(int* f1, int* f2);
+// Subtracts numer from fr[0].
+// Subtracts denom from fr[1].
+extern "C" void sub_fr(int* fr, int numer, int denom);
 
-// Multiplies the 2 Fractions.
-extern "C" void mul_fr(int* f1, int* f2);
+// Multiplies fr[0] by numer.
+// Multiplies fr[1] by denom.
+extern "C" void mul_fr(int* fr, int numer, int denom);
 
-// Divides the 2 Fractions.
-extern "C" void div_fr(int* f1, int* f2);
+// Multiplies fr[0] by denom.
+// Multiplies fr[1] by numer.
+extern "C" void div_fr(int* fr, int numer, int denom);
 
 #include <ostream>
 using std::ostream;
@@ -184,129 +188,129 @@ string Fraction::toString() const
 
 Fraction& Fraction::operator += (const Fraction& f2)
 {
-	add_fr(_ptr, f2._ptr);
+	add_fr(_ptr, f2._ptr[0], f2._ptr[1]);
 	return *this;
 }
 
 Fraction& Fraction::operator += (int arr[2])
 {
-	add_fr(_ptr, arr);
+	add_fr(_ptr, arr[0], arr[1]);
 	return *this;
 }
 
 Fraction& Fraction::operator += (int i)
 {
-	add_fr(_ptr, make_fr(i * _ptr[1], _ptr[1]));
+	add_fr(_ptr, i, 1);
 	return *this;
 }
 
 Fraction& Fraction::operator -= (const Fraction& f2)
 {
-	sub_fr(_ptr, f2._ptr);
+	sub_fr(_ptr, f2._ptr[0], f2._ptr[1]);
 	return *this;
 }
 
 Fraction& Fraction::operator -= (int arr[2])
 {
-	sub_fr(_ptr, arr);
+	sub_fr(_ptr, arr[0], arr[1]);
 	return *this;
 }
 
 Fraction& Fraction::operator -= (int i)
 {
-	sub_fr(_ptr, make_fr(i * _ptr[1], _ptr[1]));
+	sub_fr(_ptr, i, 1);
 	return *this;
 }
 
 Fraction& Fraction::operator *= (const Fraction& f2)
 {
-	mul_fr(_ptr, f2._ptr);
+	mul_fr(_ptr, f2._ptr[0], f2._ptr[1]);
 	return *this;
 }
 
 Fraction& Fraction::operator *= (int arr[2])
 {
-	mul_fr(_ptr, arr);
+	mul_fr(_ptr, arr[0], arr[1]);
 	return *this;
 }
 
 Fraction& Fraction::operator *= (int i)
 {
-	mul_fr(_ptr, make_fr(i, 1));
+	mul_fr(_ptr, i, 1);
 	return *this;
 }
 
 Fraction& Fraction::operator /= (const Fraction& f2)
 {
-	div_fr(_ptr, f2._ptr);
+	div_fr(_ptr, f2._ptr[0], f2._ptr[1]);
 	return *this;
 }
 
 Fraction& Fraction::operator /= (int arr[2])
 {
-	div_fr(_ptr, arr);
+	div_fr(_ptr, arr[0], arr[1]);
 	return *this;
 }
 
 Fraction& Fraction::operator /= (int i)
 {
-	div_fr(_ptr, make_fr(i, 1));
+	div_fr(_ptr, i, 1);
 	return *this;
 }
 
 Fraction Fraction::operator + (const Fraction& f2)
 {
 	Fraction f1(*this);
-	add_fr(f1._ptr, f2._ptr);
+	add_fr(f1._ptr, f2._ptr[0], f2._ptr[1]);
 	return f1;
 }
 
 Fraction Fraction::operator + (int i)
 {
 	Fraction f1(*this);
-	add_fr(f1._ptr, make_fr(i * f1._ptr[1], f1._ptr[1]));
+	add_fr(f1._ptr, i, 1);
 	return f1;
 }
 
 Fraction Fraction::operator - (const Fraction& f2)
 {
 	Fraction f1(*this);
-	sub_fr(f1._ptr, f2._ptr);
+	sub_fr(f1._ptr, f2._ptr[0], f2._ptr[1]);
 	return f1;
 }
 
 Fraction Fraction::operator - (int i)
 {
 	Fraction f1(*this);
-	sub_fr(f1._ptr, make_fr(i * f1._ptr[1], f1._ptr[1]));
+	sub_fr(f1._ptr, i, 1);
 	return f1;
 }
 
 Fraction Fraction::operator * (const Fraction& f2)
 {
 	Fraction f1(*this);
-	mul_fr(f1._ptr, f2._ptr);
+	mul_fr(f1._ptr, f2._ptr[0], f2._ptr[1]);
 	return f1;
 }
 
 Fraction Fraction::operator * (int i)
 {
 	Fraction f1(*this);
-	mul_fr(f1._ptr, make_fr(i, 1));
+	mul_fr(f1._ptr, i, 1);
 	return f1;
 }
 
 Fraction Fraction::operator / (const Fraction& f2)
 {
 	Fraction f1(*this);
-	div_fr(f1._ptr, f2._ptr);
+	div_fr(f1._ptr, f2._ptr[0], f2._ptr[1]);
 	return f1;
 }
 
 Fraction Fraction::operator / (int i)
 {
 	Fraction f1(*this);
-	div_fr(f1._ptr, make_fr(i, 1));
+	div_fr(f1._ptr, i, 1);
 	return f1;
 }
 

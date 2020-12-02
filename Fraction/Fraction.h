@@ -2,7 +2,7 @@
 // Fraction.h
 // Justyn Durnford
 // Created on 2020-10-05
-// Last updated on 2020-11-30
+// Last updated on 2020-12-02
 // Header file for Fraction class.
 
 #ifndef FRACTION_H_INCLUDED
@@ -109,6 +109,14 @@ class Fraction
 
 	// Returns a std::string representation of the fraction.
 	std::string toString() const;
+
+	// Increment addition operators.
+	Fraction& operator ++ ();
+	Fraction operator ++ (int);
+
+	// Increment subtraction operators.
+	Fraction& operator -- ();
+	Fraction operator -- (int);
 
 	// Addition assignment operators.
 	Fraction& operator += (const Fraction& f2);
