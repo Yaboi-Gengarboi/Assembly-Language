@@ -2,7 +2,7 @@
 // main.cpp
 // Justyn Durnford
 // Created on 2020-10-05
-// Last updated on 2020-11-29
+// Last updated on 2020-12-01
 // Test file for Fraction class.
 
 #include "Fraction.h"
@@ -146,21 +146,12 @@ void test_float()
 
 int main()
 {
-	for (int i = 0; i < 1500; ++i)
-	{
-		write_rand_arr();
-		test_fraction_normal();
-		test_float();
+	Fraction fr(1, 2);
 
-		time_elapsed_dif = time_elapsed_fr - time_elapsed_f;
-		time_elapsed_dif_avg += time_elapsed_fr.count();
-		str = "Difference: " + to_string(time_elapsed_dif.count() * 1000.0f);
-		cout << str << endl << endl;
-		fout << str << endl << endl;
-	}
-
-	cout << "Average time difference: " << time_elapsed_dif_avg / 1500.0f * 1000.0f << endl;
-	fout << "Average time difference: " << time_elapsed_dif_avg / 1500.0f * 1000.0f << endl;
+	if (fr)
+		cout << "true" << endl;
+	else
+		cout << "false" << endl;
 
 	return 0;
 }

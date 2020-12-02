@@ -2,7 +2,7 @@
 // Fraction.cpp
 // Justyn Durnford
 // Created on 2020-10-05
-// Last updated on 2020-11-30
+// Last updated on 2020-12-02
 // Source file for Fraction class.
 
 #include "Fraction.h"
@@ -157,7 +157,7 @@ float Fraction::evaluate() const
 
 bool Fraction::isValid() const noexcept
 {
-	return _ptr[1] == 0;
+	return _ptr[1] != 0;
 }
 
 Fraction::operator bool() const noexcept
