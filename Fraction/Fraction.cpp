@@ -2,166 +2,177 @@
 // Fraction.cpp
 // Justyn Durnford
 // Created on 2020-10-05
-// Last updated on 2020-12-02
-// Source file for Fraction class.
+// Last updated on 2021-02-27
+// Source file for the Fraction class.
 
 #include "Fraction.h"
 
-// Allocates an 8-byte array to hold 2 integers and
-// returns the pointer to it.
-extern "C" int* make_fr(int numer, int denom);
+// include <cstddef>
+using std::int64_t;
+using std::uint64_t;
 
-// Deallocates the passed 8-byte array.
-extern "C" void delete_fr(int* fr);
-
-// Sets fr[0] to numer.
-extern "C" void set_numer(int* fr, int numer);
-
-// Sets fr[1] to denom.
-extern "C" void set_denom(int* fr, int denom);
-
-// Sets fr[0] to numer and fr[1] to denom.
-extern "C" void set_fr(int* fr, int numer, int denom);
-
-// Raises both fr[0] and fr[1] to the nth power.
-extern "C" void pow_fr(int* fr, unsigned int n);
-
-// Returns the float result of numer / denom.
-extern "C" float evaluate_fr(int numer, int denom);
-
-// Adds numer onto fr[0].
-// Adds denom onto fr[1].
-extern "C" void add_fr(int* fr, int numer, int denom);
-
-// Subtracts numer from fr[0].
-// Subtracts denom from fr[1].
-extern "C" void sub_fr(int* fr, int numer, int denom);
-
-// Multiplies fr[0] by numer.
-// Multiplies fr[1] by denom.
-extern "C" void mul_fr(int* fr, int numer, int denom);
-
-// Multiplies fr[0] by denom.
-// Multiplies fr[1] by numer.
-extern "C" void div_fr(int* fr, int numer, int denom);
-
-#include <ostream>
+// include <ostream>
 using std::ostream;
 
-#include <stdexcept>
+// include <stdexcept>
 using std::domain_error;
 
-#include <string>
+// include <string>
 using std::string;
 using std::to_string;
 
+// Sets fr[0] to numer.
+extern "C" void set_numer(int64_t* fr, int64_t numer);
+
+// Sets fr[1] to denom.
+extern "C" void set_denom(int64_t* fr, int64_t denom);
+
+// Sets fr[0] to numer and fr[1] to denom.
+extern "C" void set_fr(int64_t* fr, int64_t numer, int64_t denom);
+
+// Raises both fr[0] and fr[1] to the nth power.
+extern "C" void pow_fr(int64_t* fr, uint64_t n);
+
+// Returns the double result of numer / denom.
+extern "C" double evaluate_fr(int64_t numer, int64_t denom);
+
+// Adds numer onto fr[0].
+// Adds denom onto fr[1].
+extern "C" void add_fr(int64_t* fr, int64_t numer, int64_t denom);
+
+// Subtracts numer from fr[0].
+// Subtracts denom from fr[1].
+extern "C" void sub_fr(int64_t* fr, int64_t numer, int64_t denom);
+
+// Multiplies fr[0] by numer.
+// Multiplies fr[1] by denom.
+extern "C" void mul_fr(int64_t* fr, int64_t numer, int64_t denom);
+
+// Multiplies fr[0] by denom.
+// Multiplies fr[1] by numer.
+extern "C" void div_fr(int64_t* fr, int64_t numer, int64_t denom);
+
+void Fraction::allocate()
+{
+	ptr_ = new int64_t[2];
+}
+
+void Fraction::deallocate() noexcept
+{
+	delete[] ptr_;
+}
+
 Fraction::Fraction()
 {
-	_ptr = make_fr(0, 0);
+	allocate();
 }
 
-Fraction::Fraction(const Fraction& fr)
+Fraction::Fraction(const Fraction& other)
 {
-	_ptr = make_fr(fr._ptr[0], fr._ptr[1]);
+	allocate();
+	set_fr(ptr_, other.ptr_[0], other.ptr_[1]);
 }
 
-Fraction::Fraction(Fraction&& fr) noexcept
+Fraction::Fraction(Fraction&& other) noexcept
 {
-	_ptr = fr._ptr;
-	fr._ptr = nullptr;
+	ptr_ = other.ptr_;
+	other.ptr_ = nullptr;
 }
 
-Fraction::Fraction(int numer)
+Fraction::Fraction(int64_t numer)
 {
-	_ptr = make_fr(numer, 1);
+	allocate();
+	set_numer(ptr_, numer);
 }
 
-Fraction::Fraction(int numer, int denominator)
+Fraction::Fraction(int64_t numer, int64_t denom)
 {
-	_ptr = make_fr(numer, denominator);
+	allocate();
+	set_fr(ptr_, numer, denom);
 }
 
-Fraction::Fraction(int arr[2])
+Fraction::Fraction(int64_t arr[2])
 {
-	_ptr = make_fr(arr[0], arr[1]);
+	allocate();
+	set_fr(ptr_, arr[0], arr[1]);
 }
 
-Fraction& Fraction::operator = (const Fraction& fr)
+Fraction& Fraction::operator = (const Fraction& other)
 {
-	set_fr(_ptr, fr._ptr[0], fr._ptr[1]);
+	set_fr(ptr_, other.ptr_[0], other.ptr_[1]);
 	return *this;
 }
 
-Fraction& Fraction::operator = (Fraction&& fr) noexcept
+Fraction& Fraction::operator = (Fraction&& other) noexcept
 {
-	delete_fr(_ptr);
-	_ptr = fr._ptr;
-	fr._ptr = nullptr;
+	deallocate();
+	ptr_ = other.ptr_;
+	other.ptr_ = nullptr;
 	return *this;
 }
 
-Fraction& Fraction::operator = (int arr[2])
+Fraction& Fraction::operator = (int64_t arr[2])
 {
-	set_fr(_ptr, arr[0], arr[1]);
+	set_fr(ptr_, arr[0], arr[1]);
 	return *this;
 }
 
 Fraction::~Fraction() noexcept
 {
-	delete_fr(_ptr);
+	deallocate();
 }
 
-int Fraction::numer() const noexcept
+int64_t Fraction::numer() const noexcept
 {
-	return _ptr[0];
+	return ptr_[0];
 }
 
-int Fraction::denom() const noexcept
+int64_t Fraction::denom() const noexcept
 {
-	return _ptr[1];
+	return ptr_[1];
 }
 
-void Fraction::setNumer(int numer) noexcept
+void Fraction::setNumer(int64_t numer) noexcept
 {
-	set_numer(_ptr, numer);
+	set_numer(ptr_, numer);
 }
 
-void Fraction::setDenom(int denom) noexcept
+void Fraction::setDenom(int64_t denom) noexcept
 {
-	set_denom(_ptr, denom);
+	set_denom(ptr_, denom);
 }
 
-void Fraction::setFraction(int numer) noexcept
+void Fraction::setFraction(int64_t numer) noexcept
 {
-	set_fr(_ptr, numer, 1);
+	set_fr(ptr_, numer, 1);
 }
 
-void Fraction::setFraction(int numer, int denom) noexcept
+void Fraction::setFraction(int64_t numer, int64_t denom) noexcept
 {
-	set_fr(_ptr, numer, denom);
+	set_fr(ptr_, numer, denom);
 }
 
-void Fraction::setFraction(int arr[2]) noexcept
+void Fraction::setFraction(int64_t arr[2]) noexcept
 {
-	set_fr(_ptr, arr[0], arr[1]);
+	set_fr(ptr_, arr[0], arr[1]);
 }
 
-void Fraction::power(unsigned int n) noexcept
+void Fraction::power(uint64_t n) noexcept
 {
-	pow_fr(_ptr, n);
+	pow_fr(ptr_, n);
 }
 
-float Fraction::evaluate() const
+double Fraction::evaluate() const
 {
-	if (_ptr[1] == 0)
+	if (ptr_[1] == 0)
 		throw domain_error("Domain Error: Division by 0.");
 
-	return evaluate_fr(_ptr[0], _ptr[1]);
+	return evaluate_fr(ptr_[0], ptr_[1]);
 }
 
 bool Fraction::isValid() const noexcept
 {
-	return _ptr[1] != 0;
+	return ptr_[1] != 0;
 }
 
 Fraction::operator bool() const noexcept
@@ -171,146 +182,172 @@ Fraction::operator bool() const noexcept
 
 Fraction Fraction::reciprocal() const
 {
-	return Fraction(_ptr[0], _ptr[1]);
+	return Fraction(ptr_[0], ptr_[1]);
 }
 
-void Fraction::swap_with(Fraction& f2) noexcept
+void Fraction::swap_with(Fraction& other) noexcept
 {
-	int* tmp = _ptr;
-	_ptr = f2._ptr;
-	f2._ptr = tmp;
+	int64_t* tmp = ptr_;
+	ptr_ = other.ptr_;
+	other.ptr_ = tmp;
 }
 
 string Fraction::toString() const
 {
-	return to_string(_ptr[0]) + " / " + to_string(_ptr[1]);
+	return to_string(ptr_[0]) + " / " + to_string(ptr_[1]);
 }
 
-Fraction& Fraction::operator += (const Fraction& f2)
+Fraction& Fraction::operator ++ ()
 {
-	add_fr(_ptr, f2._ptr[0], f2._ptr[1]);
+	ptr_[0] += ptr_[1];
 	return *this;
 }
 
-Fraction& Fraction::operator += (int arr[2])
+Fraction Fraction::operator ++ (int)
 {
-	add_fr(_ptr, arr[0], arr[1]);
+	Fraction fr(*this);
+	++(*this);
+	return fr;
+}
+
+Fraction& Fraction::operator -- ()
+{
+	ptr_[0] -= ptr_[1];
 	return *this;
 }
 
-Fraction& Fraction::operator += (int i)
+Fraction Fraction::operator -- (int)
 {
-	add_fr(_ptr, i, 1);
+	Fraction fr(*this);
+	--(*this);
+	return fr;
+}
+
+Fraction& Fraction::operator += (const Fraction& other)
+{
+	add_fr(ptr_, other.ptr_[0], other.ptr_[1]);
 	return *this;
 }
 
-Fraction& Fraction::operator -= (const Fraction& f2)
+Fraction& Fraction::operator += (int64_t arr[2])
 {
-	sub_fr(_ptr, f2._ptr[0], f2._ptr[1]);
+	add_fr(ptr_, arr[0], arr[1]);
 	return *this;
 }
 
-Fraction& Fraction::operator -= (int arr[2])
+Fraction& Fraction::operator += (int64_t i)
 {
-	sub_fr(_ptr, arr[0], arr[1]);
+	add_fr(ptr_, i, 1);
 	return *this;
 }
 
-Fraction& Fraction::operator -= (int i)
+Fraction& Fraction::operator -= (const Fraction& other)
 {
-	sub_fr(_ptr, i, 1);
+	sub_fr(ptr_, other.ptr_[0], other.ptr_[1]);
 	return *this;
 }
 
-Fraction& Fraction::operator *= (const Fraction& f2)
+Fraction& Fraction::operator -= (int64_t arr[2])
 {
-	mul_fr(_ptr, f2._ptr[0], f2._ptr[1]);
+	sub_fr(ptr_, arr[0], arr[1]);
 	return *this;
 }
 
-Fraction& Fraction::operator *= (int arr[2])
+Fraction& Fraction::operator -= (int64_t i)
 {
-	mul_fr(_ptr, arr[0], arr[1]);
+	sub_fr(ptr_, i, 1);
 	return *this;
 }
 
-Fraction& Fraction::operator *= (int i)
+Fraction& Fraction::operator *= (const Fraction& other)
 {
-	mul_fr(_ptr, i, 1);
+	mul_fr(ptr_, other.ptr_[0], other.ptr_[1]);
 	return *this;
 }
 
-Fraction& Fraction::operator /= (const Fraction& f2)
+Fraction& Fraction::operator *= (int64_t arr[2])
 {
-	div_fr(_ptr, f2._ptr[0], f2._ptr[1]);
+	mul_fr(ptr_, arr[0], arr[1]);
 	return *this;
 }
 
-Fraction& Fraction::operator /= (int arr[2])
+Fraction& Fraction::operator *= (int64_t i)
 {
-	div_fr(_ptr, arr[0], arr[1]);
+	mul_fr(ptr_, i, 1);
 	return *this;
 }
 
-Fraction& Fraction::operator /= (int i)
+Fraction& Fraction::operator /= (const Fraction& other)
 {
-	div_fr(_ptr, i, 1);
+	div_fr(ptr_, other.ptr_[0], other.ptr_[1]);
 	return *this;
 }
 
-Fraction Fraction::operator + (const Fraction& f2)
+Fraction& Fraction::operator /= (int64_t arr[2])
+{
+	div_fr(ptr_, arr[0], arr[1]);
+	return *this;
+}
+
+Fraction& Fraction::operator /= (int64_t i)
+{
+	div_fr(ptr_, i, 1);
+	return *this;
+}
+
+Fraction Fraction::operator + (const Fraction& other)
 {
 	Fraction f1(*this);
-	add_fr(f1._ptr, f2._ptr[0], f2._ptr[1]);
+	add_fr(f1.ptr_, other.ptr_[0], other.ptr_[1]);
 	return f1;
 }
 
-Fraction Fraction::operator + (int i)
+Fraction Fraction::operator + (int64_t i)
 {
 	Fraction f1(*this);
-	add_fr(f1._ptr, i, 1);
+	add_fr(f1.ptr_, i, 1);
 	return f1;
 }
 
-Fraction Fraction::operator - (const Fraction& f2)
+Fraction Fraction::operator - (const Fraction& other)
 {
 	Fraction f1(*this);
-	sub_fr(f1._ptr, f2._ptr[0], f2._ptr[1]);
+	sub_fr(f1.ptr_, other.ptr_[0], other.ptr_[1]);
 	return f1;
 }
 
-Fraction Fraction::operator - (int i)
+Fraction Fraction::operator - (int64_t i)
 {
 	Fraction f1(*this);
-	sub_fr(f1._ptr, i, 1);
+	sub_fr(f1.ptr_, i, 1);
 	return f1;
 }
 
-Fraction Fraction::operator * (const Fraction& f2)
+Fraction Fraction::operator * (const Fraction& other)
 {
 	Fraction f1(*this);
-	mul_fr(f1._ptr, f2._ptr[0], f2._ptr[1]);
+	mul_fr(f1.ptr_, other.ptr_[0], other.ptr_[1]);
 	return f1;
 }
 
-Fraction Fraction::operator * (int i)
+Fraction Fraction::operator * (int64_t i)
 {
 	Fraction f1(*this);
-	mul_fr(f1._ptr, i, 1);
+	mul_fr(f1.ptr_, i, 1);
 	return f1;
 }
 
-Fraction Fraction::operator / (const Fraction& f2)
+Fraction Fraction::operator / (const Fraction& other)
 {
 	Fraction f1(*this);
-	div_fr(f1._ptr, f2._ptr[0], f2._ptr[1]);
+	div_fr(f1.ptr_, other.ptr_[0], other.ptr_[1]);
 	return f1;
 }
 
-Fraction Fraction::operator / (int i)
+Fraction Fraction::operator / (int64_t i)
 {
 	Fraction f1(*this);
-	div_fr(f1._ptr, i, 1);
+	div_fr(f1.ptr_, i, 1);
 	return f1;
 }
 
@@ -319,7 +356,7 @@ bool operator == (const Fraction& f1, const Fraction& f2)
 	return f1.evaluate() == f2.evaluate();
 }
 
-bool operator == (const Fraction& fr, int arr[2])
+bool operator == (const Fraction& fr, int64_t arr[2])
 {
 	if (arr[1] == 0)
 		throw domain_error("Domain Error: Division by 0.");
@@ -327,9 +364,9 @@ bool operator == (const Fraction& fr, int arr[2])
 	return fr.evaluate() == ((1.0f * arr[0]) / (1.0f * arr[1]));
 }
 
-bool operator == (const Fraction& fr, float f)
+bool operator == (const Fraction& fr, double d)
 {
-	return fr.evaluate() == f;
+	return fr.evaluate() == d;
 }
 
 bool operator != (const Fraction& f1, const Fraction& f2)
@@ -337,7 +374,7 @@ bool operator != (const Fraction& f1, const Fraction& f2)
 	return f1.evaluate() != f2.evaluate();
 }
 
-bool operator != (const Fraction& fr, int arr[2])
+bool operator != (const Fraction& fr, int64_t arr[2])
 {
 	if (arr[1] == 0)
 		throw domain_error("Domain Error: Division by 0.");
@@ -345,9 +382,9 @@ bool operator != (const Fraction& fr, int arr[2])
 	return fr.evaluate() != ((1.0f * arr[0]) / (1.0f * arr[1]));
 }
 
-bool operator != (const Fraction& fr, float f)
+bool operator != (const Fraction& fr, double d)
 {
-	return fr.evaluate() != f;
+	return fr.evaluate() != d;
 }
 
 bool operator < (const Fraction& f1, const Fraction& f2)
@@ -355,7 +392,7 @@ bool operator < (const Fraction& f1, const Fraction& f2)
 	return f1.evaluate() < f2.evaluate();
 }
 
-bool operator < (const Fraction& fr, int arr[2])
+bool operator < (const Fraction& fr, int64_t arr[2])
 {
 	if (arr[1] == 0)
 		throw domain_error("Domain Error: Division by 0.");
@@ -363,9 +400,9 @@ bool operator < (const Fraction& fr, int arr[2])
 	return fr.evaluate() < ((1.0f * arr[0]) / (1.0f * arr[1]));
 }
 
-bool operator < (const Fraction& fr, float f)
+bool operator < (const Fraction& fr, double d)
 {
-	return fr.evaluate() < f;
+	return fr.evaluate() < d;
 }
 
 bool operator <= (const Fraction& f1, const Fraction& f2)
@@ -373,7 +410,7 @@ bool operator <= (const Fraction& f1, const Fraction& f2)
 	return f1.evaluate() <= f2.evaluate();
 }
 
-bool operator <= (const Fraction& fr, int arr[2])
+bool operator <= (const Fraction& fr, int64_t arr[2])
 {
 	if (arr[1] == 0)
 		throw domain_error("Domain Error: Division by 0.");
@@ -381,9 +418,9 @@ bool operator <= (const Fraction& fr, int arr[2])
 	return fr.evaluate() <= ((1.0f * arr[0]) / (1.0f * arr[1]));
 }
 
-bool operator <= (const Fraction& fr, float f)
+bool operator <= (const Fraction& fr, double d)
 {
-	return fr.evaluate() <= f;
+	return fr.evaluate() <= d;
 }
 
 bool operator > (const Fraction& f1, const Fraction& f2)
@@ -391,7 +428,7 @@ bool operator > (const Fraction& f1, const Fraction& f2)
 	return f1.evaluate() > f2.evaluate();
 }
 
-bool operator > (const Fraction& fr, int arr[2])
+bool operator > (const Fraction& fr, int64_t arr[2])
 {
 	if (arr[1] == 0)
 		throw domain_error("Domain Error: Division by 0.");
@@ -399,9 +436,9 @@ bool operator > (const Fraction& fr, int arr[2])
 	return fr.evaluate() > ((1.0f * arr[0]) / (1.0f * arr[1]));
 }
 
-bool operator > (const Fraction& fr, float f)
+bool operator > (const Fraction& fr, double d)
 {
-	return fr.evaluate() > f;
+	return fr.evaluate() > d;
 }
 
 bool operator >= (const Fraction& f1, const Fraction& f2)
@@ -409,7 +446,7 @@ bool operator >= (const Fraction& f1, const Fraction& f2)
 	return f1.evaluate() >= f2.evaluate();
 }
 
-bool operator >= (const Fraction& fr, int arr[2])
+bool operator >= (const Fraction& fr, int64_t arr[2])
 {
 	if (arr[1] == 0)
 		throw domain_error("Domain Error: Division by 0.");
@@ -417,9 +454,9 @@ bool operator >= (const Fraction& fr, int arr[2])
 	return fr.evaluate() >= ((1.0f * arr[0]) / (1.0f * arr[1]));
 }
 
-bool operator >= (const Fraction& fr, float f)
+bool operator >= (const Fraction& fr, double d)
 {
-	return fr.evaluate() >= f;
+	return fr.evaluate() >= d;
 }
 
 ostream& operator << (ostream& os, const Fraction& f)
